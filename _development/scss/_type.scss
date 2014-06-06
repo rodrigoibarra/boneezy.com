@@ -1,0 +1,30 @@
+body{
+  font-size: 18px;
+  line-height:1.5;
+  @include meta (normal, 400);
+  color:$black;
+}
+
+
+i{
+  @include meta (italic, 400);
+}
+
+b{
+  @include meta (normal, 800);
+}
+
+h1, h3{
+  @include uppercut;
+}
+
+h2, h4{
+  @include meta (normal, 800);
+}
+
+
+@media screen and (max-width: 25em) {
+    body {
+        font-size: 90%;
+    }
+}

@@ -496,6 +496,50 @@ th {
   font-style: normal;
 }
 
+/* line 1, ../../_development/scss/_type.scss */
+body {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "ff-meta-web-pro",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #232426;
+}
+
+/* line 9, ../../_development/scss/_type.scss */
+i {
+  font-family: "ff-meta-web-pro",sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* line 13, ../../_development/scss/_type.scss */
+b {
+  font-family: "ff-meta-web-pro",sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* line 17, ../../_development/scss/_type.scss */
+h1, h3 {
+  font-family: "uppercut-angle",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* line 21, ../../_development/scss/_type.scss */
+h2, h4 {
+  font-family: "ff-meta-web-pro",sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 25em) {
+  /* line 27, ../../_development/scss/_type.scss */
+  body {
+    font-size: 90%;
+  }
+}
 /* line 1, ../../_development/scss/_nav.scss */
 nav {
   width: 90%;
@@ -518,7 +562,7 @@ nav a h1 {
   font-weight: 400;
 }
 
-/* line 8, ../../_development/scss/global.scss */
+/* line 10, ../../_development/scss/global.scss */
 .wrap {
   max-width: 39.500em;
   margin: 0 auto;
