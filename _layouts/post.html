@@ -1,0 +1,29 @@
+{% include header.html %}
+<body>
+  {% include nav.html %}
+  <section>
+    <header class="article-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h2 class="post-title">{{ page.sub-title }}</h2>
+    </header>
+    <article class="wrap">
+          {{content}}
+
+    </article>
+    <footer class="article-footer">
+      <div class="page-navigation">
+        {% if page.previous.url %}
+          <a href="{{page.previous.url}}" title="Previous Post:{{page.previous.title}}">&#8592;</a>
+        {% endif %}
+        |
+        {% if page.next.url %}
+          <a href="{{page.next.url}}" title="next Post:{{page.next.title}}">&#8594;</a>
+        {% endif %}
+      </div>
+      <h4>Publicado el: {{ page.date | date: "%x" }}</h4>
+    </footer>
+  </section>
+  <script type="text/javascript" src="{{ site.url }}/assets/build/js/prism.js"></script>
+{% include footer.html %}
+</body>
+</html>

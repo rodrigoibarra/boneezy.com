@@ -1,0 +1,47 @@
+title:             Hey! it's me Bony
+description:      "My personal site, all views here are my own."
+
+include:     ['.htaccess']
+exclude:   [node_modules,'Gruntfile.js', 'package.json']
+keep_files:  ['.git','.svn']
+timezone:    America/Mexico_City
+encoding:    utf-8
+lsi:         false
+
+future:      true
+show_drafts: nil
+highlighter: true
+
+owner:
+  name:           Rodrigo Ibarra
+  avatar:         me.jpg
+  bio:            "web designer, code writter, whisky drinker, geek, all around good guy & keeper of all things online at typewear and beatalic."
+  email:          hola@rodrigo-ibarra.com
+  twitter:        _rodrigoibarra
+  facebook:       https://www.facebook.com/killabunzz
+  github:         https://github.com/rodrigoibarra/rodrigo-ibarra-site
+  instagram:      http://instagram.com/killerbunnz
+
+relative_permalinks: true
+
+permalink: /:categories/:year/:month/:title.html
+paginate:      5
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+textile_ext:   textile
+
+excerpt_separator: "\n\n"

@@ -1,0 +1,19 @@
+$black: rgb(35,36,38);
+
+
+.cf:before, .cf:after { content:""; display:table; }
+.cf:after { clear:both; }
+.cf { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
+
+
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('/build/fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('/build/fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('/build/fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('/build/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('/build/fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('/build/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
