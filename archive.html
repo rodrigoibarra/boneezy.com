@@ -5,7 +5,7 @@ layout: default
     <h1 class="title">The burn book</h1>
     <p>A collection of randomness and posibly awkwardness. May or may not include rants.</p>
     <ul>
-      {% for post in site.categories['rants'] %}
+      {% for post in site.posts %}
         <li>
           <a class="title-post" href="{{ post.url }}">
             <h3 class="post-date">{{ post.date | date: "<span>%d</span><br />%B / %y"}}</h3>
