@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Testing Readability with a Bunch of Text"
+title: "The Ranting Rabbit"
+css: rantingrabbit
 ---
 
 I'm starting this small blog as a place to just write some shit around instead of going to a thousand places like medium or roon to do it, most of whats published in here will be just random stuff, rants or web things but none work related so I can leave the blog at rodrigo-ibarra.com as a place to write about blog.

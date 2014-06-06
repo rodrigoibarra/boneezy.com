@@ -1,0 +1,12 @@
+.site-footer{
+  background:$black;
+  height:80px;
+  padding:1%;
+  color:white;
+  font-size:0.667em;
+  text-align:right;
+
+  a, a:hover, a:visited, a:active, a:focus{
+    color:$primario;
+  }
+}

@@ -1,0 +1,50 @@
+.titulo{
+  color:$primario;
+  font-size:46px;
+  line-height:18px;
+  span{
+    font-size:18px;
+    color:$black;
+  }
+}
+
+ul{
+  margin:0;
+  padding:0;
+  li{
+    border-top:1px solid $primario;
+    margin:0;
+    height:120px;
+    list-style:none;
+
+  }
+  li:nth-child(odd){
+    background:lighten($black, 80%);
+
+  }
+}
+
+a.titulo-post{
+  display:block;
+  color:$black;
+  height:100%;
+  padding:2.5em;
+  h2{
+    margin:0.5em;
+  }
+}
+
+h3.post-date{
+  margin:0 0.5em 0 0;
+  color:$primario;
+  width:100px;
+  display:block;
+  float:left;
+  line-height:17px;
+  font-size:14px;
+  text-align:center;
+
+  span{
+    font-size:80px;
+  }
+}

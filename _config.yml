@@ -4,3 +4,11 @@ highlighter: pygments
 description: "A place to kick it and chill...oh and rant"
 permalink: /posts/:title
 exclude:   [node_modules,'Gruntfile.js', 'package.json']
+links:
+  - title: Rants
+    url: /rants/
+  - title: Info
+    url: /info/
+  - title: Contact
+    url: /contact/
+  

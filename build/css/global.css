@@ -470,18 +470,18 @@ th {
   padding: 0;
 }
 
-/* line 4, ../../_development/scss/_bits.scss */
+/* line 6, ../../_development/scss/_bits.scss */
 .cf:before, .cf:after {
   content: "";
   display: table;
 }
 
-/* line 5, ../../_development/scss/_bits.scss */
+/* line 7, ../../_development/scss/_bits.scss */
 .cf:after {
   clear: both;
 }
 
-/* line 6, ../../_development/scss/_bits.scss */
+/* line 8, ../../_development/scss/_bits.scss */
 .cf {
   zoom: 1;
 }
@@ -503,31 +503,30 @@ body {
   font-family: "ff-meta-web-pro",sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: #232426;
 }
 
-/* line 9, ../../_development/scss/_type.scss */
+/* line 8, ../../_development/scss/_type.scss */
 i {
   font-family: "ff-meta-web-pro",sans-serif;
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 13, ../../_development/scss/_type.scss */
+/* line 12, ../../_development/scss/_type.scss */
 b {
   font-family: "ff-meta-web-pro",sans-serif;
   font-style: normal;
   font-weight: 800;
 }
 
-/* line 17, ../../_development/scss/_type.scss */
+/* line 16, ../../_development/scss/_type.scss */
 h1, h3 {
   font-family: "uppercut-angle",sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 
-/* line 21, ../../_development/scss/_type.scss */
+/* line 20, ../../_development/scss/_type.scss */
 h2, h4 {
   font-family: "ff-meta-web-pro",sans-serif;
   font-style: normal;
@@ -535,7 +534,7 @@ h2, h4 {
 }
 
 @media screen and (max-width: 25em) {
-  /* line 27, ../../_development/scss/_type.scss */
+  /* line 26, ../../_development/scss/_type.scss */
   body {
     font-size: 90%;
   }
@@ -567,4 +566,35 @@ nav a h1 {
   max-width: 39.500em;
   margin: 0 auto;
   padding: 1em;
+}
+
+/* line 2, ../../_development/scss/_posts.scss */
+p:first-child {
+  font-size: 1.180em;
+}
+
+/* line 7, ../../_development/scss/_posts.scss */
+.article-footer {
+  text-align: right;
+  padding: 0 15%;
+}
+
+/* line 12, ../../_development/scss/_posts.scss */
+.page-navigation {
+  display: inline-block;
+  width: 20%;
+}
+
+/* line 1, ../../_development/scss/_footer.scss */
+.site-footer {
+  background: #232426;
+  height: 80px;
+  padding: 1%;
+  color: white;
+  font-size: 0.667em;
+  text-align: right;
+}
+/* line 9, ../../_development/scss/_footer.scss */
+.site-footer a, .site-footer a:hover, .site-footer a:visited, .site-footer a:active, .site-footer a:focus {
+  color: #00d1ff;
 }
