@@ -1,0 +1,12 @@
+@import "compass/css3";
+@import "reset";
+@import "bits";
+
+
+@import "nav";
+
+.wrap{
+  max-width:39.500em; //600px wide ish
+  margin:0 auto;
+  padding:1em;
+}

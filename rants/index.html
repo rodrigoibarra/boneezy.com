@@ -1,0 +1,17 @@
+---
+layout: default
+---
+  <section>
+    <h1 class="title">The burn book</h1>
+    <p>A collection of randomness and posibly awkwardness. May or may not include rants.</p>
+    <ul>
+      {% for post in site.categories['rants'] %}
+        <li>
+          <a class="title-post" href="{{ post.url }}">
+            <h3 class="post-date">{{ post.date | date: "<span>%d</span><br />%B / %y"}}</h3>
+            <h2>{{ post.title }}</h2>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>

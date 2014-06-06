@@ -17,3 +17,16 @@ $black: rgb(35,36,38);
     font-weight: normal;
     font-style: normal;
 }
+
+@mixin meta ($style, $weight) {
+  font-family: "ff-meta-web-pro",sans-serif;
+  font-style: $style;
+  font-weight: $weight;
+}
+
+
+@mixin uppercut {
+  font-family: "uppercut-angle",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}

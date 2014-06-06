@@ -2,4 +2,8 @@
 layout: default
 css: intro
 ---
-<h1>hello world</h1>
+
+    {% for post in site.posts limit:1 %}
+     <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+      {{ post.content }}
+    {% endfor %}

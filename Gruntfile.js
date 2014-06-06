@@ -5,16 +5,16 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
       build: {
-        src: ['dev/libs/*.js','dev/js/global.js'],
+        src: ['_development/libs/*.js','_development/js/global.js'],
         dest: '/build/js/global.min.js'
       }
     },
       compass: {                  // Task
         dist: {                   // Target
           options: {              // Target options
-            sassDir: 'dev/scss/',
+            sassDir: '_development/scss/',
             cssDir: 'build/css/',
-            environment: 'production'
+            environment: 'development'
           }
         }
       },
