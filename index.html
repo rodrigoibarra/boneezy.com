@@ -1,7 +1,10 @@
 ---
-layout: default
+layout: home
 ---
+  <h1>Hola</h1>
+    <p>Bienvenidos, este blog es mi espacio personal, para cosas relacionadas con mi trabajo está <a href="http://rodrigo-ibarra.com">rodrigo-ibarra.com</a>.</p>
+
     {% for post in site.posts limit:1 %}
       <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
-       {{ post.content }}
+       {{ post.excerpt }}<a href="{{ post.url }}">más...</a>
     {% endfor %}

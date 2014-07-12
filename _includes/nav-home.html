@@ -1,5 +1,4 @@
   <nav>
-    <a href="/"><h1 class="lettering">Bony</h1></a>
     {% for link in site.links %}
 			<a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a>
 	  {% endfor %}

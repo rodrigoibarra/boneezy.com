@@ -4,6 +4,9 @@
 
 @import "type";
 
+body {
+  background:$background;
+}
 
 @import "nav";
 
@@ -12,8 +15,7 @@
   margin:0 auto;
   padding:1em;
 }
+@import "home";
+@import "bio";
 
 @import "posts";
-
-
-@import "footer";

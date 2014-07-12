@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     uglify: {
       build: {
         src: ['_development/libs/*.js','_development/js/global.js'],
-        dest: '/build/js/global.min.js'
+        dest: 'build/js/global.min.js'
       }
     },
       compass: {                  // Task

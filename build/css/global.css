@@ -470,18 +470,18 @@ th {
   padding: 0;
 }
 
-/* line 6, ../../_development/scss/_bits.scss */
+/* line 7, ../../_development/scss/_bits.scss */
 .cf:before, .cf:after {
   content: "";
   display: table;
 }
 
-/* line 7, ../../_development/scss/_bits.scss */
+/* line 8, ../../_development/scss/_bits.scss */
 .cf:after {
   clear: both;
 }
 
-/* line 8, ../../_development/scss/_bits.scss */
+/* line 9, ../../_development/scss/_bits.scss */
 .cf {
   zoom: 1;
 }
@@ -503,30 +503,36 @@ body {
   font-family: "ff-meta-web-pro",sans-serif;
   font-style: normal;
   font-weight: 400;
+  color: #17232f;
 }
 
 /* line 8, ../../_development/scss/_type.scss */
+a {
+  color: #e0717c;
+}
+
+/* line 12, ../../_development/scss/_type.scss */
 i {
   font-family: "ff-meta-web-pro",sans-serif;
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 12, ../../_development/scss/_type.scss */
+/* line 16, ../../_development/scss/_type.scss */
 b {
   font-family: "ff-meta-web-pro",sans-serif;
   font-style: normal;
   font-weight: 800;
 }
 
-/* line 16, ../../_development/scss/_type.scss */
+/* line 20, ../../_development/scss/_type.scss */
 h1, h3 {
   font-family: "uppercut-angle",sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 
-/* line 20, ../../_development/scss/_type.scss */
+/* line 24, ../../_development/scss/_type.scss */
 h2, h4 {
   font-family: "ff-meta-web-pro",sans-serif;
   font-style: normal;
@@ -534,38 +540,121 @@ h2, h4 {
 }
 
 @media screen and (max-width: 25em) {
-  /* line 26, ../../_development/scss/_type.scss */
+  /* line 30, ../../_development/scss/_type.scss */
   body {
     font-size: 90%;
   }
 }
+/* line 7, ../../_development/scss/global.scss */
+body {
+  background: #f7fafc;
+}
+
 /* line 1, ../../_development/scss/_nav.scss */
 nav {
-  width: 90%;
-  border-bottom: 1px solid #232426;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
+  background: #e0717c;
 }
 /* line 8, ../../_development/scss/_nav.scss */
 nav a {
   width: 24.5%;
   padding: 15px;
   display: inline-block;
-}
-/* line 14, ../../_development/scss/_nav.scss */
-nav a h1 {
-  display: inline-block;
-  font-family: "uppercut-angle",sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  color: #36526d;
 }
 
-/* line 10, ../../_development/scss/global.scss */
+/* line 17, ../../_development/scss/_nav.scss */
+h1.lettering {
+  font-size: 2em;
+  display: inline;
+  color: #f7fafc;
+  position: relative;
+  letter-spacing: -.06em;
+  text-shadow: 0px 0.01em 0px #dededa, 0 0.015em 0 #36526d, 0 0.02em 0 #36526d, 0 0.028em 0 #36526d, 0 0.035em 0 #36526d, 0 0.04em 0 #36526d, 0 0.045em 0 #36526d, 0 0.055em 0 #36526d, 0 0.06em 0 #36526d, 0 0.065em 0 #36526d, 0 0.07em 0 #36526d, 0 0.08em 0 #36526d, 0 0.085em 0 #36526d, 0 0.09em 0 #36526d, 0 0.095em 0 #36526d, 0 0.105em 0 #36526d, 0 0.06em 0.06em rgba(104, 104, 92, 0.15), 0.07em 0.105em 0.04em rgba(0, 0, 0, 0.015), -0.02em 0.09em 0.05em rgba(104, 104, 92, 0.25), -0.03em 0.07em 0.065em rgba(104, 104, 92, 0.1), -0.075em 0.08em 0.09em rgba(104, 104, 92, 0.06), -0.09em 0.06em 0.195em rgba(104, 104, 92, 0.095);
+}
+/* line 47, ../../_development/scss/_nav.scss */
+h1.lettering span.char1 {
+  position: relative;
+  top: 20px;
+  z-index: 5;
+}
+/* line 52, ../../_development/scss/_nav.scss */
+h1.lettering span.char2 {
+  position: relative;
+  top: 15px;
+}
+/* line 56, ../../_development/scss/_nav.scss */
+h1.lettering span.char3 {
+  position: relative;
+  top: 10px;
+  z-index: 5;
+}
+/* line 61, ../../_development/scss/_nav.scss */
+h1.lettering span.char4 {
+  position: relative;
+  top: 5px;
+  z-index: 1;
+}
+
+/* line 13, ../../_development/scss/global.scss */
 .wrap {
   max-width: 39.500em;
   margin: 0 auto;
   padding: 1em;
+}
+
+/* line 1, ../../_development/scss/_home.scss */
+header.home {
+  background: #36526d;
+  width: 100;
+  text-align: center;
+  align: middle;
+}
+/* line 7, ../../_development/scss/_home.scss */
+header.home h1.lettering {
+  font-size: 9em;
+  display: inline;
+  color: #f7fafc;
+  position: relative;
+  top: -50px;
+  letter-spacing: -.06em;
+  text-shadow: 0px 0.01em 0px #dededa, 0 0.015em 0 #e0717c, 0 0.02em 0 #e0717c, 0 0.028em 0 #e0717c, 0 0.035em 0 #e0717c, 0 0.04em 0 #e0717c, 0 0.045em 0 #e0717c, 0 0.055em 0 #e0717c, 0 0.06em 0 #e0717c, 0 0.065em 0 #e0717c, 0 0.07em 0 #e0717c, 0 0.08em 0 #e0717c, 0 0.085em 0 #e0717c, 0 0.09em 0 #e0717c, 0 0.095em 0 #e0717c, 0 0.105em 0 #e0717c, 0 0.06em 0.06em rgba(104, 104, 92, 0.15), 0.07em 0.105em 0.04em rgba(0, 0, 0, 0.015), -0.02em 0.09em 0.05em rgba(104, 104, 92, 0.25), -0.03em 0.07em 0.065em rgba(104, 104, 92, 0.1), -0.075em 0.08em 0.09em rgba(104, 104, 92, 0.06), -0.09em 0.06em 0.195em rgba(104, 104, 92, 0.095);
+}
+/* line 38, ../../_development/scss/_home.scss */
+header.home h1.lettering span.char1 {
+  position: relative;
+  top: 40px;
+  z-index: 5;
+}
+/* line 43, ../../_development/scss/_home.scss */
+header.home h1.lettering span.char2 {
+  position: relative;
+  top: 35px;
+}
+/* line 47, ../../_development/scss/_home.scss */
+header.home h1.lettering span.char3 {
+  position: relative;
+  top: 30px;
+  z-index: 5;
+}
+/* line 52, ../../_development/scss/_home.scss */
+header.home h1.lettering span.char4 {
+  position: relative;
+  top: 25px;
+  z-index: 1;
+}
+
+/* line 2, ../../_development/scss/_bio.scss */
+.bio img {
+  width: 30%;
+  border-radius: 50%;
+}
+/* line 6, ../../_development/scss/_bio.scss */
+.bio a {
+  color: #e0717c;
 }
 
 /* line 2, ../../_development/scss/_posts.scss */
@@ -583,18 +672,4 @@ p:first-child {
 .page-navigation {
   display: inline-block;
   width: 20%;
-}
-
-/* line 1, ../../_development/scss/_footer.scss */
-.site-footer {
-  background: #232426;
-  height: 80px;
-  padding: 1%;
-  color: white;
-  font-size: 0.667em;
-  text-align: right;
-}
-/* line 9, ../../_development/scss/_footer.scss */
-.site-footer a, .site-footer a:hover, .site-footer a:visited, .site-footer a:active, .site-footer a:focus {
-  color: #00d1ff;
 }

@@ -10,5 +10,13 @@ links:
   - title: Info
     url: /info/
   - title: Contact
-    url: /contact/
-  
+    url: mailto:hola@rodrigo-ibarra.com
+owner:
+  name:           Rodrigo Ibarra
+  avatar:         "me.jpg"
+  bio:            "Soy Rodrigo Ibarra, la mayor parte de la gente me conoce como bony y soy diseñador grafico, geek, idiota profesional."
+  email:          hola@rodrigo-ibarra.com
+  twitter:        _rodrigoibarra
+  facebook:       https://www.facebook.com/killabunzz
+  github:         https://github.com/rodrigoibarra/rodrigo-ibarra-site
+  instagram:      http://instagram.com/killerbunnz

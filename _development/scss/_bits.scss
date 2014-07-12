@@ -1,12 +1,12 @@
-$black: rgb(35,36,38);
-$primario:rgb(0,209,255);
-
-
+$black: rgb(23,35,47);
+$primario:rgb(113,169,224);
+$secundario: rgb(54,82,109);
+$contraste: rgb(224,113,124);
+$background: rgb(247,250,252);
 
 .cf:before, .cf:after { content:""; display:table; }
 .cf:after { clear:both; }
 .cf { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
-
 
 @font-face {
     font-family: 'Mono Social Icons Font';
