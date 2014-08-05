@@ -1,8 +1,9 @@
-$black: rgb(23,35,47);
-$primario:rgb(113,169,224);
-$secundario: rgb(54,82,109);
-$contraste: rgb(224,113,124);
+$primario:rgba(53, 155, 188, 1.0);
+$black: rgba(33, 34, 36, 1.0);
+$secundario: rgba(19, 28, 33, 1.0);
+$contraste: rgba(210, 48, 21, 1.0);
 $background: rgb(247,250,252);
+$texto: rgba(140, 149, 155, 1.0);
 
 .cf:before, .cf:after { content:""; display:table; }
 .cf:after { clear:both; }

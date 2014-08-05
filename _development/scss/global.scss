@@ -6,6 +6,7 @@
 
 body {
   background:$background;
+  border-left: 10px solid $primario;
 }
 
 @import "nav";

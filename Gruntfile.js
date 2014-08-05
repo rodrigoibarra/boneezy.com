@@ -1,8 +1,10 @@
 module.exports = function(grunt) {
 
-  // Project configuration.
+  "use strict";
+
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+
     uglify: {
       build: {
         src: ['_development/libs/*.js','_development/js/global.js'],
@@ -19,10 +21,23 @@ module.exports = function(grunt) {
         }
       },
 
+      shell: {
+      jekyllServe: {
+        command: "jekyll serve --baseurl="
+      },
+      jekyllBuild: {
+        command: "jekyll build --config _config-dev.yml"
+      }
+    },
+
       watch: {
+           site: {
+            files: ["index.html", "_layouts/*.html", "rants/_posts/*.md", "_projects/*.md", "_includes/*.html"],
+            tasks: ["shell:jekyllBuild"]
+          },
           css: {
             files: ['**/*.scss', '*.html'],
-            tasks: ['compass'],
+            tasks: ['compass', "shell:jekyllBuild"],
             options: {
               livereload: true,
             },
@@ -35,12 +50,9 @@ module.exports = function(grunt) {
 
   });
 
-  // Load the plugin that provides the tasks.
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-compass');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-connect');
+    require("load-grunt-tasks")(grunt);
   // Default task(s).
-  grunt.registerTask('default', ['uglify', 'compass']);
+    grunt.registerTask("serve", ["shell:jekyllServe"]);
+    grunt.registerTask('default', ['uglify', 'compass', "shell:jekyllBuild", "watch"]);
 
 };

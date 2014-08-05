@@ -5,13 +5,14 @@
     <section>
       <header class="article-header">
         <h1 class="post-title">{{ page.title }}</h1>
+        <small>Publicado el: {{ page.date | date: "%x" }}</small>
       </header>
       <article>
             {{content}}
 
       </article>
       <footer class="article-footer">
-        <h4>Publicado el: {{ page.date | date: "%x" }}</h4>
+        <h3 class="firma">Bony.</h3>
       </footer>
     </section>
   </div>
