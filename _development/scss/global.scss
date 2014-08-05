@@ -20,3 +20,12 @@ body {
 @import "bio";
 
 @import "posts";
+
+.site-footer{
+  background: $black;
+  height:70px;
+  font-size:0.6em;
+  text-align:right;
+  padding:1.5em;
+
+}

@@ -681,3 +681,22 @@ p:first-child {
 .firma {
   color: #d23015;
 }
+
+/* line 21, ../../_development/scss/_posts.scss */
+.title-post {
+  color: #d23015;
+}
+
+/* line 26, ../../_development/scss/_posts.scss */
+.archive-list {
+  list-style: none;
+}
+
+/* line 24, ../../_development/scss/global.scss */
+.site-footer {
+  background: #212224;
+  height: 70px;
+  font-size: 0.6em;
+  text-align: right;
+  padding: 1.5em;
+}
