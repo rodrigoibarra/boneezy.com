@@ -533,7 +533,7 @@ h1, h3 {
   color: #131c21;
 }
 
-/* line 25, ../../_development/scss/_type.scss */
+/* line 26, ../../_development/scss/_type.scss */
 h2, h4 {
   font-family: "ff-meta-web-pro",sans-serif;
   font-style: normal;
@@ -542,7 +542,7 @@ h2, h4 {
 }
 
 @media screen and (max-width: 25em) {
-  /* line 32, ../../_development/scss/_type.scss */
+  /* line 33, ../../_development/scss/_type.scss */
   body {
     font-size: 90%;
   }
@@ -665,29 +665,39 @@ p:first-child {
   font-size: 1.180em;
 }
 
-/* line 7, ../../_development/scss/_posts.scss */
+/* line 5, ../../_development/scss/_posts.scss */
+.article-header {
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 9, ../../_development/scss/_posts.scss */
+.article-header h1 {
+  font-size: 50px;
+}
+
+/* line 15, ../../_development/scss/_posts.scss */
 .article-footer {
   text-align: right;
   padding: 0 15%;
 }
 
-/* line 12, ../../_development/scss/_posts.scss */
+/* line 20, ../../_development/scss/_posts.scss */
 .page-navigation {
   display: inline-block;
   width: 20%;
 }
 
-/* line 17, ../../_development/scss/_posts.scss */
+/* line 25, ../../_development/scss/_posts.scss */
 .firma {
   color: #d23015;
 }
 
-/* line 21, ../../_development/scss/_posts.scss */
+/* line 29, ../../_development/scss/_posts.scss */
 .title-post {
   color: #d23015;
 }
 
-/* line 26, ../../_development/scss/_posts.scss */
+/* line 34, ../../_development/scss/_posts.scss */
 .archive-list {
   list-style: none;
 }

@@ -22,6 +22,7 @@ h1, h3{
   color: $secundario;
 }
 
+
 h2, h4{
   @include meta (normal, 800);
   color: $secundario;
