@@ -553,6 +553,12 @@ body {
   border-left: 10px solid #359bbc;
 }
 
+@media screen and (max-width: 25em) {
+  /* line 12, ../../_development/scss/global.scss */
+  body {
+    border-left: 5px solid #359bbc;
+  }
+}
 /* line 1, ../../_development/scss/_nav.scss */
 nav {
   width: 100%;
@@ -568,7 +574,21 @@ nav a {
   color: #131c21;
 }
 
-/* line 16, ../../_development/scss/_nav.scss */
+@media screen and (max-width: 25em) {
+  /* line 16, ../../_development/scss/_nav.scss */
+  nav {
+    text-align: left;
+  }
+  /* line 18, ../../_development/scss/_nav.scss */
+  nav a {
+    width: 19.6%;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    color: #131c21;
+  }
+}
+/* line 28, ../../_development/scss/_nav.scss */
 h1.lettering {
   font-size: 2em;
   display: inline;
@@ -577,31 +597,31 @@ h1.lettering {
   letter-spacing: -.06em;
   text-shadow: 0px 0.01em 0px #dededa, 0 0.015em 0 #131c21, 0 0.02em 0 #131c21, 0 0.028em 0 #131c21, 0 0.035em 0 #131c21, 0 0.04em 0 #131c21, 0 0.045em 0 #131c21, 0 0.055em 0 #131c21, 0 0.06em 0 #131c21, 0 0.065em 0 #131c21, 0 0.07em 0 #131c21, 0 0.08em 0 #131c21, 0 0.085em 0 #131c21, 0 0.09em 0 #131c21, 0 0.095em 0 #131c21, 0 0.105em 0 #131c21, 0 0.06em 0.06em rgba(104, 104, 92, 0.15), 0.07em 0.105em 0.04em rgba(0, 0, 0, 0.015), -0.02em 0.09em 0.05em rgba(104, 104, 92, 0.25), -0.03em 0.07em 0.065em rgba(104, 104, 92, 0.1), -0.075em 0.08em 0.09em rgba(104, 104, 92, 0.06), -0.09em 0.06em 0.195em rgba(104, 104, 92, 0.095);
 }
-/* line 46, ../../_development/scss/_nav.scss */
+/* line 58, ../../_development/scss/_nav.scss */
 h1.lettering span.char1 {
   position: relative;
   top: 20px;
   z-index: 5;
 }
-/* line 51, ../../_development/scss/_nav.scss */
+/* line 63, ../../_development/scss/_nav.scss */
 h1.lettering span.char2 {
   position: relative;
   top: 15px;
 }
-/* line 55, ../../_development/scss/_nav.scss */
+/* line 67, ../../_development/scss/_nav.scss */
 h1.lettering span.char3 {
   position: relative;
   top: 10px;
   z-index: 5;
 }
-/* line 60, ../../_development/scss/_nav.scss */
+/* line 72, ../../_development/scss/_nav.scss */
 h1.lettering span.char4 {
   position: relative;
   top: 5px;
   z-index: 1;
 }
 
-/* line 14, ../../_development/scss/global.scss */
+/* line 19, ../../_development/scss/global.scss */
 .wrap {
   max-width: 39.500em;
   margin: 0 auto;
@@ -702,7 +722,7 @@ p:first-child {
   list-style: none;
 }
 
-/* line 24, ../../_development/scss/global.scss */
+/* line 29, ../../_development/scss/global.scss */
 .site-footer {
   background: #212224;
   height: 70px;

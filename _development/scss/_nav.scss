@@ -12,6 +12,18 @@ nav{
 
   }
 }
+@media screen and (max-width: 25em) {
+    nav{
+      text-align:left;
+      a {
+        width:(98%/5);
+        padding:10px;
+        text-align: center;
+        display:inline-block;
+        color:$secundario;
+      }
+    }
+}
 
 h1.lettering{
   font-size:2em;
