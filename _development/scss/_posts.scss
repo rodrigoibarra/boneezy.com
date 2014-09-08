@@ -1,16 +1,11 @@
-
-p:first-child{
-  font-size:1.180em;
+.post-title{
+    font-size:(28px / 1);
+    border: 3px solid $primary;
+    width:60%;
+    text-align:center;
+    margin:2.80em auto;
+    color:$primary;
 }
-.article-header{
-  width:100%;
-  margin:0 auto;
-
-  h1{
-    font-size:(50px / 1);
-  }
-}
-
 
 .article-footer{
   text-align:right;
@@ -23,13 +18,8 @@ p:first-child{
 }
 
 .firma{
-  color:$contraste;
+  color:$primary;
 }
-
-.title-post{
-  color:$contraste;
-}
-
 
 .archive-list{
   list-style:none;

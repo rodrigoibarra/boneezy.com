@@ -1,36 +1,45 @@
 body{
   font-size: 18px;
   line-height:1.5;
-  @include meta (normal, 400);
-  color:$texto;
+  @include meta-serif (normal, 400);
+}
+p{
+  font-size:1.510em;
+  color:$black;
+}
+
+p:first-child {
+  font-size:2.180em;
+  color:$gray;
 }
 
 a{
-  color:$contraste;
+  color:$secondary;
 }
 
 i{
-  @include meta (italic, 400);
+  @include meta-serif (italic, 400);
 }
 
 b{
-  @include meta (normal, 800);
+  @include meta-serif (normal, 800);
 }
 
 h1, h3{
-  @include uppercut;
-  color: $secundario;
+  @include meta-sans (normal, 800);
+  color: $primary;
 }
 
 
 h2, h4{
-  @include meta (normal, 800);
-  color: $secundario;
+  @include meta-sans (normal, 800);
+  color: $primary;
 }
 
 
-@media screen and (max-width: 25em) {
-    body {
-        font-size: 90%;
-    }
+p.footer-text{
+  color:white;
+  text-align:right;
+  font-size:12px;
+  padding:10px;
 }

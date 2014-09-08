@@ -24,23 +24,20 @@ body {
 
 /* line 23, ../../_development/scss/_reset.scss */
 *, *:after, *:before {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 @-o-viewport {
   width: device-width;
 }
-
 @-ms-viewport {
   width: device-width;
 }
-
 @viewport {
   width: device-width;
 }
-
 /* line 37, ../../_development/scss/_reset.scss */
 html {
   overflow-y: auto;
@@ -52,7 +49,7 @@ img {
   height: auto !important;
 }
 
-/* line 50, ../../_development/scss/_reset.scss */
+/* line 48, ../../_development/scss/_reset.scss */
 audio,
 video,
 canvas {
@@ -64,7 +61,7 @@ canvas {
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 73, ../../_development/scss/_reset.scss */
+/* line 62, ../../_development/scss/_reset.scss */
 article,
 aside,
 details,
@@ -84,7 +81,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 85, ../../_development/scss/_reset.scss */
+/* line 82, ../../_development/scss/_reset.scss */
 audio,
 canvas,
 progress,
@@ -109,7 +106,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9.
  * Hide the `template` element in IE, Safari, and Firefox < 22.
  */
-/* line 106, ../../_development/scss/_reset.scss */
+/* line 105, ../../_development/scss/_reset.scss */
 [hidden],
 template {
   display: none;
@@ -129,7 +126,7 @@ a {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 127, ../../_development/scss/_reset.scss */
+/* line 126, ../../_development/scss/_reset.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -148,7 +145,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 147, ../../_development/scss/_reset.scss */
+/* line 146, ../../_development/scss/_reset.scss */
 b,
 strong {
   font-weight: bold;
@@ -192,7 +189,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 191, ../../_development/scss/_reset.scss */
+/* line 190, ../../_development/scss/_reset.scss */
 sub,
 sup {
   font-size: 75%;
@@ -260,7 +257,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 261, ../../_development/scss/_reset.scss */
+/* line 258, ../../_development/scss/_reset.scss */
 code,
 kbd,
 pre,
@@ -281,7 +278,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 285, ../../_development/scss/_reset.scss */
+/* line 281, ../../_development/scss/_reset.scss */
 button,
 input,
 optgroup,
@@ -309,7 +306,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8+, and Opera
  * Correct `select` style inheritance in Firefox.
  */
-/* line 307, ../../_development/scss/_reset.scss */
+/* line 306, ../../_development/scss/_reset.scss */
 button,
 select {
   text-transform: none;
@@ -322,7 +319,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 322, ../../_development/scss/_reset.scss */
+/* line 319, ../../_development/scss/_reset.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -336,7 +333,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 332, ../../_development/scss/_reset.scss */
+/* line 331, ../../_development/scss/_reset.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -345,7 +342,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 341, ../../_development/scss/_reset.scss */
+/* line 340, ../../_development/scss/_reset.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -368,7 +365,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 364, ../../_development/scss/_reset.scss */
+/* line 363, ../../_development/scss/_reset.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -382,7 +379,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 376, ../../_development/scss/_reset.scss */
+/* line 375, ../../_development/scss/_reset.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -408,7 +405,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 400, ../../_development/scss/_reset.scss */
+/* line 399, ../../_development/scss/_reset.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -464,210 +461,133 @@ table {
   border-spacing: 0;
 }
 
-/* line 454, ../../_development/scss/_reset.scss */
+/* line 453, ../../_development/scss/_reset.scss */
 td,
 th {
   padding: 0;
 }
 
-/* line 8, ../../_development/scss/_bits.scss */
+/* line 7, ../../_development/scss/_bits.scss */
 .cf:before, .cf:after {
   content: "";
   display: table;
 }
 
-/* line 9, ../../_development/scss/_bits.scss */
+/* line 8, ../../_development/scss/_bits.scss */
 .cf:after {
   clear: both;
 }
 
-/* line 10, ../../_development/scss/_bits.scss */
+/* line 9, ../../_development/scss/_bits.scss */
 .cf {
   zoom: 1;
 }
 
 /* For IE 6/7 (trigger hasLayout) */
-@font-face {
-  font-family: 'Mono Social Icons Font';
-  src: url("/build/fonts/MonoSocialIconsFont-1.10.eot");
-  src: url("/build/fonts/MonoSocialIconsFont-1.10.eot?#iefix") format("embedded-opentype"), url("/build/fonts/MonoSocialIconsFont-1.10.woff") format("woff"), url("/build/fonts/MonoSocialIconsFont-1.10.ttf") format("truetype"), url("/build/fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont") format("svg");
-  src: url("/build/fonts/MonoSocialIconsFont-1.10.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 /* line 1, ../../_development/scss/_type.scss */
 body {
   font-size: 18px;
   line-height: 1.5;
-  font-family: "ff-meta-web-pro",sans-serif;
+  font-family: "ff-meta-serif-web-pro",serif;
   font-style: normal;
   font-weight: 400;
-  color: #8c959b;
 }
 
-/* line 8, ../../_development/scss/_type.scss */
+/* line 6, ../../_development/scss/_type.scss */
+p {
+  font-size: 1.510em;
+  color: #212224;
+}
+
+/* line 11, ../../_development/scss/_type.scss */
+p:first-child {
+  font-size: 2.180em;
+  color: #5c5f65;
+}
+
+/* line 16, ../../_development/scss/_type.scss */
 a {
-  color: #d23015;
+  color: #359bbc;
 }
 
-/* line 12, ../../_development/scss/_type.scss */
+/* line 20, ../../_development/scss/_type.scss */
 i {
-  font-family: "ff-meta-web-pro",sans-serif;
+  font-family: "ff-meta-serif-web-pro",serif;
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 16, ../../_development/scss/_type.scss */
+/* line 24, ../../_development/scss/_type.scss */
 b {
-  font-family: "ff-meta-web-pro",sans-serif;
+  font-family: "ff-meta-serif-web-pro",serif;
   font-style: normal;
   font-weight: 800;
 }
 
-/* line 20, ../../_development/scss/_type.scss */
+/* line 28, ../../_development/scss/_type.scss */
 h1, h3 {
-  font-family: "uppercut-angle",sans-serif;
+  font-family: "ff-meta-web-pro",sans-serif;
   font-style: normal;
-  font-weight: 400;
-  color: #131c21;
+  font-weight: 800;
+  color: #c03838;
 }
 
-/* line 26, ../../_development/scss/_type.scss */
+/* line 34, ../../_development/scss/_type.scss */
 h2, h4 {
   font-family: "ff-meta-web-pro",sans-serif;
   font-style: normal;
   font-weight: 800;
-  color: #131c21;
+  color: #c03838;
 }
 
-@media screen and (max-width: 25em) {
-  /* line 33, ../../_development/scss/_type.scss */
-  body {
-    font-size: 90%;
-  }
+/* line 40, ../../_development/scss/_type.scss */
+p.footer-text {
+  color: white;
+  text-align: right;
+  font-size: 12px;
+  padding: 10px;
 }
+
 /* line 7, ../../_development/scss/global.scss */
 body {
-  background: #f7fafc;
-  border-left: 10px solid #359bbc;
+  background: white;
 }
 
-@media screen and (max-width: 25em) {
-  /* line 12, ../../_development/scss/global.scss */
-  body {
-    border-left: 5px solid #359bbc;
-  }
-}
-/* line 1, ../../_development/scss/_nav.scss */
-nav {
+/* line 1, ../../_development/scss/_header.scss */
+.mast {
   width: 100%;
+  text-align: center;
+}
+
+/* line 5, ../../_development/scss/_header.scss */
+.logo {
+  width: 10%;
+  margin: 100px auto;
+}
+
+/* line 9, ../../_development/scss/_header.scss */
+nav {
+  width: 50%;
   margin: 0 auto;
   text-align: center;
-  background: #d23015;
 }
-/* line 7, ../../_development/scss/_nav.scss */
+/* line 14, ../../_development/scss/_header.scss */
 nav a {
-  width: 24.5%;
+  width: 32.66667%;
   padding: 10px;
   display: inline-block;
-  color: #131c21;
+  color: #d5dbe9;
+}
+/* line 22, ../../_development/scss/_header.scss */
+nav a:hover {
+  color: #212224;
 }
 
-@media screen and (max-width: 25em) {
-  /* line 16, ../../_development/scss/_nav.scss */
-  nav {
-    text-align: left;
-  }
-  /* line 18, ../../_development/scss/_nav.scss */
-  nav a {
-    width: 19.6%;
-    padding: 10px;
-    text-align: center;
-    display: inline-block;
-    color: #131c21;
-  }
-}
-/* line 28, ../../_development/scss/_nav.scss */
-h1.lettering {
-  font-size: 2em;
-  display: inline;
-  color: #f7fafc;
-  position: relative;
-  letter-spacing: -.06em;
-  text-shadow: 0px 0.01em 0px #dededa, 0 0.015em 0 #131c21, 0 0.02em 0 #131c21, 0 0.028em 0 #131c21, 0 0.035em 0 #131c21, 0 0.04em 0 #131c21, 0 0.045em 0 #131c21, 0 0.055em 0 #131c21, 0 0.06em 0 #131c21, 0 0.065em 0 #131c21, 0 0.07em 0 #131c21, 0 0.08em 0 #131c21, 0 0.085em 0 #131c21, 0 0.09em 0 #131c21, 0 0.095em 0 #131c21, 0 0.105em 0 #131c21, 0 0.06em 0.06em rgba(104, 104, 92, 0.15), 0.07em 0.105em 0.04em rgba(0, 0, 0, 0.015), -0.02em 0.09em 0.05em rgba(104, 104, 92, 0.25), -0.03em 0.07em 0.065em rgba(104, 104, 92, 0.1), -0.075em 0.08em 0.09em rgba(104, 104, 92, 0.06), -0.09em 0.06em 0.195em rgba(104, 104, 92, 0.095);
-}
-/* line 58, ../../_development/scss/_nav.scss */
-h1.lettering span.char1 {
-  position: relative;
-  top: 20px;
-  z-index: 5;
-}
-/* line 63, ../../_development/scss/_nav.scss */
-h1.lettering span.char2 {
-  position: relative;
-  top: 15px;
-}
-/* line 67, ../../_development/scss/_nav.scss */
-h1.lettering span.char3 {
-  position: relative;
-  top: 10px;
-  z-index: 5;
-}
-/* line 72, ../../_development/scss/_nav.scss */
-h1.lettering span.char4 {
-  position: relative;
-  top: 5px;
-  z-index: 1;
-}
-
-/* line 19, ../../_development/scss/global.scss */
+/* line 14, ../../_development/scss/global.scss */
 .wrap {
-  max-width: 39.500em;
+  max-width: 50.500em;
   margin: 0 auto;
   padding: 1em;
-}
-
-/* line 1, ../../_development/scss/_home.scss */
-header.home {
-  background: #212224;
-  width: 100%;
-  height: 400px;
-  background-size: cover;
-  text-align: center;
-  align: middle;
-}
-/* line 9, ../../_development/scss/_home.scss */
-header.home h1.lettering {
-  font-size: 9em;
-  display: inline;
-  color: #f7fafc;
-  position: relative;
-  letter-spacing: -.06em;
-  text-shadow: 0px 0.01em 0px #dededa, 0 0.015em 0 #359bbc, 0 0.02em 0 #359bbc, 0 0.028em 0 #359bbc, 0 0.035em 0 #359bbc, 0 0.04em 0 #359bbc, 0 0.045em 0 #359bbc, 0 0.055em 0 #212224, 0 0.06em 0 #212224, 0 0.065em 0 #212224, 0 0.07em 0 #212224, 0 0.08em 0 #d23015, 0 0.085em 0 #d23015, 0 0.09em 0 #d23015, 0 0.095em 0 #d23015, 0 0.105em 0 #d23015, 0 0.06em 0.06em rgba(104, 104, 92, 0.15), 0.07em 0.105em 0.04em rgba(0, 0, 0, 0.015), -0.02em 0.09em 0.05em rgba(104, 104, 92, 0.25), -0.03em 0.07em 0.065em rgba(104, 104, 92, 0.1), -0.075em 0.08em 0.09em rgba(104, 104, 92, 0.06), -0.09em 0.06em 0.195em rgba(104, 104, 92, 0.095);
-}
-/* line 39, ../../_development/scss/_home.scss */
-header.home h1.lettering span.char1 {
-  position: relative;
-  top: 40px;
-  z-index: 5;
-}
-/* line 44, ../../_development/scss/_home.scss */
-header.home h1.lettering span.char2 {
-  position: relative;
-  top: 35px;
-}
-/* line 48, ../../_development/scss/_home.scss */
-header.home h1.lettering span.char3 {
-  position: relative;
-  top: 30px;
-  z-index: 5;
-}
-/* line 53, ../../_development/scss/_home.scss */
-header.home h1.lettering span.char4 {
-  position: relative;
-  top: 25px;
-  z-index: 1;
 }
 
 /* line 2, ../../_development/scss/_bio.scss */
@@ -677,56 +597,43 @@ header.home h1.lettering span.char4 {
 }
 /* line 6, ../../_development/scss/_bio.scss */
 .bio a {
-  color: #d23015;
+  color: #c03838;
 }
 
-/* line 2, ../../_development/scss/_posts.scss */
-p:first-child {
-  font-size: 1.180em;
+/* line 1, ../../_development/scss/_posts.scss */
+.post-title {
+  font-size: 28px;
+  border: 3px solid #c03838;
+  width: 60%;
+  text-align: center;
+  margin: 2.80em auto;
+  color: #c03838;
 }
 
-/* line 5, ../../_development/scss/_posts.scss */
-.article-header {
-  width: 100%;
-  margin: 0 auto;
-}
-/* line 9, ../../_development/scss/_posts.scss */
-.article-header h1 {
-  font-size: 50px;
-}
-
-/* line 15, ../../_development/scss/_posts.scss */
+/* line 10, ../../_development/scss/_posts.scss */
 .article-footer {
   text-align: right;
   padding: 0 15%;
 }
 
-/* line 20, ../../_development/scss/_posts.scss */
+/* line 15, ../../_development/scss/_posts.scss */
 .page-navigation {
   display: inline-block;
   width: 20%;
 }
 
-/* line 25, ../../_development/scss/_posts.scss */
+/* line 20, ../../_development/scss/_posts.scss */
 .firma {
-  color: #d23015;
+  color: #c03838;
 }
 
-/* line 29, ../../_development/scss/_posts.scss */
-.title-post {
-  color: #d23015;
-}
-
-/* line 34, ../../_development/scss/_posts.scss */
+/* line 24, ../../_development/scss/_posts.scss */
 .archive-list {
   list-style: none;
 }
 
-/* line 29, ../../_development/scss/global.scss */
+/* line 23, ../../_development/scss/global.scss */
 .site-footer {
-  background: #212224;
+  background: #c03838;
   height: 70px;
-  font-size: 0.6em;
-  text-align: right;
-  padding: 1.5em;
 }

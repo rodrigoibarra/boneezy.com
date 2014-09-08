@@ -5,32 +5,22 @@
 @import "type";
 
 body {
-  background:$background;
-  border-left: 10px solid $primario;
-}
-@media screen and (max-width: 25em) {
-    body {
-      border-left: 5px solid $primario;
-    }
+  background:white;
 }
 
-@import "nav";
+
+@import "header";
 
 .wrap{
-  max-width:39.500em; //600px wide ish
+  max-width:50.500em; //600px wide ish
   margin:0 auto;
   padding:1em;
 }
-@import "home";
 @import "bio";
 
 @import "posts";
 
 .site-footer{
-  background: $black;
+  background: $primary;
   height:70px;
-  font-size:0.6em;
-  text-align:right;
-  padding:1.5em;
-
 }

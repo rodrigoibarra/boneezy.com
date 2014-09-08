@@ -1,35 +1,24 @@
-$primario:rgba(53, 155, 188, 1.0);
-$black: rgba(33, 34, 36, 1.0);
-$secundario: rgba(19, 28, 33, 1.0);
-$contraste: rgba(210, 48, 21, 1.0);
-$background: rgb(247,250,252);
-$texto: rgba(140, 149, 155, 1.0);
+$primary:rgba(192, 56, 56, 1.0);
+$secondary:rgba(53, 155, 188, 1.0);
+$black:rgba(33, 34, 36, 1.0);
+$gray:rgba(92, 95, 101, 1.0);
+$clear:rgba(213, 219, 233, 1.0);
 
 .cf:before, .cf:after { content:""; display:table; }
 .cf:after { clear:both; }
 .cf { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
 
-@font-face {
-    font-family: 'Mono Social Icons Font';
-    src: url('/build/fonts/MonoSocialIconsFont-1.10.eot');
-    src: url('/build/fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
-         url('/build/fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
-         url('/build/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
-         url('/build/fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
-    src: url('/build/fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
-@mixin meta ($style, $weight) {
+
+@mixin meta-sans ($style, $weight) {
   font-family: "ff-meta-web-pro",sans-serif;
   font-style: $style;
   font-weight: $weight;
 }
 
 
-@mixin uppercut {
-  font-family: "uppercut-angle",sans-serif;
-  font-style: normal;
-  font-weight: 400;
+@mixin meta-serif ($style, $weight){
+  font-family: "ff-meta-serif-web-pro",serif;
+  font-style: $style;
+  font-weight: $weight;
 }
