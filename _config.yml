@@ -6,13 +6,7 @@ permalink: /posts/:title
 exclude:   [node_modules,'Gruntfile.js', 'package.json']
 excerpt_separator: <!--more-->
 url:  http://boneezy.com
-links:
-  - title: Rants
-    url: /rants/
-  - title: Info
-    url: /info/
-  - title: Contact
-    url: mailto:hola@rodrigo-ibarra.com
+
 owner:
   name:           Rodrigo Ibarra
   avatar:         "me.jpg"

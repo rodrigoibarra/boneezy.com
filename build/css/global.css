@@ -573,7 +573,7 @@ nav {
 }
 /* line 14, ../../_development/scss/_header.scss */
 nav a {
-  width: 32.66667%;
+  width: 24.5%;
   padding: 10px;
   display: inline-block;
   color: #d5dbe9;
@@ -630,6 +630,14 @@ nav a:hover {
 /* line 24, ../../_development/scss/_posts.scss */
 .archive-list {
   list-style: none;
+}
+
+/* line 28, ../../_development/scss/_posts.scss */
+blockquote {
+  font-size: 12px;
+  font-family: "ff-meta-serif-web-pro",serif;
+  font-style: italic;
+  font-weight: 400;
 }
 
 /* line 23, ../../_development/scss/global.scss */

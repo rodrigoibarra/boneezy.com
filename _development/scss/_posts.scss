@@ -24,3 +24,9 @@
 .archive-list{
   list-style:none;
 }
+
+blockquote{
+  font-size:12px;
+  @include meta-serif (italic, 400);
+
+}
