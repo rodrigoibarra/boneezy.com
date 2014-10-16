@@ -8,8 +8,9 @@ module.exports = {
   },
   compass: {
    files: ['**/*.scss', '*.html'],
-   tasks: ['compass', "shell:jekyllBuild"],
+   tasks: ['compass', "shell:jekyllBuild", 'autoprefixer'],
    options: {
+     spawn: false,
      livereload: true,
    },
   },
