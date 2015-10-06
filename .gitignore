@@ -6,7 +6,6 @@ lib-conv
 *.out
 *.pid
 *.gz
-_site
 pids
 logs
 results
