@@ -1,0 +1,19 @@
+---
+layout: home
+---
+
+    {% for post in site.posts limit:1 %}
+    <section>
+      <header>
+        <a href="{{ post.url }}">
+          <h1 id="titulo" class="post-title">{{ post.title }}</h1>
+        </a>
+      </header>
+      <article>
+        {{ post.content }}
+        {% endfor %}
+      </article>
+      <footer class="article-footer">
+        <h3 class="firma">Bony.</h3>
+      </footer>
+    </section>
