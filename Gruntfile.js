@@ -3,6 +3,7 @@ module.exports = function(grunt) {
     require('load-grunt-config')(grunt);
     require("load-grunt-tasks")(grunt);
   // Default task(s).
+  // needs a ton of work...
 
     grunt.registerTask('serve', ['shell:jekyllServe']);
     grunt.registerTask('build', ['uglify','compass:dev', 'shell:jekyllBuild']);
