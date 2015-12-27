@@ -5,14 +5,14 @@
   "author": {
     "name": "Rodrigo Ibarra",
     "email": "hola@rodrigo-ibarra.com",
-    "url": "rodrigo-ibarra.com"
+    "url": "rodrigoibarra.rocks"
   },
   "repository": {
     "type": "git",
-    "url": "git://rodrigoibarra/rodrigoibarra.github.io.git"
+    "url": "git://rodrigoibarra/boneezy.git"
   },
   "bugs": {
-    "url": "https:///github.com/rodrigoibarra/rodrigoibarra.github.io/issues"
+    "url": "https:///github.com/rodrigoibarra/rboneezy.git/issues"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
