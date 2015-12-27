@@ -1,7 +1,7 @@
 GIT_REPO=$HOME/repos/boneezy.git
 TMP_GIT_CLONE=$HOME/tmp/git/boneezy
 PUBLIC_WWW=/var/www/rodrigoibarra.rocks/public_html
-JEKYLL="/home/redfive/.rvm/gems/ruby-2.2.1/bin/jekyll"
+JEKYLL="/home/redfive/.rvm/gems/ruby-2.2.1/wrappers/jekyll"
 
 git clone $GIT_REPO $TMP_GIT_CLONE
 jekyll build -s  $TMP_GIT_CLONE -d  $PUBLIC_WWW
