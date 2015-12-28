@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://boneezy.com/posts/Posse</loc>
+        <loc>http://rodrigoibarra.rocks/posts/Posse</loc>
     </url>
     
     <url>
-        <loc>http://boneezy.com/posts/Saliendo-del-Closet</loc>
+        <loc>http://rodrigoibarra.rocks/posts/Saliendo-del-Closet</loc>
     </url>
     
     <url>
-        <loc>http://boneezy.com/posts/Trabajo-Nuevo</loc>
+        <loc>http://rodrigoibarra.rocks/posts/Trabajo-Nuevo</loc>
     </url>
     
     <url>
-        <loc>http://boneezy.com/posts/the-ranting-rabbit</loc>
+        <loc>http://rodrigoibarra.rocks/posts/the-ranting-rabbit</loc>
     </url>
     
 
@@ -22,7 +22,7 @@
     
     
     <url>
-        <loc>http://boneezy.com/404.html</loc>
+        <loc>http://rodrigoibarra.rocks/404.html</loc>
     </url>
     
     
@@ -30,7 +30,7 @@
     
     
     <url>
-        <loc>http://boneezy.com/archive.html</loc>
+        <loc>http://rodrigoibarra.rocks/archive.html</loc>
     </url>
     
     
@@ -38,7 +38,7 @@
     
     
     <url>
-        <loc>http://boneezy.com/feed.xml</loc>
+        <loc>http://rodrigoibarra.rocks/feed.xml</loc>
     </url>
     
     
@@ -46,7 +46,7 @@
     
     
     <url>
-        <loc>http://boneezy.com/contact/</loc>
+        <loc>http://rodrigoibarra.rocks/</loc>
     </url>
     
     
@@ -54,7 +54,7 @@
     
     
     <url>
-        <loc>http://boneezy.com/rants/</loc>
+        <loc>http://rodrigoibarra.rocks/rants/</loc>
     </url>
     
     
@@ -62,7 +62,7 @@
     
     
     <url>
-        <loc>http://boneezy.com/info/</loc>
+        <loc>http://rodrigoibarra.rocks/contact/</loc>
     </url>
     
     
@@ -70,8 +70,10 @@
     
     
     <url>
-        <loc>http://boneezy.com/</loc>
+        <loc>http://rodrigoibarra.rocks/info/</loc>
     </url>
+    
+    
     
     
     

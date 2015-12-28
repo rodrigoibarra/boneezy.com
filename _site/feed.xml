@@ -3,8 +3,8 @@
   <channel>
     <title>The Ranting Rabbit</title>
     <description>A place to kick it and chill...oh and rant</description>
-    <link>http://boneezy.com</link>
-    <atom:link href="http://boneezy.com/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://rodrigoibarra.rocks</link>
+    <atom:link href="http://rodrigoibarra.rocks/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>POSSE</title>
@@ -21,8 +21,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Thu, 16 Oct 2014 00:00:00 -0500</pubDate>
-        <link>http://boneezy.com//posts/Posse</link>
-        <guid isPermaLink="true">http://boneezy.com//posts/Posse</guid>
+        <link>http://rodrigoibarra.rocks//posts/Posse</link>
+        <guid isPermaLink="true">http://rodrigoibarra.rocks//posts/Posse</guid>
       </item>
     
       <item>
@@ -38,8 +38,8 @@
 &lt;p&gt;Ufff... este post se salió de control bastante rápido, como cualquier platica de música, es una cuestión de opinión y todos creemos que la nuestra es la que vale y no tememos en descargar una verborrea inmensa para defenderla. No les pido que entiendan mi postura de elegir a Oasis sobre los Beatles solo tengan en mente la próxima vez que platiquen con alguien que es muy posible que no sean tan puristas sobre el tema como ustedes y que quizá, solo quizá escuchen música para entretenerse.&lt;/p&gt;
 </description>
         <pubDate>Mon, 25 Aug 2014 00:00:00 -0500</pubDate>
-        <link>http://boneezy.com//posts/Saliendo-del-Closet</link>
-        <guid isPermaLink="true">http://boneezy.com//posts/Saliendo-del-Closet</guid>
+        <link>http://rodrigoibarra.rocks//posts/Saliendo-del-Closet</link>
+        <guid isPermaLink="true">http://rodrigoibarra.rocks//posts/Saliendo-del-Closet</guid>
       </item>
     
       <item>
@@ -53,8 +53,8 @@
 &lt;p&gt;No hay otra manera para describir la situación actual que no sea cómica o algún sinónimo, por lo demás, el día va bien y como buen servidor publico, la hora de salida es a las 18:00 en punto y ni un minuto mas.&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 Aug 2014 00:00:00 -0500</pubDate>
-        <link>http://boneezy.com//posts/Trabajo-Nuevo</link>
-        <guid isPermaLink="true">http://boneezy.com//posts/Trabajo-Nuevo</guid>
+        <link>http://rodrigoibarra.rocks//posts/Trabajo-Nuevo</link>
+        <guid isPermaLink="true">http://rodrigoibarra.rocks//posts/Trabajo-Nuevo</guid>
       </item>
     
       <item>
@@ -68,8 +68,8 @@
 &lt;p&gt;El URL viene de un username que tenia hace tiempo, pensé en usar mi twitter-handle pero _rodrigoibarra no es un dominio valido y killerbunnz no me convenció. &lt;/p&gt;
 </description>
         <pubDate>Sat, 12 Jul 2014 00:00:00 -0500</pubDate>
-        <link>http://boneezy.com//posts/the-ranting-rabbit</link>
-        <guid isPermaLink="true">http://boneezy.com//posts/the-ranting-rabbit</guid>
+        <link>http://rodrigoibarra.rocks//posts/the-ranting-rabbit</link>
+        <guid isPermaLink="true">http://rodrigoibarra.rocks//posts/the-ranting-rabbit</guid>
       </item>
     
   </channel>

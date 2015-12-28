@@ -1,0 +1,30 @@
+{
+  "name": "boneezyblog",
+  "title": "boneezy",
+  "version": "0.1.0",
+  "author": {
+    "name": "Rodrigo Ibarra",
+    "email": "hola@rodrigo-ibarra.com",
+    "url": "rodrigoibarra.rocks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://rodrigoibarra/boneezy.git"
+  },
+  "bugs": {
+    "url": "https:///github.com/rodrigoibarra/rboneezy.git/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-compass": "~0.8.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-connect": "~0.7.1",
+    "grunt-jekyll": "~0.4.2",
+    "grunt-shell": "~0.7.0",
+    "grunt-svgstore": "~0.3.1",
+    "load-grunt-tasks": "~0.6.0",
+    "grunt-autoprefixer": "~1.0.1",
+    "grunt-browser-sync": "~1.3.6"
+  }
+}
