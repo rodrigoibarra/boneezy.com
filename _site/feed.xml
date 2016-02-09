@@ -71,5 +71,23 @@
         <guid isPermaLink="true">http://rodrigoibarra.rocks//posts/the-ranting-rabbit</guid>
       </item>
     
+      <item>
+        <title>Cosas Nuevas</title>
+        <description>&lt;h1 id=&quot;pequeas-cosas-nuevas&quot;&gt;Pequeñas cosas nuevas&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. Movi el sitio a digital ocean
+2. Estoy implementando un workflow para trabajar totalmente en linea
+3. Estoy escribiendo esto desde nano, utilozando la linea de comandos de linux, conectado por ssh directamente al servidor
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Este post es una prueba del framework nuevo, si esto funciona, ya no dependere de estar frente a una computadora para trabajar, lo cual trae buenas posibilidades pues puedo hacerlo desde mi iphone, conectarme y postear&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 02 Aug 0016 00:00:00 -0636</pubDate>
+        <link>http://rodrigoibarra.rocks//posts/cosas-nuevas</link>
+        <guid isPermaLink="true">http://rodrigoibarra.rocks//posts/cosas-nuevas</guid>
+      </item>
+    
   </channel>
 </rss>
