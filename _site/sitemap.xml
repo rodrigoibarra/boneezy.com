@@ -22,7 +22,7 @@
     
     
     <url>
-        <loc>http://rodrigoibarra.rocks/404.html</loc>
+        <loc>http://rodrigoibarra.rocks/404</loc>
     </url>
     
     
@@ -30,7 +30,7 @@
     
     
     <url>
-        <loc>http://rodrigoibarra.rocks/archive.html</loc>
+        <loc>http://rodrigoibarra.rocks/archive</loc>
     </url>
     
     
@@ -46,7 +46,7 @@
     
     
     <url>
-        <loc>http://rodrigoibarra.rocks/</loc>
+        <loc>http://rodrigoibarra.rocks/contact/</loc>
     </url>
     
     
@@ -62,7 +62,7 @@
     
     
     <url>
-        <loc>http://rodrigoibarra.rocks/contact/</loc>
+        <loc>http://rodrigoibarra.rocks/info/</loc>
     </url>
     
     
@@ -70,10 +70,8 @@
     
     
     <url>
-        <loc>http://rodrigoibarra.rocks/info/</loc>
+        <loc>http://rodrigoibarra.rocks/</loc>
     </url>
-    
-    
     
     
     
