@@ -8,7 +8,7 @@ module.exports = {
   },
   default: {
     files: {
-      "_includes/svg-defs.svg": ["_development/svg/*.svg"]
+      "includes/svg-defs.svg": ["dev/svg/*.svg"]
     }
   }
 }

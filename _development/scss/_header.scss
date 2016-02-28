@@ -7,18 +7,15 @@
   margin:100px auto;
 }
 nav{
-  width:50%;
+  width:80%;
   margin:0 auto;
   text-align:center;
-
   a {
     width:(98%/4);
     padding:10px;
     display:inline-block;
     color:$clear;
-
   }
-
   a:hover{
     color:$black;
   }

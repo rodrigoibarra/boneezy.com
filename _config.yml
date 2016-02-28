@@ -5,7 +5,7 @@ description: "A place to kick it and chill...oh and rant"
 permalink: /posts/:title.html
 exclude:   [node_modules,'Gruntfile.js', 'package.json']
 excerpt_separator: <!--more-->
-url:  https://rodrigoibarra.rocks
+# url:  https://rodrigoibarra.rocks
 
 owner:
   name:           Rodrigo Ibarra

@@ -567,18 +567,18 @@ body {
 
 /* line 9, ../../_development/scss/_header.scss */
 nav {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 14, ../../_development/scss/_header.scss */
+/* line 13, ../../_development/scss/_header.scss */
 nav a {
   width: 24.5%;
   padding: 10px;
   display: inline-block;
   color: #d5dbe9;
 }
-/* line 22, ../../_development/scss/_header.scss */
+/* line 19, ../../_development/scss/_header.scss */
 nav a:hover {
   color: #212224;
 }

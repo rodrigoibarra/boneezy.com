@@ -1,6 +1,6 @@
 module.exports = {
     build: {
-      src: ['_development/libs/*.js','_development/js/global.js'],
+      src: ['_dev/libs/*.js', '_dev/js/global.js'],
       dest: 'build/js/global.min.js'
   }
 }
