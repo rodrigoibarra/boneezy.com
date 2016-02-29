@@ -35,7 +35,7 @@ p{
 
 p:first-child {
   font-size:2.180em;
-  color:$gray;
+  color:darken($gray, 40%);
 }
 
 a{
