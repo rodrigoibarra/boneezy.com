@@ -1,7 +1,7 @@
-$primary:rgba(192, 56, 56, 1.0);
-$secondary:rgba(53, 155, 188, 1.0);
-$black:rgba(33, 34, 36, 1.0);
-$gray:rgba(92, 95, 101, 1.0);
+$primary:#55B4FA;
+$secondary:#42A0E5;
+$black:#393D42;
+$gray:#9FA7BF;
 $clear:rgba(213, 219, 233, 1.0);
 
 .cf:before, .cf:after { content:""; display:table; }
@@ -10,15 +10,15 @@ $clear:rgba(213, 219, 233, 1.0);
 
 
 
-@mixin meta-sans ($style, $weight) {
-  font-family: "ff-meta-web-pro",sans-serif;
+@mixin Oswald-sans ($style, $weight) {
+  font-family: "font-family: 'Oswald', sans-serif;",sans-serif;
   font-style: $style;
   font-weight: $weight;
 }
 
 
-@mixin meta-serif ($style, $weight){
-  font-family: "ff-meta-serif-web-pro",serif;
+@mixin Quattro-serif ($style, $weight){
+  font-family: "font-family: 'Quattrocento', serif;",serif;
   font-style: $style;
   font-weight: $weight;
 }

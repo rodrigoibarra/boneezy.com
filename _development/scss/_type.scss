@@ -1,8 +1,33 @@
 body{
-  font-size: 18px;
+  font-size: 16px;
   line-height:1.5;
-  @include meta-serif (normal, 400);
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  @include Quattro-serif (normal, 400);
+  color: $black;
 }
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: 10px;
+}
+
+
 p{
   font-size:1.510em;
   color:$black;
@@ -16,30 +41,84 @@ p:first-child {
 a{
   color:$secondary;
 }
+ul, ol {
+    margin-left: 15px;
+}
+
+li {
+  @include Quattro-serif (normal, 400);
+  font-size:1.510em;
+  list-style: circle;
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
 
 i{
-  @include meta-serif (italic, 400);
+  @include Quattro-serif (italic, 400);
 }
 
 b{
-  @include meta-serif (normal, 800);
+  @include Quattro-serif (normal, 800);
 }
 
 h1, h3{
-  @include meta-sans (normal, 800);
+  @include Oswald-sans (normal, 800);
   color: $primary;
 }
 
 
 h2, h4{
-  @include meta-sans (normal, 800);
+  @include Oswald-sans (normal, 800);
   color: $primary;
 }
 
 
 p.footer-text{
-  color:white;
   text-align:right;
+  color: $gray;
   font-size:12px;
   padding:10px;
+}
+
+small{
+    @include Quattro-serif (italic, 400);
+    font-size: 12px;
+}
+
+pre,
+code {
+    font-size:0.90em;
+    border: 1px solid $primary;
+    border-radius: 3px;
+    background-color: #eef;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+blockquote {
+    color: $black;
+    border-left: 4px solid $gray;
+    padding-left: 15px / 2;
+    font-size:1.510em;
+    letter-spacing: -1px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
 }

@@ -1,5 +1,4 @@
 .post-title{
-    font-size:(28px / 1);
     border: 3px solid $primary;
     width:60%;
     text-align:center;
@@ -27,6 +26,6 @@
 
 blockquote{
   font-size:12px;
-  @include meta-serif (italic, 400);
+  @include Quattro-serif (italic, 400);
 
 }
