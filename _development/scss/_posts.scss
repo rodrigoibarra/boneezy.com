@@ -5,6 +5,11 @@
     margin:$mu auto;
     padding:$hu;
     color:$primary;
+    @media (max-width: 650px) {
+      width: 80%;
+      padding: $hu;
+      line-height: $mu;
+    }
 }
 
 .article-footer{

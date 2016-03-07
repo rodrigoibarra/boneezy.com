@@ -19,4 +19,11 @@ nav{
   a:hover{
     color:$black;
   }
+  @media (max-width: 650px) {
+    width: 100%;
+    a{
+      width: 20%;
+      padding: 0;
+    }
+  }
 }

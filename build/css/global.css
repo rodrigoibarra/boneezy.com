@@ -499,8 +499,14 @@ body {
   font-weight: 400;
   color: #292931;
 }
+@media (max-width: 650px) {
+  /* line 1, ../../_development/scss/_type.scss */
+  body {
+    font-size: 16px;
+  }
+}
 
-/* line 14, ../../_development/scss/_type.scss */
+/* line 19, ../../_development/scss/_type.scss */
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -509,41 +515,41 @@ img {
 /**
  * Figures
  */
-/* line 23, ../../_development/scss/_type.scss */
+/* line 28, ../../_development/scss/_type.scss */
 figure > img {
   display: block;
 }
 
-/* line 27, ../../_development/scss/_type.scss */
+/* line 32, ../../_development/scss/_type.scss */
 figcaption {
   font-size: 0.75em;
 }
 
-/* line 32, ../../_development/scss/_type.scss */
+/* line 37, ../../_development/scss/_type.scss */
 p {
   font-size: 1.00em;
   color: #292931;
   line-height: 1.5em;
 }
 
-/* line 38, ../../_development/scss/_type.scss */
+/* line 43, ../../_development/scss/_type.scss */
 p:first-child {
   font-size: 1.180em;
   color: #292931;
   line-height: 1.5em;
 }
 
-/* line 44, ../../_development/scss/_type.scss */
+/* line 49, ../../_development/scss/_type.scss */
 a {
   color: #FF4250;
 }
 
-/* line 47, ../../_development/scss/_type.scss */
+/* line 52, ../../_development/scss/_type.scss */
 ul, ol {
   margin-left: 0.75em;
 }
 
-/* line 51, ../../_development/scss/_type.scss */
+/* line 56, ../../_development/scss/_type.scss */
 li {
   font-family: "font-family: 'Quattrocento', serif;",serif;
   font-style: normal;
@@ -552,12 +558,12 @@ li {
   line-height: 1.5em;
   list-style: none;
 }
-/* line 56, ../../_development/scss/_type.scss */
+/* line 61, ../../_development/scss/_type.scss */
 li > ul {
   margin-bottom: 0;
 }
 
-/* line 62, ../../_development/scss/_type.scss */
+/* line 67, ../../_development/scss/_type.scss */
 ol > li {
   font-family: "font-family: 'Quattrocento', serif;",serif;
   font-style: normal;
@@ -567,21 +573,21 @@ ol > li {
   list-style: decimal;
 }
 
-/* line 70, ../../_development/scss/_type.scss */
+/* line 75, ../../_development/scss/_type.scss */
 i {
   font-family: "font-family: 'Quattrocento', serif;",serif;
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 74, ../../_development/scss/_type.scss */
+/* line 79, ../../_development/scss/_type.scss */
 b {
   font-family: "font-family: 'Quattrocento', serif;",serif;
   font-style: normal;
   font-weight: 800;
 }
 
-/* line 78, ../../_development/scss/_type.scss */
+/* line 83, ../../_development/scss/_type.scss */
 h1, h3 {
   font-family: "font-family: 'Oswald', sans-serif;",sans-serif;
   font-style: normal;
@@ -589,7 +595,7 @@ h1, h3 {
   color: #75255B;
 }
 
-/* line 84, ../../_development/scss/_type.scss */
+/* line 89, ../../_development/scss/_type.scss */
 h2, h4 {
   font-family: "font-family: 'Oswald', sans-serif;",sans-serif;
   font-style: normal;
@@ -597,7 +603,7 @@ h2, h4 {
   color: #75255B;
 }
 
-/* line 90, ../../_development/scss/_type.scss */
+/* line 95, ../../_development/scss/_type.scss */
 p.footer-text {
   text-align: right;
   color: #FF7E4C;
@@ -605,7 +611,7 @@ p.footer-text {
   padding: 0.75em;
 }
 
-/* line 97, ../../_development/scss/_type.scss */
+/* line 102, ../../_development/scss/_type.scss */
 small {
   font-family: "font-family: 'Quattrocento', serif;",serif;
   font-style: italic;
@@ -613,7 +619,7 @@ small {
   font-size: 0.75em;
 }
 
-/* line 102, ../../_development/scss/_type.scss */
+/* line 107, ../../_development/scss/_type.scss */
 pre,
 code {
   font-size: 0.90em;
@@ -624,24 +630,24 @@ code {
   width: 90%;
 }
 
-/* line 112, ../../_development/scss/_type.scss */
+/* line 117, ../../_development/scss/_type.scss */
 code {
   padding: 1px 5px;
 }
 
-/* line 116, ../../_development/scss/_type.scss */
+/* line 121, ../../_development/scss/_type.scss */
 pre {
   padding: 8px 0.75em;
   white-space: pre;
 }
-/* line 119, ../../_development/scss/_type.scss */
+/* line 124, ../../_development/scss/_type.scss */
 pre > code {
   border: 0;
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 126, ../../_development/scss/_type.scss */
+/* line 131, ../../_development/scss/_type.scss */
 blockquote {
   color: #292931;
   border-left: 4px solid #FF7E4C;
@@ -650,7 +656,7 @@ blockquote {
   letter-spacing: -1px;
   font-style: italic;
 }
-/* line 134, ../../_development/scss/_type.scss */
+/* line 139, ../../_development/scss/_type.scss */
 blockquote > :last-child {
   margin-bottom: 0;
 }
@@ -689,12 +695,30 @@ nav a {
 nav a:hover {
   color: #292931;
 }
+@media (max-width: 650px) {
+  /* line 9, ../../_development/scss/_header.scss */
+  nav {
+    width: 100%;
+  }
+  /* line 24, ../../_development/scss/_header.scss */
+  nav a {
+    width: 20%;
+    padding: 0;
+  }
+}
 
 /* line 14, ../../_development/scss/global.scss */
 .wrap {
   max-width: 45.500em;
   margin: 0 auto;
   padding: 1.5em;
+}
+@media (max-width: 650px) {
+  /* line 14, ../../_development/scss/global.scss */
+  .wrap {
+    width: 100%;
+    padding: 1.5em;
+  }
 }
 
 /* line 2, ../../_development/scss/_bio.scss */
@@ -716,30 +740,38 @@ nav a:hover {
   padding: 0.75em;
   color: #75255B;
 }
+@media (max-width: 650px) {
+  /* line 1, ../../_development/scss/_posts.scss */
+  .post-title {
+    width: 80%;
+    padding: 0.75em;
+    line-height: 1.5em;
+  }
+}
 
-/* line 10, ../../_development/scss/_posts.scss */
+/* line 15, ../../_development/scss/_posts.scss */
 .article-footer {
   text-align: right;
   padding: 0 1.5em;
 }
 
-/* line 15, ../../_development/scss/_posts.scss */
+/* line 20, ../../_development/scss/_posts.scss */
 .page-navigation {
   display: inline-block;
   width: 20%;
 }
 
-/* line 20, ../../_development/scss/_posts.scss */
+/* line 25, ../../_development/scss/_posts.scss */
 .firma {
   color: #75255B;
 }
 
-/* line 24, ../../_development/scss/_posts.scss */
+/* line 29, ../../_development/scss/_posts.scss */
 .archive-list {
   list-style: none;
 }
 
-/* line 28, ../../_development/scss/_posts.scss */
+/* line 33, ../../_development/scss/_posts.scss */
 blockquote {
   font-size: 1.5em;
   padding: 0 0.75em;
@@ -748,7 +780,7 @@ blockquote {
   font-weight: 400;
 }
 
-/* line 23, ../../_development/scss/global.scss */
+/* line 27, ../../_development/scss/global.scss */
 .site-footer {
   padding: 0 10%;
   height: 70px;
