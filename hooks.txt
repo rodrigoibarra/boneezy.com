@@ -1,0 +1,13 @@
+GIT_REPO=$HOME/rodrigoibarra.rocks/boneezy.git
+TMP_GIT_CLONE=$HOME/tmp/git/boneezy
+PUBLIC_WWW=/redfive/rodrigoibarra.rocks/
+JEKYLL="/home/redfive/.rvm/gems/ruby-2.2.1/wrappers/jekyll"
+
+git clone $GIT_REPO $TMP_GIT_CLONE
+jekyll build --source $TMP_GIT_CLONE --destination $PUBLIC_WWW
+rm -Rf $TMP_GIT_CLONE
+exit
+
+
+
+git emote add dropplet rodrigo.ibarra@104.236.195.32:rodrigoibarra.rocks/.git

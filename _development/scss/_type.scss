@@ -1,6 +1,6 @@
 body{
-  font-size: 16px;
-  line-height:1.5;
+  font-size: 21px;
+  line-height:$mu;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -19,40 +19,52 @@ img {
 /**
  * Figures
  */
+
 figure > img {
     display: block;
 }
 
 figcaption {
-    font-size: 10px;
+    font-size: $hu;
 }
 
 
 p{
-  font-size:1.510em;
+  font-size:1.00em;
   color:$black;
+  line-height: $mu;
 }
 
 p:first-child {
-  font-size:2.180em;
-  color:darken($gray, 40%);
+  font-size:1.180em;
+  color:$black;
+  line-height: $mu;
 }
 
 a{
   color:$secondary;
 }
 ul, ol {
-    margin-left: 15px;
+    margin-left: $hu;
 }
 
-li {
+li{
   @include Quattro-serif (normal, 400);
-  font-size:1.510em;
-  list-style: circle;
+  font-size:1.00em;
+  line-height: $mu;
+  list-style: none;
     > ul,
-    > ol {
+    {
          margin-bottom: 0;
     }
+}
+
+ol > li{
+  @include Quattro-serif (normal, 400);
+  font-size:1.00em;
+  line-height: $mu;
+  list-style: decimal;
+
 }
 
 i{
@@ -78,13 +90,13 @@ h2, h4{
 p.footer-text{
   text-align:right;
   color: $gray;
-  font-size:12px;
-  padding:10px;
+  font-size:$hu;
+  padding:$hu;
 }
 
 small{
     @include Quattro-serif (italic, 400);
-    font-size: 12px;
+    font-size: $hu;
 }
 
 pre,
@@ -92,7 +104,9 @@ code {
     font-size:0.90em;
     border: 1px solid $primary;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: $black;
+    color: $secondary;
+    width: 90%;
 }
 
 code {
@@ -100,9 +114,8 @@ code {
 }
 
 pre {
-    padding: 8px 12px;
-    overflow-x: auto;
-
+    padding: 8px $hu;
+    white-space: pre;
     > code {
         border: 0;
         padding-right: 0;

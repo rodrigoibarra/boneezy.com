@@ -15,7 +15,7 @@ html {
 }
 
 /**
- * Remove default margin.
+ * emove default margin.
  */
 /* line 19, ../../_development/scss/_reset.scss */
 body {
@@ -94,7 +94,7 @@ video {
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
+ * emove excess height in iOS 5 devices.
  */
 /* line 95, ../../_development/scss/_reset.scss */
 audio:not([controls]) {
@@ -115,7 +115,7 @@ template {
 /* Links
    ========================================================================== */
 /**
- * Remove the gray background color from active links in IE 10.
+ * emove the gray background color from active links in IE 10.
  */
 /* line 117, ../../_development/scss/_reset.scss */
 a {
@@ -211,7 +211,7 @@ sub {
 /* Embedded content
    ========================================================================== */
 /**
- * Remove border when inside `a` element in IE 8/9.
+ * emove border when inside `a` element in IE 8/9.
  */
 /* line 213, ../../_development/scss/_reset.scss */
 img {
@@ -340,7 +340,7 @@ html input[disabled] {
 }
 
 /**
- * Remove inner padding and border in Firefox 4+.
+ * emove inner padding and border in Firefox 4+.
  */
 /* line 340, ../../_development/scss/_reset.scss */
 button::-moz-focus-inner,
@@ -363,7 +363,7 @@ input {
  * Firefox's implementation doesn't respect box-sizing, padding, or width.
  *
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
+ * 2. emove excess padding in IE 8/9/10.
  */
 /* line 363, ../../_development/scss/_reset.scss */
 input[type="checkbox"],
@@ -375,9 +375,9 @@ input[type="radio"] {
 }
 
 /**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * Fix the cursor style for Chrome's incement/decement buttons. For certain
  * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
+ * decement button to change from `default` to `text`.
  */
 /* line 375, ../../_development/scss/_reset.scss */
 input[type="number"]::-webkit-inner-spin-button,
@@ -401,7 +401,7 @@ input[type="search"] {
 }
 
 /**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * emove inner padding and search cancel button in Safari and Chrome on OS X.
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
@@ -423,7 +423,7 @@ fieldset {
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 2. emove padding so people aren't caught out if they zero out fieldsets.
  */
 /* line 419, ../../_development/scss/_reset.scss */
 legend {
@@ -434,7 +434,7 @@ legend {
 }
 
 /**
- * Remove default vertical scrollbar in IE 8/9.
+ * emove default vertical scrollbar in IE 8/9.
  */
 /* line 428, ../../_development/scss/_reset.scss */
 textarea {
@@ -453,7 +453,7 @@ optgroup {
 /* Tables
    ========================================================================== */
 /**
- * Remove most spacing between table cells.
+ * emove most spacing between table cells.
  */
 /* line 448, ../../_development/scss/_reset.scss */
 table {
@@ -467,18 +467,18 @@ th {
   padding: 0;
 }
 
-/* line 7, ../../_development/scss/_bits.scss */
+/* line 12, ../../_development/scss/_bits.scss */
 .cf:before, .cf:after {
   content: "";
   display: table;
 }
 
-/* line 8, ../../_development/scss/_bits.scss */
+/* line 13, ../../_development/scss/_bits.scss */
 .cf:after {
   clear: both;
 }
 
-/* line 9, ../../_development/scss/_bits.scss */
+/* line 14, ../../_development/scss/_bits.scss */
 .cf {
   zoom: 1;
 }
@@ -486,8 +486,8 @@ th {
 /* For IE 6/7 (trigger hasLayout) */
 /* line 1, ../../_development/scss/_type.scss */
 body {
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 21px;
+  line-height: 1.5em;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -497,7 +497,7 @@ body {
   font-family: "font-family: 'Quattrocento', serif;",serif;
   font-style: normal;
   font-weight: 400;
-  color: #393D42;
+  color: #292931;
 }
 
 /* line 14, ../../_development/scss/_type.scss */
@@ -509,141 +509,155 @@ img {
 /**
  * Figures
  */
-/* line 22, ../../_development/scss/_type.scss */
+/* line 23, ../../_development/scss/_type.scss */
 figure > img {
   display: block;
 }
 
-/* line 26, ../../_development/scss/_type.scss */
+/* line 27, ../../_development/scss/_type.scss */
 figcaption {
-  font-size: 10px;
+  font-size: 0.75em;
 }
 
-/* line 31, ../../_development/scss/_type.scss */
+/* line 32, ../../_development/scss/_type.scss */
 p {
-  font-size: 1.510em;
-  color: #393D42;
+  font-size: 1.00em;
+  color: #292931;
+  line-height: 1.5em;
 }
 
-/* line 36, ../../_development/scss/_type.scss */
+/* line 38, ../../_development/scss/_type.scss */
 p:first-child {
-  font-size: 2.180em;
-  color: #3a4258;
-}
-
-/* line 41, ../../_development/scss/_type.scss */
-a {
-  color: #42A0E5;
+  font-size: 1.180em;
+  color: #292931;
+  line-height: 1.5em;
 }
 
 /* line 44, ../../_development/scss/_type.scss */
-ul, ol {
-  margin-left: 15px;
+a {
+  color: #FF4250;
 }
 
-/* line 48, ../../_development/scss/_type.scss */
+/* line 47, ../../_development/scss/_type.scss */
+ul, ol {
+  margin-left: 0.75em;
+}
+
+/* line 51, ../../_development/scss/_type.scss */
 li {
   font-family: "font-family: 'Quattrocento', serif;",serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.510em;
-  list-style: circle;
+  font-size: 1.00em;
+  line-height: 1.5em;
+  list-style: none;
 }
-/* line 52, ../../_development/scss/_type.scss */
-li > ul,
-li > ol {
+/* line 56, ../../_development/scss/_type.scss */
+li > ul {
   margin-bottom: 0;
 }
 
-/* line 58, ../../_development/scss/_type.scss */
+/* line 62, ../../_development/scss/_type.scss */
+ol > li {
+  font-family: "font-family: 'Quattrocento', serif;",serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.00em;
+  line-height: 1.5em;
+  list-style: decimal;
+}
+
+/* line 70, ../../_development/scss/_type.scss */
 i {
   font-family: "font-family: 'Quattrocento', serif;",serif;
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 62, ../../_development/scss/_type.scss */
+/* line 74, ../../_development/scss/_type.scss */
 b {
   font-family: "font-family: 'Quattrocento', serif;",serif;
   font-style: normal;
   font-weight: 800;
 }
 
-/* line 66, ../../_development/scss/_type.scss */
+/* line 78, ../../_development/scss/_type.scss */
 h1, h3 {
   font-family: "font-family: 'Oswald', sans-serif;",sans-serif;
   font-style: normal;
   font-weight: 800;
-  color: #55B4FA;
+  color: #75255B;
 }
 
-/* line 72, ../../_development/scss/_type.scss */
+/* line 84, ../../_development/scss/_type.scss */
 h2, h4 {
   font-family: "font-family: 'Oswald', sans-serif;",sans-serif;
   font-style: normal;
   font-weight: 800;
-  color: #55B4FA;
+  color: #75255B;
 }
 
-/* line 78, ../../_development/scss/_type.scss */
+/* line 90, ../../_development/scss/_type.scss */
 p.footer-text {
   text-align: right;
-  color: #9FA7BF;
-  font-size: 12px;
-  padding: 10px;
+  color: #FF7E4C;
+  font-size: 0.75em;
+  padding: 0.75em;
 }
 
-/* line 85, ../../_development/scss/_type.scss */
+/* line 97, ../../_development/scss/_type.scss */
 small {
   font-family: "font-family: 'Quattrocento', serif;",serif;
   font-style: italic;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.75em;
 }
 
-/* line 90, ../../_development/scss/_type.scss */
+/* line 102, ../../_development/scss/_type.scss */
 pre,
 code {
   font-size: 0.90em;
-  border: 1px solid #55B4FA;
+  border: 1px solid #75255B;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: #292931;
+  color: #FF4250;
+  width: 90%;
 }
 
-/* line 98, ../../_development/scss/_type.scss */
+/* line 112, ../../_development/scss/_type.scss */
 code {
   padding: 1px 5px;
 }
 
-/* line 102, ../../_development/scss/_type.scss */
+/* line 116, ../../_development/scss/_type.scss */
 pre {
-  padding: 8px 12px;
-  overflow-x: auto;
+  padding: 8px 0.75em;
+  white-space: pre;
 }
-/* line 106, ../../_development/scss/_type.scss */
+/* line 119, ../../_development/scss/_type.scss */
 pre > code {
   border: 0;
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 113, ../../_development/scss/_type.scss */
+/* line 126, ../../_development/scss/_type.scss */
 blockquote {
-  color: #393D42;
-  border-left: 4px solid #9FA7BF;
+  color: #292931;
+  border-left: 4px solid #FF7E4C;
   padding-left: 15px / 2;
   font-size: 1.510em;
   letter-spacing: -1px;
   font-style: italic;
 }
-/* line 121, ../../_development/scss/_type.scss */
+/* line 134, ../../_development/scss/_type.scss */
 blockquote > :last-child {
   margin-bottom: 0;
 }
 
 /* line 7, ../../_development/scss/global.scss */
 body {
-  background: white;
+  background: #FFF7E9;
 }
 
 /* line 1, ../../_development/scss/_header.scss */
@@ -667,20 +681,20 @@ nav {
 /* line 13, ../../_development/scss/_header.scss */
 nav a {
   width: 24.5%;
-  padding: 10px;
+  padding: 0.75em;
   display: inline-block;
-  color: #d5dbe9;
+  color: #FF7E4C;
 }
 /* line 19, ../../_development/scss/_header.scss */
 nav a:hover {
-  color: #393D42;
+  color: #292931;
 }
 
 /* line 14, ../../_development/scss/global.scss */
 .wrap {
-  max-width: 58.500em;
+  max-width: 45.500em;
   margin: 0 auto;
-  padding: 1em;
+  padding: 1.5em;
 }
 
 /* line 2, ../../_development/scss/_bio.scss */
@@ -690,43 +704,45 @@ nav a:hover {
 }
 /* line 6, ../../_development/scss/_bio.scss */
 .bio a {
-  color: #55B4FA;
+  color: #75255B;
 }
 
 /* line 1, ../../_development/scss/_posts.scss */
 .post-title {
-  border: 3px solid #55B4FA;
+  border: 3px solid #75255B;
   width: 60%;
   text-align: center;
-  margin: 2.80em auto;
-  color: #55B4FA;
+  margin: 1.5em auto;
+  padding: 0.75em;
+  color: #75255B;
 }
 
-/* line 9, ../../_development/scss/_posts.scss */
+/* line 10, ../../_development/scss/_posts.scss */
 .article-footer {
   text-align: right;
-  padding: 0 15%;
+  padding: 0 1.5em;
 }
 
-/* line 14, ../../_development/scss/_posts.scss */
+/* line 15, ../../_development/scss/_posts.scss */
 .page-navigation {
   display: inline-block;
   width: 20%;
 }
 
-/* line 19, ../../_development/scss/_posts.scss */
+/* line 20, ../../_development/scss/_posts.scss */
 .firma {
-  color: #55B4FA;
+  color: #75255B;
 }
 
-/* line 23, ../../_development/scss/_posts.scss */
+/* line 24, ../../_development/scss/_posts.scss */
 .archive-list {
   list-style: none;
 }
 
-/* line 27, ../../_development/scss/_posts.scss */
+/* line 28, ../../_development/scss/_posts.scss */
 blockquote {
-  font-size: 12px;
+  font-size: 1.5em;
+  padding: 0 0.75em;
   font-family: "font-family: 'Quattrocento', serif;",serif;
   font-style: italic;
   font-weight: 400;

@@ -61,7 +61,7 @@
 
         // number to stop backspacing on.
         // default 0, can change depending on how many chars
-        // you want to remove at the time
+        // you want to emove at the time
         this.stopNum = 0;
 
         // Looping logic
@@ -132,7 +132,7 @@
                 self.timeout = setTimeout(function() {
                     // check for an escape character before a pause value
                     // format: \^\d+ .. eg: ^1000 .. should be able to print the ^ too using ^^
-                    // single ^ are removed from string
+                    // single ^ are emoved from string
                     var charPause = 0;
                     var substr = curString.substr(curStrPos);
                     if (substr.charAt(0) === '^') {
@@ -280,8 +280,8 @@
                 clearInterval(self.timeout);
                 var id = this.el.attr('id');
                 this.el.after('<span id="' + id + '"/>')
-                this.el.remove();
-                this.cursor.remove();
+                this.el.emove();
+                this.cursor.emove();
                 // Send the callback
                 self.options.resetCallback();
             }

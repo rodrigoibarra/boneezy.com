@@ -5,16 +5,16 @@
 @import "type";
 
 body {
-  background:white;
+  background:$fondo;
 }
 
 
 @import "header";
 
 .wrap{
-  max-width:58.500em; //600px wide ish
+  max-width:45.500em; //600px wide ish
   margin:0 auto;
-  padding:1em;
+  padding:$mu;
 }
 @import "bio";
 

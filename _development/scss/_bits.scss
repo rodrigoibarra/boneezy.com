@@ -1,8 +1,13 @@
-$primary:#55B4FA;
-$secondary:#42A0E5;
-$black:#393D42;
-$gray:#9FA7BF;
+$primary:#75255B;
+$secondary:#FF4250;
+$fondo:#FFF7E9;
+$black:#292931;
+$gray:#FF7E4C;
 $clear:rgba(213, 219, 233, 1.0);
+
+$mu:1.500em;
+$hu:0.750em;
+$du:3.000em;
 
 .cf:before, .cf:after { content:""; display:table; }
 .cf:after { clear:both; }

@@ -2,13 +2,14 @@
     border: 3px solid $primary;
     width:60%;
     text-align:center;
-    margin:2.80em auto;
+    margin:$mu auto;
+    padding:$hu;
     color:$primary;
 }
 
 .article-footer{
   text-align:right;
-  padding:0 15%;
+  padding:0 $mu;
 }
 
 .page-navigation{
@@ -25,7 +26,8 @@
 }
 
 blockquote{
-  font-size:12px;
+  font-size:$mu;
+  padding: 0 $hu;
   @include Quattro-serif (italic, 400);
 
 }
