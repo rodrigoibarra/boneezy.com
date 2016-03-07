@@ -16,14 +16,14 @@ $du:3.000em;
 
 
 @mixin Oswald-sans ($style, $weight) {
-  font-family: "font-family: 'Oswald', sans-serif;",sans-serif;
+  font-family:'Oswald', sans-serif;
   font-style: $style;
   font-weight: $weight;
 }
 
 
 @mixin Quattro-serif ($style, $weight){
-  font-family: "font-family: 'Quattrocento', serif;",serif;
+  font-family: 'Quattrocento', serif;
   font-style: $style;
   font-weight: $weight;
 }
