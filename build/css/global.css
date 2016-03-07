@@ -494,7 +494,7 @@ body {
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
-  font-family: "font-family: 'Quattrocento', serif;",serif;
+  font-family: 'Quattrocento', serif;
   font-style: normal;
   font-weight: 400;
   color: #292931;
@@ -545,7 +545,7 @@ ul, ol {
 
 /* line 51, ../../_development/scss/_type.scss */
 li {
-  font-family: "font-family: 'Quattrocento', serif;",serif;
+  font-family: 'Quattrocento', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.00em;
@@ -559,7 +559,7 @@ li > ul {
 
 /* line 62, ../../_development/scss/_type.scss */
 ol > li {
-  font-family: "font-family: 'Quattrocento', serif;",serif;
+  font-family: 'Quattrocento', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.00em;
@@ -569,21 +569,21 @@ ol > li {
 
 /* line 70, ../../_development/scss/_type.scss */
 i {
-  font-family: "font-family: 'Quattrocento', serif;",serif;
+  font-family: 'Quattrocento', serif;
   font-style: italic;
   font-weight: 400;
 }
 
 /* line 74, ../../_development/scss/_type.scss */
 b {
-  font-family: "font-family: 'Quattrocento', serif;",serif;
+  font-family: 'Quattrocento', serif;
   font-style: normal;
   font-weight: 800;
 }
 
 /* line 78, ../../_development/scss/_type.scss */
 h1, h3 {
-  font-family: "font-family: 'Oswald', sans-serif;",sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 800;
   color: #75255B;
@@ -591,7 +591,7 @@ h1, h3 {
 
 /* line 84, ../../_development/scss/_type.scss */
 h2, h4 {
-  font-family: "font-family: 'Oswald', sans-serif;",sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 800;
   color: #75255B;
@@ -607,7 +607,7 @@ p.footer-text {
 
 /* line 97, ../../_development/scss/_type.scss */
 small {
-  font-family: "font-family: 'Quattrocento', serif;",serif;
+  font-family: 'Quattrocento', serif;
   font-style: italic;
   font-weight: 400;
   font-size: 0.75em;
@@ -743,7 +743,7 @@ nav a:hover {
 blockquote {
   font-size: 1.5em;
   padding: 0 0.75em;
-  font-family: "font-family: 'Quattrocento', serif;",serif;
+  font-family: 'Quattrocento', serif;
   font-style: italic;
   font-weight: 400;
 }
