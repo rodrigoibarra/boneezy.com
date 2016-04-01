@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/rodrigoibarra
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rodrigoibarra.rocks
+  * I am rodrigoibarra (https://keybase.io/rodrigoibarra) on keybase.
+  * I have a public key ASC0X2pdVtaVLwYCGctze0wQn8-tWIqLaf-ReUsOf6BueAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010102ace30bb0d5e673d185b049a7f277aeb2ff2d6ad9a78d1f303a9f900d989bfc0a",
+            "host": "keybase.io",
+            "kid": "0120b45f6a5d56d6952f060219cb737b4c109fcfad588a8b69ff91794b0e7fa06e780a",
+            "uid": "d4a694301666f202c255637d751fdf00",
+            "username": "rodrigoibarra"
+        },
+        "service": {
+            "hostname": "rodrigoibarra.rocks",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.12"
+    },
+    "ctime": 1459526691,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1459526352,
+        "hash": "566856c50f1758c6232bcd42bcfbcd748c64176d99e279ea96aff68f31867c91a4c14c785aadb25f957ed09a602cf8a6ae06fbb0610428468baf914feb58b19f",
+        "seqno": 426647
+    },
+    "prev": "c7e0ab379808bf35111b946f0247c12d019869ec2735a626cd9025fb82a526ea",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgtF9qXVbWlS8GAhnLc3tMEJ/PrViKi2n/kXlLDn+gbngKp3BheWxvYWTFAwB7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMDJhY2UzMGJiMGQ1ZTY3M2QxODViMDQ5YTdmMjc3YWViMmZmMmQ2YWQ5YTc4ZDFmMzAzYTlmOTAwZDk4OWJmYzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYjQ1ZjZhNWQ1NmQ2OTUyZjA2MDIxOWNiNzM3YjRjMTA5ZmNmYWQ1ODhhOGI2OWZmOTE3OTRiMGU3ZmEwNmU3ODBhIiwidWlkIjoiZDRhNjk0MzAxNjY2ZjIwMmMyNTU2MzdkNzUxZmRmMDAiLCJ1c2VybmFtZSI6InJvZHJpZ29pYmFycmEifSwic2VydmljZSI6eyJob3N0bmFtZSI6InJvZHJpZ29pYmFycmEucm9ja3MiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xMiJ9LCJjdGltZSI6MTQ1OTUyNjY5MSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDU5NTI2MzUyLCJoYXNoIjoiNTY2ODU2YzUwZjE3NThjNjIzMmJjZDQyYmNmYmNkNzQ4YzY0MTc2ZDk5ZTI3OWVhOTZhZmY2OGYzMTg2N2M5MWE0YzE0Yzc4NWFhZGIyNWY5NTdlZDA5YTYwMmNmOGE2YWUwNmZiYjA2MTA0Mjg0NjhiYWY5MTRmZWI1OGIxOWYiLCJzZXFubyI6NDI2NjQ3fSwicHJldiI6ImM3ZTBhYjM3OTgwOGJmMzUxMTFiOTQ2ZjAyNDdjMTJkMDE5ODY5ZWMyNzM1YTYyNmNkOTAyNWZiODJhNTI2ZWEiLCJzZXFubyI6OCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEB0mzAolK3gv2F6QSGH+kKUxS6F+ASSNe5hZ8ah5mhdnUW20Q65HEDCWCRUG/Utxrlm1NOFl6Tb65ilQTNCJgUFqHNpZ190eXBlIKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rodrigoibarra
+
+==================================================================
