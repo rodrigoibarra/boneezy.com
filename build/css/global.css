@@ -663,7 +663,8 @@ blockquote > :last-child {
 
 /* line 7, ../../_development/scss/global.scss */
 body {
-  background: #FFF7E9;
+  background: #E5F8F9;
+  border: 20px solid white;
 }
 
 /* line 1, ../../_development/scss/_header.scss */
@@ -707,14 +708,14 @@ nav a:hover {
   }
 }
 
-/* line 14, ../../_development/scss/global.scss */
+/* line 15, ../../_development/scss/global.scss */
 .wrap {
   max-width: 45.500em;
   margin: 0 auto;
   padding: 1.5em;
 }
 @media (max-width: 650px) {
-  /* line 14, ../../_development/scss/global.scss */
+  /* line 15, ../../_development/scss/global.scss */
   .wrap {
     width: 100%;
     padding: 1.5em;
@@ -780,7 +781,7 @@ blockquote {
   font-weight: 400;
 }
 
-/* line 27, ../../_development/scss/global.scss */
+/* line 28, ../../_development/scss/global.scss */
 .site-footer {
   padding: 0 10%;
   height: 70px;

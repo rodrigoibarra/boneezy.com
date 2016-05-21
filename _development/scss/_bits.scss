@@ -1,6 +1,6 @@
 $primary:#75255B;
 $secondary:#FF4250;
-$fondo:#FFF7E9;
+$fondo:#E5F8F9;
 $black:#292931;
 $gray:#FF7E4C;
 $clear:rgba(213, 219, 233, 1.0);
@@ -12,7 +12,6 @@ $du:3.000em;
 .cf:before, .cf:after { content:""; display:table; }
 .cf:after { clear:both; }
 .cf { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
-
 
 
 @mixin Oswald-sans ($style, $weight) {
