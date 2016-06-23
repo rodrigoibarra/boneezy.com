@@ -23,4 +23,28 @@ class Jekyll < Thor
 
     system(options[:editor], filename)
   end
+
+  desc "mixtape", "create a new post"
+  method_option :editor, :default => "atom"
+  def mixtape(*title)
+    title = title.join(" ")
+    date = Time.now.strftime('%Y-%m-%d')
+    filename = "mixtapes/_posts/#{date}-#{title.to_url}.md"
+
+    if File.exist?(filename)
+      abort("#{filename} already exists!")
+    end
+
+    puts "Creating new post: #{filename}"
+    open(filename, 'w') do |mixtape|
+      mixtape.puts "---"
+      mixtape.puts "layout: custom-post"
+      mixtape.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+      mixtape.puts "custom_css:"
+      mixtape.puts "custom_font:"
+      mixtape.puts "---"
+    end
+
+    system(options[:editor], filename)
+  end
 end

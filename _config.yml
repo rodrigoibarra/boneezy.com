@@ -2,7 +2,7 @@ name: The Ranting Rabbit
 kramdown:
   input: GFM
 description: "A place to kick it and chill...oh and rant"
-permalink: /posts/:title.html
+permalink: pretty
 exclude:   [node_modules,'Gruntfile.js', 'package.json']
 excerpt_separator: <!--more-->
 # url:  https://rodrigoibarra.rocks

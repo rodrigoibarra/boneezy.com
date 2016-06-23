@@ -4,9 +4,13 @@
 
 @import "type";
 
+html{
+  background: #007889;
+}
+
 body {
   background:$fondo;
-  border: 20px solid white;
+  border: 20px solid #007889;
 }
 
 
