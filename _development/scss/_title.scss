@@ -1,0 +1,67 @@
+.title{
+  width:50%;
+  margin:200px auto;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.main, .tag, .nav{
+    width:100%;
+    text-align:center;
+}
+.main{
+  transform:skew(6deg);
+}
+
+h1{
+  font-family: "bungee",sans-serif;
+  line-height:30px;
+  font-style: normal;
+  font-weight: 800;
+  color:#F3F1DA;
+  text-shadow: 5px 0 black;
+}
+
+.word1{
+  font-size:22px;
+  display:block;
+  position:relative;
+  right:46px;
+
+}
+.word2{
+  font-size:48px;
+  display:block;
+}
+.word3{
+  font-size:20px;
+  display:block;
+}
+
+h2{
+ font-size:26px;
+ width:100%;
+ padding:15px 0;
+ letter-spacing: auto;
+}
+.issue{
+  font-family: "uppercut-angle",sans serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size:18px;
+  color:#F3F1DA;
+  position:relative;
+  bottom:40px;
+  left:50px;
+  transform:rotate(-5deg);
+  span{
+    font-size:12px;
+  }
+}
+
+section{
+  margin:0 auto;
+  color:#F3F1DA;
+  font-size:16px;
+  line-height:18px;
+}

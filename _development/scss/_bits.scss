@@ -1,6 +1,6 @@
-$primary:#F4901E;
-$secondary:#F4901E;
-$fondo:#FFFFFF;
+$primary:#009FBC;
+$secondary:#F3F1DA;
+$fondo:#1A002D;
 $black:#007889;
 $gray:#007889;
 $clear:rgba(213, 219, 233, 1.0);
@@ -18,6 +18,18 @@ $du:3.000em;
   font-family:'Oswald', sans-serif;
   font-style: $style;
   font-weight: $weight;
+}
+
+@mixin body-type ($style, $weight){
+font-family: "museo-slab",serif;
+font-style: $style;
+font-weight: $weight;
+
+}
+@mixin bungee {
+  font-family: "bungee",sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 

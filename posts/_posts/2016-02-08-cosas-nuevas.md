@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cosas Nuevas
+number: "5"
 ---
 
 # Pequeñas cosas nuevas

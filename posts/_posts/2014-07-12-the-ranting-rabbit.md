@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Ranting Rabbit
+number: "1"
 ---
 Después de un mes trabajando en mi sitio [rodrigo-ibarra.com](http://rodrigo-ibarra.com) llegue a la conclusión de que ahi solamente quiero tener cosas de trabajo, tengo un chingo de posts escritos que no tienen nada que ver con lo que hago y la verdad es que no tienen un lugar ahi. La solución era abrir un blog y aunque no necesariamente seria solo para hablar tonterías, quería que fuera algo informal y personal.
 

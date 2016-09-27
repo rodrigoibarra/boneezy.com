@@ -5,15 +5,16 @@ layout: home
     {% for post in site.posts limit:1 %}
     <section>
       <header>
-        <a href="{{ post.url }}">
-          <h1 id="titulo" class="post-title">{{ post.title }}</h1>
-        </a>
+        <div class="title">
+        <div class="main">
+           <h1 class="lettering">The Excelent Adventures</h1>
+            <a href="{{ post.url }}">
+              <h2 class="issue"><span>No.{{ post.number }}</span> {{ post.title }}</h2>
+            </a>
+        </div>
       </header>
-      <article>
+      <article class="wrap">
         {{ post.content }}
         {% endfor %}
       </article>
-      <footer class="article-footer">
-        <h3 class="firma">B.</h3>
-      </footer>
     </section>

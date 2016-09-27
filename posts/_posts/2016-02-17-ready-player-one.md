@@ -3,6 +3,7 @@ layout: post
 title: "Ready Player One"
 tags:
  - Random
+number: "6"
 ---
 
 El día de ayer, la MBP que me dieron en el trabajo, empezó a fallar y hoy la revisaron los de soporte quienes restauraron el equipo, (cosa que yo hubiera podido hacer) lo cual me dejo con una oportunidad para documentar el proceso de set up de mi ambiente de desarrollo y de una Mac nueva.

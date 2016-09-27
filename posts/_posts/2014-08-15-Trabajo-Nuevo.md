@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Trabajo Nuevo
+number: "2"
 ---
 Hoy fue mi primer día un trabajo nuevo... esperen, **hoy fue mi primer día en un trabajo nuevo!!!** de hecho, en este momento estoy en una *"junta en linea".* Un screencast de dos horas de como funciona la plataforma de educación de Prepa en linea, *cool shit.*
 

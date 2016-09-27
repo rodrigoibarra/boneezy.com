@@ -494,9 +494,9 @@ body {
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
-  font-family: 'Quattrocento', serif;
+  font-family: "museo-slab",serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   color: #007889;
 }
 @media (max-width: 650px) {
@@ -541,15 +541,19 @@ p:first-child {
 
 /* line 49, ../../_development/scss/_type.scss */
 a {
-  color: #F4901E;
+  color: #F3F1DA;
+  font-family: "museo-slab",serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #007889;
 }
 
-/* line 52, ../../_development/scss/_type.scss */
+/* line 54, ../../_development/scss/_type.scss */
 ul, ol {
   margin-left: 0.75em;
 }
 
-/* line 56, ../../_development/scss/_type.scss */
+/* line 58, ../../_development/scss/_type.scss */
 li {
   font-family: 'Quattrocento', serif;
   font-style: normal;
@@ -558,12 +562,12 @@ li {
   line-height: 1.5em;
   list-style: none;
 }
-/* line 61, ../../_development/scss/_type.scss */
+/* line 63, ../../_development/scss/_type.scss */
 li > ul {
   margin-bottom: 0;
 }
 
-/* line 67, ../../_development/scss/_type.scss */
+/* line 69, ../../_development/scss/_type.scss */
 ol > li {
   font-family: 'Quattrocento', serif;
   font-style: normal;
@@ -573,37 +577,37 @@ ol > li {
   list-style: decimal;
 }
 
-/* line 75, ../../_development/scss/_type.scss */
+/* line 77, ../../_development/scss/_type.scss */
 i {
   font-family: 'Quattrocento', serif;
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 79, ../../_development/scss/_type.scss */
+/* line 81, ../../_development/scss/_type.scss */
 b {
   font-family: 'Quattrocento', serif;
   font-style: normal;
   font-weight: 800;
 }
 
-/* line 83, ../../_development/scss/_type.scss */
+/* line 85, ../../_development/scss/_type.scss */
 h1, h3 {
   font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 800;
-  color: #F4901E;
+  color: #009FBC;
 }
 
-/* line 89, ../../_development/scss/_type.scss */
+/* line 91, ../../_development/scss/_type.scss */
 h2, h4 {
   font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 800;
-  color: #F4901E;
+  color: #009FBC;
 }
 
-/* line 95, ../../_development/scss/_type.scss */
+/* line 97, ../../_development/scss/_type.scss */
 p.footer-text {
   text-align: right;
   color: #007889;
@@ -611,7 +615,7 @@ p.footer-text {
   padding: 0.75em;
 }
 
-/* line 102, ../../_development/scss/_type.scss */
+/* line 104, ../../_development/scss/_type.scss */
 small {
   font-family: 'Quattrocento', serif;
   font-style: italic;
@@ -619,35 +623,35 @@ small {
   font-size: 0.75em;
 }
 
-/* line 107, ../../_development/scss/_type.scss */
+/* line 109, ../../_development/scss/_type.scss */
 pre,
 code {
   font-size: 0.90em;
-  border: 1px solid #F4901E;
+  border: 1px solid #009FBC;
   border-radius: 3px;
   background-color: #007889;
-  color: #F4901E;
+  color: #F3F1DA;
   width: 90%;
 }
 
-/* line 117, ../../_development/scss/_type.scss */
+/* line 119, ../../_development/scss/_type.scss */
 code {
   padding: 1px 5px;
 }
 
-/* line 121, ../../_development/scss/_type.scss */
+/* line 123, ../../_development/scss/_type.scss */
 pre {
   padding: 8px 0.75em;
   white-space: pre;
 }
-/* line 124, ../../_development/scss/_type.scss */
+/* line 126, ../../_development/scss/_type.scss */
 pre > code {
   border: 0;
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 131, ../../_development/scss/_type.scss */
+/* line 133, ../../_development/scss/_type.scss */
 blockquote {
   color: #007889;
   border-left: 4px solid #007889;
@@ -656,19 +660,124 @@ blockquote {
   letter-spacing: -1px;
   font-style: italic;
 }
-/* line 139, ../../_development/scss/_type.scss */
+/* line 141, ../../_development/scss/_type.scss */
 blockquote > :last-child {
   margin-bottom: 0;
 }
 
-/* line 7, ../../_development/scss/global.scss */
+/* line 1, ../../_development/scss/_title.scss */
+.title {
+  width: 50%;
+  margin: 200px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* line 8, ../../_development/scss/_title.scss */
+.main, .tag, .nav {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 12, ../../_development/scss/_title.scss */
+.main {
+  transform: skew(6deg);
+}
+
+/* line 16, ../../_development/scss/_title.scss */
+h1 {
+  font-family: "bungee",sans-serif;
+  line-height: 30px;
+  font-style: normal;
+  font-weight: 800;
+  color: #F3F1DA;
+  text-shadow: 5px 0 black;
+}
+
+/* line 25, ../../_development/scss/_title.scss */
+.word1 {
+  font-size: 22px;
+  display: block;
+  position: relative;
+  right: 46px;
+}
+
+/* line 32, ../../_development/scss/_title.scss */
+.word2 {
+  font-size: 48px;
+  display: block;
+}
+
+/* line 36, ../../_development/scss/_title.scss */
+.word3 {
+  font-size: 20px;
+  display: block;
+}
+
+/* line 41, ../../_development/scss/_title.scss */
+h2 {
+  font-size: 26px;
+  width: 100%;
+  padding: 15px 0;
+  letter-spacing: auto;
+}
+
+/* line 47, ../../_development/scss/_title.scss */
+.issue {
+  font-family: "uppercut-angle",sans serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #F3F1DA;
+  position: relative;
+  bottom: 40px;
+  left: 50px;
+  transform: rotate(-5deg);
+}
+/* line 57, ../../_development/scss/_title.scss */
+.issue span {
+  font-size: 12px;
+}
+
+/* line 62, ../../_development/scss/_title.scss */
+section {
+  margin: 0 auto;
+  color: #F3F1DA;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/* line 1, ../../_development/scss/_nav.scss */
+nav {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 1, ../../_development/scss/_previously.scss */
+.previously {
+  width: 100%;
+  border-top: 1px solid #F3F1DA;
+}
+
+/* line 5, ../../_development/scss/_previously.scss */
+.previous-h2 {
+  font-family: "uppercut-angle",sans serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #F3F1DA;
+  letter-spacing: 5px;
+}
+
+/* line 10, ../../_development/scss/global.scss */
 html {
   background: #007889;
 }
 
-/* line 11, ../../_development/scss/global.scss */
+/* line 14, ../../_development/scss/global.scss */
 body {
-  background: #FFFFFF;
+  background: #1A002D;
   border: 20px solid #007889;
 }
 
@@ -713,14 +822,14 @@ nav a:hover {
   }
 }
 
-/* line 19, ../../_development/scss/global.scss */
+/* line 22, ../../_development/scss/global.scss */
 .wrap {
   max-width: 45.500em;
   margin: 0 auto;
   padding: 1.5em;
 }
 @media (max-width: 650px) {
-  /* line 19, ../../_development/scss/global.scss */
+  /* line 22, ../../_development/scss/global.scss */
   .wrap {
     width: 100%;
     padding: 1.5em;
@@ -734,17 +843,17 @@ nav a:hover {
 }
 /* line 6, ../../_development/scss/_bio.scss */
 .bio a {
-  color: #F4901E;
+  color: #009FBC;
 }
 
 /* line 1, ../../_development/scss/_posts.scss */
 .post-title {
-  border: 3px solid #F4901E;
+  border: 3px solid #009FBC;
   width: 60%;
   text-align: center;
   margin: 1.5em auto;
   padding: 0.75em;
-  color: #F4901E;
+  color: #009FBC;
 }
 @media (max-width: 650px) {
   /* line 1, ../../_development/scss/_posts.scss */
@@ -769,7 +878,7 @@ nav a:hover {
 
 /* line 25, ../../_development/scss/_posts.scss */
 .firma {
-  color: #F4901E;
+  color: #009FBC;
 }
 
 /* line 29, ../../_development/scss/_posts.scss */
@@ -786,7 +895,7 @@ blockquote {
   font-weight: 400;
 }
 
-/* line 32, ../../_development/scss/global.scss */
+/* line 35, ../../_development/scss/global.scss */
 .site-footer {
   padding: 0 10%;
   height: 70px;

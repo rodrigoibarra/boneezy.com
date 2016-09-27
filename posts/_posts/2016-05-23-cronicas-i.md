@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Cronicas I"
+number: "8"
 tags:
  - Cronicas
+
 ---
 
 Como siempre, muchas cosas han pasado desde la ultima vez que escribí y por mi falta de constancia al publicar aquí creo que iniciare con estas crónicas de lo que ha estado pasando.

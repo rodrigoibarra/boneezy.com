@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Saliendo del Closet
+number: "3"
 ---
 
 El proceso siempre es el mismo después de conocer a alguien, empieza la platica, hablamos de nuestros intereses, desde el primer encuentro sabes si tus gustos son afines a los de la otra persona e invariablemente llegas a esa pregunta... ¿Cual es tu grupo favorito?
 
-Mi respuesta, dependiendo de mi humor será una de mis tres bandas de cajón. Queen, Oasis o Live, cada una tiene un significado para mi y dependen de diferentes etapas de mi vida pero, hablaemos mas de eso después. En cuanto a que va a responder la otra persona... Se que 8 de cada 10 van a contestar exactamente lo mismo: No mames los Beatles goooei... Por lo tanto, creo que es momento de salir del closet, soy *"Beatle social"* que es como ser esa persona que fuma cuando esta en una reunión y los demás están fumando, en realidad no los escucho cuando estoy solo. De hecho, puedo asegurar que si exploran mi biblioteca de iTunes o mi iPod no encontraran un solo disco completo. Siendo honestos (y creo que estoy siendo muy honesto aquí) me cagan un poquito. 
+Mi respuesta, dependiendo de mi humor será una de mis tres bandas de cajón. Queen, Oasis o Live, cada una tiene un significado para mi y dependen de diferentes etapas de mi vida pero, hablaemos mas de eso después. En cuanto a que va a responder la otra persona... Se que 8 de cada 10 van a contestar exactamente lo mismo: No mames los Beatles goooei... Por lo tanto, creo que es momento de salir del closet, soy *"Beatle social"* que es como ser esa persona que fuma cuando esta en una reunión y los demás están fumando, en realidad no los escucho cuando estoy solo. De hecho, puedo asegurar que si exploran mi biblioteca de iTunes o mi iPod no encontraran un solo disco completo. Siendo honestos (y creo que estoy siendo muy honesto aquí) me cagan un poquito.
 
 Antes de que tomen los picos y las antorchas y vengan a buscarme a mi casa a lincharme por herejía debo aclarar varios puntos. Estoy consiente de su aportación a la música, entiendo que lo cambiaron todo y es posible que sean el grupo mas importante de la historia, se que Lennon y Paul escribieron las mejores canciones que existen y que en mi caso, Oasis no existiría sin ellos. ¿Entonces? ¿Cual es la razón? La razón es que para mi, esto no es suficiente, los Beatles no me entretienen y yo, ojo estoy hablando en un aspecto totalmente personal, yo escucho música para entretenerme y el día que escucho algo que en verdad me mueve emocionalmente, esa canción o grupo se queda conmigo y plasmado en mi alma, en este aspecto Oasis y Live me marcaron emocionalmente de una manera que el cuarteto de Liverpool no pudo.
 

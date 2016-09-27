@@ -1,14 +1,13 @@
 ---
 layout: post
 title: "Chasing Anorak"
-tags:
- -
+number: "9"
 ---
 El año pasado me embarqué en la misión de expandir mi nivel geek y compre un gran numero de libros... ¿El tema? Hacker-Fiction, descubrí todo un universo nuevo de ficción y esa búsqueda, me puso en el camino de Anorak y su almanaque... Desde entonces, estoy persiguiendo todas las películas mencionadas en el libro que se encuentran en el almanaque de James Halliday.
 
-El universo de RPO, viene de una mente como la mía, como la nuestra en realidad, Ernest Cline es un autor que escribe para mi generación, apelando a la nostalgia, al amor por los videojuegos y la música de nuestra generación. 
+El universo de RPO, viene de una mente como la mía, como la nuestra en realidad, Ernest Cline es un autor que escribe para mi generación, apelando a la nostalgia, al amor por los videojuegos y la música de nuestra generación.
 
-Sin *“spoliear”* nada del libro, el Almanaque es una compilación de cultura popular de los 80’s y 90’s y durante la historia se mencionan una gran cantidad de películas, muchas ya las había visto y otras, sinceramente jamas había escuchado de ellas. 
+Sin *“spoliear”* nada del libro, el Almanaque es una compilación de cultura popular de los 80’s y 90’s y durante la historia se mencionan una gran cantidad de películas, muchas ya las había visto y otras, sinceramente jamas había escuchado de ellas.
 
 Todo esto me dio varias ideas:
 
@@ -36,7 +35,7 @@ Hasta ahora, la lista va así:
 - [X] Weird Science
 - [X] Krull
 - [X] War Games
-- [X] Superman 
+- [X] Superman
 - [X] Dark Crystal
 - [X] Brazil
 - [X] SW A New Hope
@@ -74,7 +73,7 @@ Hasta ahora, la lista va así:
 - [X] Conan the Barbarian
 - [X] 2010 the Year we Made Contact
 - [X] Terminator 2 Judgment Day
-- [X] Star Trek 
+- [X] Star Trek
 - [X] The Matrix
 - [X] LOTR The Fellowship of the Ring
 - [X] LOTR Two Towers
@@ -105,4 +104,4 @@ Ire actualizando el checklist cuando vea las películas o lo más probable es qu
 
 Ah y case se me olvidaba, compren [Ready Player One](https://www.amazon.com.mx/Ready-Player-One-Ernest-Cline/dp/0307887448/ref=sr_1_2?ie=UTF8&qid=1467300601&sr=8-2&keywords=Ready+Player+One) y [Armada](https://www.amazon.com.mx/Armada-Ernest-Cline/dp/0804137250/ref=sr_1_1?ie=UTF8&qid=1467300633&sr=8-1&keywords=Armada) de Ernest Cline, no se van a arrepentir.
 
-[BTW están haciendo una película de Ready Player One.](http://www.imdb.com/title/tt1677720/) 
+[BTW están haciendo una película de Ready Player One.](http://www.imdb.com/title/tt1677720/)
