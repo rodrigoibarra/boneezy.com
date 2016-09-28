@@ -8,12 +8,12 @@
 @import "previously";
 
 html{
-  background: #007889;
+  background: $accent;
 }
 
 body {
-  background:$fondo;
-  border: 20px solid #007889;
+  background:$accent;
+  border: 20px solid $black;
 }
 
 
@@ -35,4 +35,10 @@ body {
 .site-footer{
   padding: 0 10%;
   height:70px;
+  font-size:18px;
+  color:$black;
+
+    a{
+      color:$black;
+    }
 }

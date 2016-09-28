@@ -1,5 +1,5 @@
 body{
-  font-size: 21px;
+  font-size: 28px;
   line-height:$mu;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -8,7 +8,6 @@ body{
   font-feature-settings: "kern" 1;
   font-kerning: normal;
   @include body-type (normal, 300);
-  color: $black;
 
   @media (max-width: 650px) {
     font-size: 16px;
@@ -36,20 +35,20 @@ figcaption {
 
 p{
   font-size:1.00em;
-  color:$black;
+  color: $white;
   line-height: $mu;
 }
 
 p:first-child {
-  font-size:1.180em;
-  color:$black;
+  font-size:1.580em;
+  color: $white;
   line-height: $mu;
 }
 
 a{
   color:$secondary;
   @include body-type (normal, 700);
-  color: $black;
+  color: $white;
 }
 ul, ol {
     margin-left: $hu;
@@ -96,7 +95,8 @@ h2, h4{
 
 p.footer-text{
   text-align:right;
-  color: $gray;
+  font-size: 0.330em;
+  color: $black;
   font-size:$hu;
   padding:$hu;
 }

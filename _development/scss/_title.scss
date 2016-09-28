@@ -1,9 +1,15 @@
+.title-flex{
+  display: flex;
+  align-items:flex-end;
+  height: 100%;
+}
 .title{
-  width:50%;
-  margin:200px auto;
+  width:80%;
+  margin:150px auto 30px auto;
   display:flex;
   justify-content:center;
   flex-wrap:wrap;
+  font-size: 28px;
 }
 .main, .tag, .nav{
     width:100%;
@@ -15,53 +21,56 @@
 
 h1{
   font-family: "bungee",sans-serif;
-  line-height:30px;
+  line-height:1.429em;
   font-style: normal;
   font-weight: 800;
-  color:#F3F1DA;
-  text-shadow: 5px 0 black;
+  color:$secondary;
+  text-shadow: 0.238em 0 $black;
 }
 
 .word1{
-  font-size:22px;
+  font-size:1.048em;
   display:block;
   position:relative;
-  right:46px;
+  right:2.190em;
 
 }
 .word2{
-  font-size:48px;
+  font-size:2.286em;
   display:block;
 }
 .word3{
-  font-size:20px;
+  font-size:0.952em;
   display:block;
 }
 
 h2{
- font-size:26px;
+ font-size:1.238em;
  width:100%;
- padding:15px 0;
+ padding:0.714em 0;
  letter-spacing: auto;
 }
 .issue{
   font-family: "uppercut-angle",sans serif;
   font-style: normal;
   font-weight: 400;
-  font-size:18px;
-  color:#F3F1DA;
+  font-size:1.457em;
+  color:$accent;
   position:relative;
-  bottom:40px;
-  left:50px;
+  bottom:1.905em;
+  left:2.381em;
   transform:rotate(-5deg);
+  text-shadow: 0.238em 0 $black;
   span{
-    font-size:12px;
+    font-size:0.571em;
+    color:$secondary;
+    text-shadow: 0.238em 0 $black;
   }
 }
 
 section{
   margin:0 auto;
-  color:#F3F1DA;
-  font-size:16px;
-  line-height:18px;
+  color:$white;
+  font-size:0.762em;
+  line-height:0.857em;
 }

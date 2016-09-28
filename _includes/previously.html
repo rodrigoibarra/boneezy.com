@@ -1,10 +1,10 @@
 <section class="previously">
   <div class="wrap">
     <h2 class="previous-h2">Previously...</h2>
-     {% for post in site.posts offset: 1 limit: 3  %}
          <ul>
-           <a href="{{ post.url }}"><li class="previous-issue"><span>No.{{ post.number }}</span> {{ post.title }}</li></a>
-         </ul>
-        {% endfor %}
+           {% for post in site.posts offset: 1 limit: 3  %}
+            <a href="{{ post.url }}"><li class="previous-issue"><span>No.{{ post.number }}</span> {{ post.title }}</li></a>
+          {% endfor %}
+        </ul>
   </div>
 </section>
