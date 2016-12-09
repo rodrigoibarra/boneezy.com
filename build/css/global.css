@@ -796,12 +796,12 @@ nav a {
 
 /* line 10, ../../_development/scss/global.scss */
 html {
-  background: #FFD700;
+  background: #B9E9D7;
 }
 
 /* line 14, ../../_development/scss/global.scss */
 body {
-  background: #FFD700;
+  background: #B9E9D7;
   border: 20px solid #1A1A27;
 }
 
@@ -809,10 +809,10 @@ body {
 .mast {
   width: 100%;
   text-align: center;
-  background: url(/build/images/boceto.jpg);
+  background: url(/build/images/boceto.png);
   background-attachment: local;
   background-size: cover;
-  height: 150vh;
+  height: 180vh;
 }
 
 /* line 9, ../../_development/scss/_header.scss */
