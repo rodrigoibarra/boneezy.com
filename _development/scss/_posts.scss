@@ -1,7 +1,12 @@
 .post_section{
   background: black;
 }
+.post-single{
+  p{
+      color: $black;
+  }
 
+}
 .post-title{
     border: 3px solid $primary;
     width:60%;
@@ -32,6 +37,9 @@
 
 .archive-list{
   list-style:none;
+  li{
+  color:$black;
+  }
 }
 
 blockquote{

@@ -1,10 +1,33 @@
+
 .mast{
   width:100%;
   text-align:center;
-  background: url(/build/images/boceto.png);
+  background: url(/build/images/BG-Blog.png);
   background-attachment: local;
   background-size: cover;
   height: 180vh;
+}
+@media (max-width: 980px) {
+  .mast{
+    width:90%;
+    margin:0 auto;
+    text-align:center;
+    background: url(/build/images/BG-Blog-M.png);
+    background-attachment: local;
+    background-size: cover;
+    height: 100vh;
+  }
+}
+@media (max-width: 600px) {
+  .mast{
+    width:90%;
+    margin:0 auto;
+    text-align:center;
+    background: url(/build/images/BG-Blog-S.png);
+    background-attachment: local;
+    background-size: cover;
+    height: 80vh;
+  }
 }
 .logo{
   width:10%;

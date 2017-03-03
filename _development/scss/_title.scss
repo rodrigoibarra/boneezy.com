@@ -24,7 +24,7 @@ h1{
   line-height:1.429em;
   font-style: normal;
   font-weight: 800;
-  color:$secondary;
+  color:$primary;
   text-shadow: 0.238em 0 $black;
 }
 
@@ -63,7 +63,7 @@ h2{
   text-shadow: 0.238em 0 $black;
   span{
     font-size:0.571em;
-    color:$secondary;
+    color:$primary;
     text-shadow: 0.238em 0 $black;
   }
 }
@@ -73,4 +73,15 @@ section{
   color:$white;
   font-size:0.762em;
   line-height:0.857em;
+}
+
+@media (max-width: 980px) {
+  .title{
+    font-size: 18px;
+  }
+}
+@media (max-width: 600px) {
+  .title{
+    font-size: 12px;
+  }
 }
