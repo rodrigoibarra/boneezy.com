@@ -16,27 +16,13 @@ $du:3.000em;
 .cf { zoom:1; } /* For IE 6/7 (trigger hasLayout) */
 
 
-@mixin Oswald-sans ($style, $weight) {
-  font-family:'Oswald', sans-serif;
-  font-style: $style;
-  font-weight: $weight;
-}
-
-@mixin body-type ($style, $weight){
-font-family: "museo-slab",serif;
-font-style: $style;
-font-weight: $weight;
-
-}
 @mixin bungee {
-  font-family: "bungee",sans-serif;
+  font-family: 'Bungee', sans-serif;
   font-style: normal;
   font-weight: 400;
 }
-
-
-@mixin Quattro-serif ($style, $weight){
-  font-family: 'Quattrocento', serif;
-  font-style: $style;
-  font-weight: $weight;
+@mixin bungee-thin {
+  font-family: 'Bungee Hairline', sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }

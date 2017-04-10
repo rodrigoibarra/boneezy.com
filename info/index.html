@@ -1,7 +1,17 @@
 ---
-layout: page
-title: "About Me"
+layout: default
 ---
 <div class="bio">
-  {% include bio.html %}
+  <h3>{{ site.name }}</h3>
+  	<img src="{{ site.url }}/build/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }} bio photo"></a>
+
+  <p>{{ site.owner.bio }}</p>
+  <h3>Colofon</h3>
+  <p>Sitio hecho a manita y en casa, hosteado en <a href="https://www.digitalocean.com/">Digital Ocean</a>, las tipos usadas son Oswald y Quattrocento servidas por <a href="https://www.google.com/fonts">Google Fonts</a>. </p>
+  <p>El sitio esta construido en <a href="http://jekyllrb.com/">Jekyll</a> y <a href="http://sass-lang.com/">Sass</a>, compilado todo por <a href="http://gruntjs.com/">Grunt</a> escrito en <a href="https://atom.io/">Atom</a> y <a href="https://ia.net/writer/mac/">iA Writer</a> </p>
+  {% if site.owner.twitter %}<a href="http://twitter.com/{{ site.owner.twitter }}" class="author-social" target="_blank"><i class="icon-twitter"></i> Twitter</a>{% endif %}
+  {% if site.owner.facebook %}<a href="http://facebook.com/{{ site.owner.facebook }}" class="author-social" target="_blank"><i class="icon-facebook"></i> Facebook</a>{% endif %}
+  {% if site.owner.google_plus %}<a href="http://plus.google.com/+{{ site.owner.google_plus }}" class="author-social" target="_blank"><i class="icon-google-plus"></i> Google+</a>{% endif %}
+  {% if site.owner.instagram %}<a href="http://instagram.com/{{ site.owner.instagram }}" class="author-social" target="_blank"><i class="icon-instagram"></i> Instagram</a>{% endif %}
+  {% if site.owner.github %}<a href="http://github.com/{{ site.owner.github }}" class="author-social" target="_blank"><i class="icon-github"></i> Github</a>{% endif %}
 </div>

@@ -7,7 +7,7 @@ layout: default
     <ul class="archive-list">
       {% for post in site.posts %}
         <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
+          <a href="{{ post.url }}">No.{{ post.number }} - {{ post.title }}</a>
         </li>
       {% endfor %}
     </ul>
