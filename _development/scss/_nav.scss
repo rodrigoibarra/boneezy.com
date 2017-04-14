@@ -3,10 +3,13 @@ nav{
   width: 100%;
   display:flex;
   justify-content:space-around;
+  flex-wrap: wrap;
 
 }
 nav a{
   @include bungee-thin;
   color:$black;
   font-size: 1.9em;
+  padding:10px;
+
 }
