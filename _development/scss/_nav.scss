@@ -1,8 +1,12 @@
 nav{
   font-size:18px;
+  width: 100%;
   display:flex;
   justify-content:space-around;
+
 }
 nav a{
-    color:$black;
+  @include bungee-thin;
+  color:$black;
+  font-size: 1.9em;
 }

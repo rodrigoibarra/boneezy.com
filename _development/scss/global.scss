@@ -2,25 +2,23 @@
 @import "reset";
 @import "bits";
 
-@import "type";
-@import "title";
 @import "nav";
 @import "previously";
-
-html{
-  background: $secondary;
-}
+@import "home";
+@import "archivo";
+@import "type";
+@import "photos";
 
 body {
   background:$white;
-  border: 20px solid $black;
+  border: 20px solid $white;
+  border-top: 0;
+  font-family: 'Roboto Slab', serif;
 }
 
 
-@import "header";
-
 .wrap{
-  max-width:45.500em; //600px wide ish
+  max-width:30.500em; //600px wide ish
   margin:0 auto;
   padding:$mu;
   @media (max-width: 650px) {
@@ -30,7 +28,9 @@ body {
 }
 @import "bio";
 
-@import "posts";
+a{
+  color:$secondary;
+}
 
 .site-footer{
   padding: 0 10%;

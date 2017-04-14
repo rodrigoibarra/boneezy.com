@@ -7,7 +7,6 @@ body{
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
-  @include body-type (normal, 300);
 
   @media (max-width: 650px) {
     font-size: 16px;
@@ -15,47 +14,38 @@ body{
 
 }
 
+h1, h2, h3, h4{
+    font-family: "bungee",sans-serif;
+    color:$black;
+}
+
 img {
     max-width: 100%;
     vertical-align: middle;
 }
 
-/**
- * Figures
- */
-
-figure > img {
-    display: block;
-}
-
-figcaption {
-    font-size: $hu;
-}
-
 
 p{
   font-size:1.00em;
-  color: $white;
+  color: $black;
   line-height: $mu;
 }
 
 p:first-child {
   font-size:1.580em;
-  color: $white;
   line-height: $mu;
 }
 
 a{
   color:$secondary;
-  @include body-type (normal, 700);
   color: $white;
 }
+
 ul, ol {
     margin-left: $hu;
 }
 
 li{
-  @include Quattro-serif (normal, 400);
   font-size:1.00em;
   line-height: $mu;
   list-style: none;
@@ -66,32 +56,11 @@ li{
 }
 
 ol > li{
-  @include Quattro-serif (normal, 400);
   font-size:1.00em;
   line-height: $mu;
   list-style: decimal;
 
 }
-
-i{
-  @include Quattro-serif (italic, 400);
-}
-
-b{
-  @include Quattro-serif (normal, 800);
-}
-
-h1, h3{
-  @include Oswald-sans (normal, 800);
-  color: $primary;
-}
-
-
-h2, h4{
-  @include Oswald-sans (normal, 800);
-  color: $primary;
-}
-
 
 p.footer-text{
   text-align:right;
@@ -102,7 +71,6 @@ p.footer-text{
 }
 
 small{
-    @include Quattro-serif (italic, 400);
     font-size: $hu;
 }
 
