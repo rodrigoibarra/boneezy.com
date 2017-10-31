@@ -1,12 +1,7 @@
-.post_section{
-  background: black;
+.archive-list{
+  list-style:none;
 }
-.post-single{
-  p{
-      color: $black;
-  }
 
-}
 .post-title{
     border: 3px solid $primary;
     width:60%;
@@ -26,21 +21,11 @@
   padding:0 $mu;
 }
 
-.page-navigation{
-  display:inline-block;
-  width:20%;
-}
 
 .firma{
   color:$primary;
 }
 
-.archive-list{
-  list-style:none;
-  li{
-  color:$black;
-  }
-}
 
 blockquote{
   font-size:$mu;

@@ -1,5 +1,5 @@
 body{
-  font-size: 28px;
+  font-size: 22px;
   line-height:$mu;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -16,7 +16,7 @@ body{
 
 h1, h2, h3, h4{
     font-family: "bungee",sans-serif;
-    color:$black;
+    color:$secondary;
 }
 
 img {
@@ -27,18 +27,17 @@ img {
 
 p{
   font-size:1.00em;
-  color: $black;
+  color: $white;
   line-height: $mu;
 }
 
-p:first-child {
-  font-size:1.580em;
+p:first-of-type {
+  font-size:1.20em;
   line-height: $mu;
 }
 
 a{
   color:$secondary;
-  color: $white;
 }
 
 ul, ol {

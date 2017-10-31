@@ -486,56 +486,39 @@ th {
 /* For IE 6/7 (trigger hasLayout) */
 /* line 1, ../../_development/scss/_nav.scss */
 nav {
-  font-size: 18px;
+  font-size: 12px;
   width: 100%;
+  margin-bottom: 1.9em;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  background: #F3F1DA;
 }
 
-/* line 9, ../../_development/scss/_nav.scss */
+/* line 13, ../../_development/scss/_nav.scss */
 nav a {
   font-family: 'Bungee Hairline', sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #1A1A27;
   font-size: 1.9em;
-  padding: 10px;
-}
-
-/* line 1, ../../_development/scss/_previously.scss */
-.previously {
-  width: 100%;
-  border-top: 1px solid #6EE5E4;
-}
-/* line 4, ../../_development/scss/_previously.scss */
-.previously li {
-  color: #1A1A27;
   padding: 5px;
 }
 
-/* line 9, ../../_development/scss/_previously.scss */
-.previous-h2 {
-  font-family: "uppercut-angle",sans serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2.500em;
-  margin: 0;
-  padding: 0;
-  color: #1A1A27;
-  letter-spacing: 5px;
-}
-
-/* line 2, ../../_development/scss/_home.scss */
+/* line 1, ../../_development/scss/_home.scss */
 .mast {
   width: 100%;
   text-align: center;
+  background-image: url(/build/images/ilustraciontankgear.png);
+  background-position: center;
   background-attachment: local;
   background-size: cover;
-  height: 100vh;
+  height: 200vh;
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 
@@ -544,16 +527,15 @@ nav a {
   font-family: 'Bungee', sans-serif;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.29em;
   font-style: normal;
   font-weight: 800;
-  color: rgba(26, 26, 39, 0.8);
+  line-height: 1.2;
+  margin-top: 20vh;
+  color: rgba(24, 153, 205, 0.8);
 }
 
-/* line 22, ../../_development/scss/_home.scss */
+/* line 23, ../../_development/scss/_home.scss */
 .issue {
-  background-color: rgba(26, 26, 39, 0.5);
-  border-radius: 8px;
   width: auto;
   padding: 0.75em;
   font-family: 'Bungee Hairline', sans-serif;
@@ -563,14 +545,9 @@ nav a {
   color: #F3F1DA;
 }
 
-/* line 1, ../../_development/scss/_archivo.scss */
-.archive-list {
-  list-style: none;
-}
-
 /* line 1, ../../_development/scss/_type.scss */
 body {
-  font-size: 28px;
+  font-size: 22px;
   line-height: 1.5em;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -589,7 +566,7 @@ body {
 /* line 17, ../../_development/scss/_type.scss */
 h1, h2, h3, h4 {
   font-family: "bungee",sans-serif;
-  color: #1A1A27;
+  color: #1899cd;
 }
 
 /* line 22, ../../_development/scss/_type.scss */
@@ -601,46 +578,45 @@ img {
 /* line 28, ../../_development/scss/_type.scss */
 p {
   font-size: 1.00em;
-  color: #1A1A27;
+  color: #F3F1DA;
   line-height: 1.5em;
 }
 
 /* line 34, ../../_development/scss/_type.scss */
-p:first-child {
-  font-size: 1.580em;
+p:first-of-type {
+  font-size: 1.20em;
   line-height: 1.5em;
 }
 
 /* line 39, ../../_development/scss/_type.scss */
 a {
   color: #1899cd;
-  color: #F3F1DA;
 }
 
-/* line 44, ../../_development/scss/_type.scss */
+/* line 43, ../../_development/scss/_type.scss */
 ul, ol {
   margin-left: 0.75em;
 }
 
-/* line 48, ../../_development/scss/_type.scss */
+/* line 47, ../../_development/scss/_type.scss */
 li {
   font-size: 1.00em;
   line-height: 1.5em;
   list-style: none;
 }
-/* line 52, ../../_development/scss/_type.scss */
+/* line 51, ../../_development/scss/_type.scss */
 li > ul {
   margin-bottom: 0;
 }
 
-/* line 58, ../../_development/scss/_type.scss */
+/* line 57, ../../_development/scss/_type.scss */
 ol > li {
   font-size: 1.00em;
   line-height: 1.5em;
   list-style: decimal;
 }
 
-/* line 65, ../../_development/scss/_type.scss */
+/* line 64, ../../_development/scss/_type.scss */
 p.footer-text {
   text-align: right;
   font-size: 0.330em;
@@ -649,12 +625,12 @@ p.footer-text {
   padding: 0.75em;
 }
 
-/* line 73, ../../_development/scss/_type.scss */
+/* line 72, ../../_development/scss/_type.scss */
 small {
   font-size: 0.75em;
 }
 
-/* line 77, ../../_development/scss/_type.scss */
+/* line 76, ../../_development/scss/_type.scss */
 pre,
 code {
   font-size: 0.90em;
@@ -665,24 +641,24 @@ code {
   width: 90%;
 }
 
-/* line 87, ../../_development/scss/_type.scss */
+/* line 86, ../../_development/scss/_type.scss */
 code {
   padding: 1px 5px;
 }
 
-/* line 91, ../../_development/scss/_type.scss */
+/* line 90, ../../_development/scss/_type.scss */
 pre {
   padding: 8px 0.75em;
   white-space: pre;
 }
-/* line 94, ../../_development/scss/_type.scss */
+/* line 93, ../../_development/scss/_type.scss */
 pre > code {
   border: 0;
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 101, ../../_development/scss/_type.scss */
+/* line 100, ../../_development/scss/_type.scss */
 blockquote {
   color: #1A1A27;
   border-left: 4px solid #007889;
@@ -691,7 +667,7 @@ blockquote {
   letter-spacing: -1px;
   font-style: italic;
 }
-/* line 109, ../../_development/scss/_type.scss */
+/* line 108, ../../_development/scss/_type.scss */
 blockquote > :last-child {
   margin-bottom: 0;
 }
@@ -699,7 +675,7 @@ blockquote > :last-child {
 /* line 1, ../../_development/scss/_photos.scss */
 .gallery {
   width: 90%;
-  margin: 0 auto;
+  margin: 1.2em auto;
 }
 
 /* line 6, ../../_development/scss/_photos.scss */
@@ -714,22 +690,21 @@ blockquote > :last-child {
   padding: 15px;
 }
 
-/* line 12, ../../_development/scss/global.scss */
+/* line 10, ../../_development/scss/global.scss */
 body {
-  background: #F3F1DA;
   border: 20px solid #F3F1DA;
-  border-top: 0;
+  background-color: #1A1A27;
   font-family: 'Roboto Slab', serif;
 }
 
-/* line 20, ../../_development/scss/global.scss */
+/* line 16, ../../_development/scss/global.scss */
 .wrap {
   max-width: 30.500em;
   margin: 0 auto;
   padding: 1.5em;
 }
 @media (max-width: 650px) {
-  /* line 20, ../../_development/scss/global.scss */
+  /* line 16, ../../_development/scss/global.scss */
   .wrap {
     width: 100%;
     padding: 1.5em;
@@ -741,24 +716,30 @@ body {
   width: 30%;
   border-radius: 50%;
 }
-/* line 6, ../../_development/scss/_bio.scss */
-.bio a {
-  color: #6EE5E4;
-}
 
-/* line 31, ../../_development/scss/global.scss */
+/* line 27, ../../_development/scss/global.scss */
 a {
   color: #1899cd;
 }
 
-/* line 35, ../../_development/scss/global.scss */
+/* line 31, ../../_development/scss/global.scss */
 .site-footer {
   padding: 0 10%;
   height: 70px;
   font-size: 18px;
-  color: #1A1A27;
+  overflow-x: visible;
 }
-/* line 41, ../../_development/scss/global.scss */
+/* line 37, ../../_development/scss/global.scss */
+.site-footer p {
+  color: #1899cd;
+  padding-right: 10%;
+  height: 100%;
+  background-image: url(/build/images/robot.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+}
+/* line 46, ../../_development/scss/global.scss */
 .site-footer a {
-  color: #1A1A27;
+  color: #6EE5E4;
 }
