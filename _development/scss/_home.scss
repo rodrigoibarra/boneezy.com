@@ -1,27 +1,26 @@
-
 .mast{
   width:100%;
   text-align:center;
+  background-image: url(/build/images/ilustraciontankgear.png);
+  background-position: center;
   background-attachment: local;
   background-size: cover;
-  height: 100vh;
+  height: 200vh;
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-
 }
 
 .lettering{
     @include bungee;
-    line-height:1.29em;
     font-style: normal;
     font-weight: 800;
-    color:rgba($black, .8);
+    line-height: 1.2;
+    margin-top: 20vh;
+    color:rgba($secondary, .8);
 }
 .issue{
-  background-color: rgba($black, .5);
-  border-radius: 8px;
   width: auto;
   padding: $hu;
   @include bungee-thin;
