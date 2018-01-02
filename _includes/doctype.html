@@ -2,11 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FFD700">
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="shortcut icon" href="{{ site.url }}/build/images/favicon.ico" />
-  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <link rel="stylesheet" href="{{ site.url }}/build/css/global.css" type="text/css" media="screen">
 <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Hairline|Roboto+Slab" rel="stylesheet">
+
+  <style media="screen">
+  .wrap {
+    max-width: 72ch;
+    margin: 0 auto;
+    padding: 1.50em;
+  }
+  p {
+    font-size: 1em;
+    line-height: 1.4em;
+  }
+
+  /* line 33, ../../_development/scss/_type.scss */
+  p:first-of-type {
+    font-size: 1.20em;
+    line-height: 1.4em;
+  }
+  p.footer-text {
+    text-align: right;
+    font-size: 0.330em;
+    font-size: .50em;
+    padding: .50em;
+  }
+  </style>
+
 </head>
 <body>

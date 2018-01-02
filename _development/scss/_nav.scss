@@ -1,11 +1,11 @@
 nav{
-  font-size:12px;
   width: 100%;
-  margin-bottom: 1.9em;
+  margin-bottom: 1.5em;
   display:flex;
   justify-content:space-around;
   flex-wrap: wrap;
   position: fixed;
+  
   top:0;
   background: $white;
 }
@@ -14,6 +14,5 @@ nav a{
   @include bungee-thin;
   color:$black;
   font-size: 1.9em;
-  padding:5px;
-
+  padding:.50em;
 }

@@ -7,10 +7,6 @@ $black:#1A1A27;
 $gray:#007889;
 $clear:rgba(213, 219, 233, 1.0);
 
-$mu:1.500em;
-$hu:0.750em;
-$du:3.000em;
-
 .cf:before, .cf:after { content:""; display:table; }
 .cf:after { clear:both; }
 .cf { zoom:1; } /* For IE 6/7 (trigger hasLayout) */

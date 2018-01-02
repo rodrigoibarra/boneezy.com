@@ -3,6 +3,7 @@ module.exports = {
     options: {              // Target options
       sassDir: '_development/scss/',
       cssDir: 'build/css/',
+      outputStyle: 'nested',
       environment: 'development',
     }
   },
@@ -10,6 +11,7 @@ module.exports = {
     options: {              // Target options
       sassDir: '_development/scss/',
       cssDir: 'build/css/',
+      outputStyle: 'compressed',
       environment: 'production',
     }
   }
