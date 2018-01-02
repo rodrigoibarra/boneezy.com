@@ -6,19 +6,19 @@
     border: 3px solid $primary;
     width:60%;
     text-align:center;
-    margin:$mu auto;
-    padding:$hu;
+    margin:1.50em auto;
+    padding:.50em;
     color:$primary;
     @media (max-width: 650px) {
       width: 80%;
-      padding: $hu;
-      line-height: $mu;
+      padding: .50em;
+      line-height: 1.50em;
     }
 }
 
 .article-footer{
   text-align:right;
-  padding:0 $mu;
+  padding:0 1.50em;
 }
 
 
@@ -28,8 +28,8 @@
 
 
 blockquote{
-  font-size:$mu;
-  padding: 0 $hu;
+  font-size:1.50em;
+  padding: 0 .50em;
   @include Quattro-serif (italic, 400);
 
 }

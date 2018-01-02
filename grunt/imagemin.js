@@ -1,10 +1,13 @@
 module.exports = {
   imagemin: {
-          files: [{
-              expand: true,
-              cwd: '_dev/images/',
-              src: ['**/*.{png,jpg,gif}'],
-              dest: 'build/images/'
-          }]
+        options: {
+          optimizationLevel: 7
+        },
+        files: [{
+           expand: true,
+           cwd: '_development/images/',
+           src: ['*.{png,jpg}'],
+           dest: 'build/images/'
+        }]
       }
   }

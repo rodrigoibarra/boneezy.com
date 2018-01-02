@@ -1,22 +1,47 @@
 @import "bits";
 
-body{
-  background: black;
+nav{
+  width: 100%;
+  margin-bottom: 1.5em;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  position: fixed;
+  top:0;
 }
-@import "glitch";
 
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+nav a{
+  @include bungee-thin;
+  color:white;
+  font-size: 1em;
+  padding:.50em;
 }
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+body{
+  width:100%;
+  text-align:center;
+  background-image: url(/build/images/404.jpg);
+  background-position: top;
+  background-attachment: local;
+  background-size: cover;
 }
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+.err{
+  display: flex;
+  height:10em;
+  padding-top: 5em;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+
+}
+.err h1{
+  width: 100%;
+  font-size: 12em;
+  margin: 0;
+  font-family: 'Righteous', cursive;
+}
+
+.err p{
+  font-family: 'Libre Baskerville', serif;
 }
