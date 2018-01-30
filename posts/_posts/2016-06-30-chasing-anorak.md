@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Chasing Anorak"
-number: "9"
+number: "IX"
 ---
 El año pasado me embarqué en la misión de expandir mi nivel geek y compre un gran numero de libros... ¿El tema? Hacker-Fiction, descubrí todo un universo nuevo de ficción y esa búsqueda, me puso en el camino de Anorak y su almanaque... Desde entonces, estoy persiguiendo todas las películas mencionadas en el libro que se encuentran en el almanaque de James Halliday.
 

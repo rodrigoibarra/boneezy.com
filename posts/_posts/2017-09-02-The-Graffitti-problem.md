@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Graffiti Problem
-number: "12"
+number: "XII"
 ---
 
 Today I was checking out an old reading list and ran across Jason Santa Maria's [Pastry](https://the-pastry-box-project.net/jason-santa-maria/2014-january-15)  ( it's rally good you should totally read it ) it's based around a question asked in 2007.

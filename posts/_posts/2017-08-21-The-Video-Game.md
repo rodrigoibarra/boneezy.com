@@ -1,9 +1,9 @@
 ---
 layout: post
 title: The Video Game
-number: "11"
+number: "XII"
 ---
-This is an old old post I dug out, it shows how hard I was trying to cope with my own impostor syndrome, It's weird going back on it and read it but here it is. 
+This is an old old post I dug out, it shows how hard I was trying to cope with my own impostor syndrome, It's weird going back on it and read it but here it is.
 
 Ever since we start school we hold ourselves as all high and mighty, we pose ourselves with the self-esteem of a rockstar, the designer by nature is pretentious and all knowing, we stand on a thin line between gods and artist, we can do it all and rule the world, and live under the impression that we the problem-solvers for every single potential client, in fact we all know a couple of “rockstar” designers, you know them or at least heard of them, that designer who’s living the life, doing the work for the big brands changing the world one illustration at the time. And we all look up to them, we attend to their conferences and sit through hours of them talking about their work, we are there watching them on Facebook and Behance and dribble and twitter and even their Instagram feeds, we consume their design as much as we consume coke or cigarettes and there’s nothing wrong with that right? it’s all in the interest of building our design baggage, of filling our minds with images and recalling them for future work right?.
 
