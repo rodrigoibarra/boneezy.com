@@ -5,4 +5,4 @@ link: "https://goo.gl/photos/YQGuJBBhWBCyDB9w9"
 pc: /build/images/vive-latino-pc.png
 ---
 
-Durante años he ido al Vive Latino, aunque la mayoría de las fotos estan en Instagram y en FB, creo que merecen su propio album.
+Every year I attend Vive Latino, a music festival in CDMX, most of this photos come from my Instagram album and Facebook but they deserve to be in their own collection. 

@@ -1,12 +1,14 @@
 ---
-layout: photo
+layout: default
 ---
 
-    <h1 class="title">Fotos</h1>
-      <div class="grid">
+  <section class="photo__wrap">
+    <h1 class="section__title">Photos</h1>
+      <div class="photo__grid">
         {% for post in site.categories.photos %}
-            <a href="{{ post.url }}">
+            <a class="photo__grid-item" href="{{ post.url }}">
               <img src="{{ post.pc }}" alt="{{ post.title }}">
             </a>
         {% endfor %}
       </div>
+  </section>
