@@ -5,4 +5,6 @@ link: "https://goo.gl/photos/3MZ1SZ83SGpvuYqY8"
 pc: /build/images/generate-con.png
 ---
 
-En este viaje regrese a NY, conoci a mi heroe Mike Monteiro, fui a la UFC y patine de Jersey a Long Island... 
+I went back to NYC for Generate Conference, the talks were great, got a chance to meet Mike Monteiro, Chris Coyier and Dave Rupert...
+
+I got a signed copy of "You are my favorite Client" by Mike and made some Danish friends. Overall a great trip.

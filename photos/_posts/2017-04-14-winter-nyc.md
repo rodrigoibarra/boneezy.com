@@ -5,4 +5,4 @@ link: "https://goo.gl/photos/S8YKH5JDeTtpgG838"
 pc: /build/images/nyc-win.png
 ---
 
-Pasamos unos días de Febrero en NY con Joao, me enamore de la nieve y de NY en general...
+This was my firs trip to NYC it was cold and snowy, met up with Joao and we kicked it wildly around town. 
