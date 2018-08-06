@@ -4,7 +4,7 @@ title: The Graffiti Problem
 number: "12"
 ---
 
-Today I was checking out an old reading list and ran across Jason Santa Maria's [Pastry](https://the-pastry-box-project.net/jason-santa-maria/2014-january-15)  ( it's rally good you should totally read it ) it's based around a question asked in 2007.
+Today I was checking out an old reading list and ran across Jason Santa Maria's [Pastry](https://the-pastry-box-project.net/jason-santa-maria/2014-january-15)  ( it's really good you should totally read it ) it's based around a question asked in 2007.
 
 *Back in 2007, Speak Up—the web’s town hall for graphic design—asked where were the landmark achievements in web design. Where were web’s design equivalents to Milton Glaser’s Dylan poster, Paula Scher’s Public Theater work, or Massimo Vignelli’s New York subway map?*
 

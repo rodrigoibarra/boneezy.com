@@ -1,18 +1,27 @@
 ---
 layout: home
 ---
-
-    {% for post in site.categories.posts limit:1 %}
-    <section class="post__section">
-      <article class="wrap">
-        <h2 class="post__title">
-          <a href="{{ post.url }}" class="issue">
-            <span>Chapter {{ post.number }} </span>
-            {{ post.title }}
-          </a>
-        </h2>
-        <h3 class="post__byline">by Rodrigo Ibarra | <span>{{ post.date | date: "%-d %B %Y" }}</span></h3>
-        {{ post.content }}
+<div class="homeBio">
+  <div class="bioProfile">
+      <img src="{{ site.ur l}}/build/images/rodrigo-ibarra.jpg" alt="This is a pic of me in front of a burrito place">
+  </div>
+  <div class="bioText">
+      <p>Mexican, front-end developer and head of Devops @ <a href="http://prepaenlinea.sep.gob.mx">Prepa en Línea</a>, longboard rider, lord of the Asphalt Belly Flop </p>
+  </div>
+</div>
+  <div class="posts">
+    <ul class="postList">
+        {% for post in site.categories.posts limit:6 %}
+        <li class="postList_item">
+            <a href="{{ post.url }}" class="issue">
+                <h2 class="postTitle">
+                  <span class="postChapter">Chapter</span>
+                  <span class="postChapter_number">{{ post.number }}</span>
+                  {{ post.title }}
+                </h2>
+              </a>  
+        </li>
         {% endfor %}
-      </article>
-    </section>
+    </ul>
+  </div>
+

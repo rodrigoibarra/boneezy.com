@@ -1,0 +1,171 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+$black: rgba(39, 39, 39, 1);
+$blue: rgba(0, 176, 160, 1);
+$clear: rgba(237, 248, 246, 1);
+$red: rgba(204, 90, 113, 1);
+$purple: rgba(103, 89, 122, 1);
+$unit:18px;
+
+
+@mixin sans {
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+}
+
+@mixin serif {
+  font-family: 'Lora', Georgia, 'Times New Roman', serif;
+}
+
+
+
+body{
+  margin:0;
+  border: $unit  $black solid;
+  color:$black;
+  font-size: $unit;
+  @include serif;
+}
+
+.site_nav{
+  font-size: $unit;
+  @include sans;
+  display: block;
+  text-align: right;
+
+  a{
+    text-decoration: none;
+    color:$purple;
+    padding-right: $unit / 2;
+  }
+  
+}
+
+.siteTitle{
+  font-size: $unit * 4;
+  @include sans;
+  padding: $unit * 2 $unit * 2;
+  span{
+    display: block;
+    font-size: $unit * 1;
+  }
+}
+
+.bigTitle{
+  font-size: $unit * 4;
+  @include sans;
+}
+
+.homeBio{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:$blue;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.bioProfile{
+  width: 51%;
+  height: auto;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.bioText{
+  width: 49%;
+  display: flex;
+  align-items: center;
+  p{
+    width: 80%;
+    margin: 0 auto;
+    color:$clear;
+  }
+  a{
+    color: $purple;
+    text-decoration: none;
+  }
+}
+
+.postList{
+  margin:0;
+  padding:$unit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.postList_item{
+  list-style: none;
+  background-color: $black;
+  padding: $unit * .5;
+  margin-top: $unit;
+  width:49%;
+
+  a{
+    text-decoration: none;
+    display: block;
+  }
+}
+
+.postTitle{
+  font-size: $unit * 2;
+  color:$blue;
+  @include sans;
+}
+
+.postChapter{
+  color:$clear;
+  display:inline-block;
+  transform: rotate(-90deg);
+  position: relative;
+  font-size:$unit;
+  left:$unit * 1.6;
+  bottom: $unit * 1.6;
+  margin:0;
+  padding:0;
+}
+.postChapter_number{
+  color:$clear;
+  display:inline-block;
+  font-size: $unit * 6;
+  margin:0;
+  padding:0;
+}
+
+.postByline{
+    font-size:  $unit;
+    display: block;
+    color:$black;
+}
+
+
+p{
+  font-size: $unit;
+  margin: 0 auto;
+  margin-top: $unit ;
+  width: 75ch;
+}
+
+p{
+  font-size: $unit;
+  margin: 0 auto;
+  margin-top: $unit ;
+  width: 75ch;
+}
+
+p:first-of-type {
+  line-height: 1.4em;
+}
+
+article{
+  padding: $unit *2;
+}
+

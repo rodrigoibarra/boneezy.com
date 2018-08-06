@@ -1,24 +1,20 @@
 {% include doctype.html %}
-<header class="site__mast">
-  <h1 class="lettering">The Excellent Adventures</h1>
-  {% include nav.html %}
+<header class="siteMast">
+    {% include nav.html %}
 </header>
-  <div class="wrap">
       <section class="post__single">
-        <article class="wrap">
-          <h2 class="post__title">
-            <a href="{{ post.url }}" class="issue">
-              <span>Chapter {{ page.number }} </span>
-              {{ page.title }}
-            </a>
-          </h2>
-          <h3 class="post__byline">by Rodrigo Ibarra | <span>{{ page.date | date: "%-d %B %Y" }}</span></h3>
-      <article>
+        <article>
+          <h1 class="bigTitle">
+            <span class="postByline">Chapter {{ page.number }} | {{ page.date | date: '%B %d, %Y' }}</span>
+                {{ page.title }}
+          </h1>
             {{content}}
-
       </article>
     </section>
-  </div>
+    <h1 class="siteTitle">
+        The Excellent Adventures
+        <span>A blog by Rodrigo Ibarra</span>
+      </h1>
   {% include footer.html %}
 </body>
 </html>

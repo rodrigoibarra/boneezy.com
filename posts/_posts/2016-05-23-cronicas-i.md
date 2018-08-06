@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cronicas I"
-number: "8"
+number: "08"
 tags:
  - Cronicas
 

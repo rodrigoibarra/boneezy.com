@@ -1,8 +1,13 @@
+
 {% include doctype.html %}
-<header class="site__mast">
-  <h1 class="lettering">The Excellent Adventures</h1>
-  {% include nav.html %}
+<header class="siteMast">
+    {% include nav.html %}
+  <h1 class="siteTitle">
+    The Excellent Adventures
+    <span>A blog by Rodrigo Ibarra</span>
+  </h1>
 </header>
+
   {{content}}
 {% include footer.html %}
 </body>
