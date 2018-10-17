@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<header class="site__mast">
+  <h1 class="lettering">The Excellent Adventures</h1>
+</header>
+  <div class="wrap">
+      <section class="post__single">
+        {{#post}}
+        <article class="wrap">
+          <h2 class="post__title">
+            <a href="{{ post.url }}" class="issue">
+              <span>{{ page.number }} </span>
+              {{ title }}
+            </a>
+          </h2>
+          <h3 class="post__byline">
+              by
+        {{#author}}
+            <a href="{{url}}">{{name}}</a>
+        {{/author}} |
+        <time  datetime="{{date format="YYYY-MM-DD"}}">
+            {{date format="D MMMM YYYY"}}
+        </time>
+        </h3>
+      <article>
+            {{content}}
+      </article>
+      {{/post}}
+    </section>
+  </div>
+</body>
+</html>
