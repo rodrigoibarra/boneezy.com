@@ -2,6 +2,7 @@
 title: Generate Conference 2015
 date: 2017-04-14 00:00:00 Z
 categories:
+- posts
 - photos
 layout: photos
 link: https://goo.gl/photos/3MZ1SZ83SGpvuYqY8
