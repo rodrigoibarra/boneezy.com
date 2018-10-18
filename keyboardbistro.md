@@ -1,6 +1,6 @@
 ---
+permalink: "/keyboardbistro.html"
 layout: keyboardbistro
-permalink: /keyboardbistro.html
 ---
 
 <h1><span>K</span>eyboard <span>B</span>istro</h1>

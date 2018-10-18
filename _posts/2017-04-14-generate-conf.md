@@ -1,8 +1,11 @@
 ---
-layout: photos
 title: Generate Conference 2015
-link: "https://goo.gl/photos/3MZ1SZ83SGpvuYqY8"
-pc: /build/images/generate-con.png
+date: 2017-04-14 00:00:00 Z
+categories:
+- photos
+layout: photos
+link: https://goo.gl/photos/3MZ1SZ83SGpvuYqY8
+pc: "/build/images/generate-con.png"
 ---
 
 I went back to NYC for Generate Conference, the talks were great, got a chance to meet Mike Monteiro, Chris Coyier and Dave Rupert...

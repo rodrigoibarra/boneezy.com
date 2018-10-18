@@ -1,8 +1,12 @@
 ---
+title: Chasing Anorak
+date: 2016-06-30 00:00:00 Z
+categories:
+- posts
 layout: post
-title: "Chasing Anorak"
-number: "IX"
+number: IX
 ---
+
 El año pasado me embarqué en la misión de expandir mi nivel geek y compre un gran numero de libros... ¿El tema? Hacker-Fiction, descubrí todo un universo nuevo de ficción y esa búsqueda, me puso en el camino de Anorak y su almanaque... Desde entonces, estoy persiguiendo todas las películas mencionadas en el libro que se encuentran en el almanaque de James Halliday.
 
 El universo de RPO, viene de una mente como la mía, como la nuestra en realidad, Ernest Cline es un autor que escribe para mi generación, apelando a la nostalgia, al amor por los videojuegos y la música de nuestra generación.

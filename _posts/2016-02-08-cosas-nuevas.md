@@ -1,7 +1,10 @@
 ---
-layout: post
 title: Cosas Nuevas
-number: "V"
+date: 2016-02-08 00:00:00 Z
+categories:
+- posts
+layout: post
+number: V
 ---
 
 # Pequeñas cosas nuevas

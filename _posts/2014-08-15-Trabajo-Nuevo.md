@@ -1,8 +1,12 @@
 ---
-layout: post
 title: Trabajo Nuevo
-number: "II"
+date: 2014-08-15 00:00:00 Z
+categories:
+- posts
+layout: post
+number: II
 ---
+
 Hoy fue mi primer día un trabajo nuevo... esperen, **hoy fue mi primer día en un trabajo nuevo!!!** de hecho, en este momento estoy en una *"junta en linea".* Un screencast de dos horas de como funciona la plataforma de educación de Prepa en linea, *cool shit.*
 
 Pero supongo que de la emoción de estar participando en mi primer junta, olvide hablar de el nuevo trabajo, decidí dejar el freelancing por un trabajo fijo y nunca me imagine que terminaría siendo un Godin... Peor que eso... un Godin de institución e gobierno! Desde el día de hoy formo parte de [SEMS](http://sems.gob.mx/)  en el área de Tecnología Educativa de la Prepa en Línea - SEP ( esa fue la descripción en mi correo de bienvenida, sinceramente no había necesidad de tanta [pompa y circunstancia](http://es.wikipedia.org/wiki/Pompa_y_circunstancia)). Mi trabajo principalmente sera de diseñar y realizar todo el front-end de la aplicación móvil que acompañara a la plataforma de educación en linea.

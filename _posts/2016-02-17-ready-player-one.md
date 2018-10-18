@@ -1,9 +1,12 @@
 ---
-layout: post
-title: "Ready Player One"
+title: Ready Player One
+date: 2016-02-17 00:00:00 Z
+categories:
+- posts
 tags:
- - Random
-number: "VI"
+- Random
+layout: post
+number: VI
 ---
 
 El día de ayer, la MBP que me dieron en el trabajo, empezó a fallar y hoy la revisaron los de soporte quienes restauraron el equipo, (cosa que yo hubiera podido hacer) lo cual me dejo con una oportunidad para documentar el proceso de set up de mi ambiente de desarrollo y de una Mac nueva.

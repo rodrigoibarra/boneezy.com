@@ -1,7 +1,10 @@
 ---
-layout: post
 title: Saliendo del Closet
-number: "III"
+date: 2014-08-25 00:00:00 Z
+categories:
+- posts
+layout: post
+number: III
 ---
 
 El proceso siempre es el mismo después de conocer a alguien, empieza la platica, hablamos de nuestros intereses, desde el primer encuentro sabes si tus gustos son afines a los de la otra persona e invariablemente llegas a esa pregunta... ¿Cual es tu grupo favorito?
