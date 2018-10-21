@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Cacio e Pepe
 date: 2018-10-21T01:49:48.796Z
 number: XIV
@@ -8,11 +8,11 @@ Today was a very slow Saturday, so I decided to cook something different. I've b
 
 As it turns out, it's not that hard to make pasta... You throw some flour on the table, make a little mount, a tiny hole in the middle, crack two eggs there and get to scrambling... ok maybe it's a bit more complicated than that, [Babish has a pretty good video on making pasta](https://www.youtube.com/watch?v=HdSLKZ6LN94), if ya'll want to give it a try def check it out.
 
-Anyway... I kneaded and kneaded and kneaded and kneaded until as *Babish* would say, the dough feels like play doh, then let it rest and finally found the dumb rolling pin... 
+Anyway... I kneaded and kneaded and kneaded and kneaded until as *Babish* would say, the dough feels like play doh, then let it rest and finally found the dumb rolling pin...
 
-You should really just watch the [video](https://www.youtube.com/watch?v=HdSLKZ6LN94) I'm not writing a walkthrough of the entire thing, my arms hurt from kneading and rolling, maybe I should buy a pasta machine? *just kidding.* So yeah, it turned out really good taste wise tho it ended up being a bit thick. The *cacio e pepe* was not the same as Babish but the one from the BA kitchen, I don't have a link but they have some... 
+You should really just watch the [video](https://www.youtube.com/watch?v=HdSLKZ6LN94) I'm not writing a walkthrough of the entire thing, my arms hurt from kneading and rolling, maybe I should buy a pasta machine? *just kidding.* So yeah, it turned out really good taste wise tho it ended up being a bit thick. The *cacio e pepe* was not the same as Babish but the one from the BA kitchen, I don't have a link but they have some...
 
-So that's that, the pasta was great, I had fun, and now I'm full and have some leftover noodles, I had a workout and took a picture... 
+So that's that, the pasta was great, I had fun, and now I'm full and have some leftover noodles, I had a workout and took a picture...
 
 Don't worry, I wont turn into a food blogger... or maybe I will, next time I'll write about that time I had an omekase.
 
