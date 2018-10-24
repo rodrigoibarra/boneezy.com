@@ -1,10 +1,7 @@
 ---
 title: Ready Player One
 date: 2016-02-17 00:00:00 Z
-categories:
-- posts
-tags:
-- Random
+categories: Posts
 layout: post
 number: VI
 ---

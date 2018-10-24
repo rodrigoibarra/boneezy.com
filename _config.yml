@@ -17,6 +17,9 @@ exclude:
 - Gruntfile.js
 - package.json
 excerpt_separator: "<!--more-->"
+sass:
+  sass_dir: _scss
+  style: compressed
 owner:
   name: Rodrigo Ibarra
   avatar: me.jpg

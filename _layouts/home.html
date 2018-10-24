@@ -1,20 +1,21 @@
 {% include doctype.html %}
-<header class="site__mast">
-  <h1 class="lettering">The Excellent Adventures</h1>
-  {% include nav.html %}
+<header class="home__hero">
+
+<div class="masthead">
+    <h1 class="siteTittle">The Excellent Adventures</h1>
+    <p class="bylineHero">a blog by Rodrigo Ibarra</p>
+</div>
+
+
+
+
+
+
 </header>
+{% include nav.html %}
   {{content}}
 {% include footer.html %}
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
+
+{% include netlify.html%}
 </body>
 </html>

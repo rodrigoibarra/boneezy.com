@@ -2,17 +2,4 @@
 layout: home
 ---
 
-    {% for post in site.categories.posts limit:1 %}
-    <section class="post__section">
-      <article class="wrap">
-        <h2 class="post__title">
-          <a href="{{ post.url }}" class="issue">
-            <span>Chapter {{ post.number }} </span>
-            {{ post.title }}
-          </a>
-        </h2>
-        <h3 class="post__byline">by Rodrigo Ibarra | <span>{{ post.date | date: "%-d %B %Y" }}</span></h3>
-        {{ post.content }}
-        {% endfor %}
-      </article>
-    </section>
+{{ site.categories.Posts | size }}

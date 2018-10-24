@@ -1,8 +1,7 @@
 ---
 title: Cosas Nuevas
 date: 2016-02-08 00:00:00 Z
-categories:
-- posts
+categories: Posts
 layout: post
 number: V
 ---

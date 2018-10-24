@@ -1,10 +1,7 @@
 ---
 title: Cronicas I
 date: 2016-05-23 00:00:00 Z
-categories:
-- posts
-tags:
-- Cronicas
+categories: Posts
 layout: post
 number: VIII
 ---
