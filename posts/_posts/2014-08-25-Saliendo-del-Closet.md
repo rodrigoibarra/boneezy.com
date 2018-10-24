@@ -1,8 +1,7 @@
 ---
 title: Saliendo del Closet
 date: 2014-08-25 00:00:00 Z
-categories:
-- posts
+categories: Posts
 layout: post
 number: III
 ---

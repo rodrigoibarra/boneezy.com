@@ -1,8 +1,7 @@
 ---
 title: The Ranting Rabbit
 date: 2014-07-12 00:00:00 Z
-categories:
-- posts
+categories: Posts
 layout: post
 number: I
 ---
