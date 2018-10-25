@@ -1,11 +1,17 @@
-.home__hero{
+.homeHero{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.1fr .9fr;
 
 }
 .masthead{
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: left;
-    flex-direction: column;
+    background-color:$black;
+    color:white;
+}
+
+.siteTittle, .bylineHero{
+    margin:0;
 }
