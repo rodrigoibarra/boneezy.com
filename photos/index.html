@@ -2,13 +2,11 @@
 layout: default
 ---
 
-  <section class="photo__wrap">
-    <h1 class="section__title">Photos</h1>
-      <div class="photo__grid">
-        {% for post in site.categories.photos %}
-            <a class="photo__grid-item" href="{{ post.url }}">
-              <img src="{{ post.pc }}" alt="{{ post.title }}">
-            </a>
-        {% endfor %}
-      </div>
+  <section class="photoAlbums">
+    <h2 class="Title postTitle">Photo Albums  </h2>
+    <p class="Byline">Sometimes in my adventures I take photos</p>
+    <div class="photoGrid">
+        {% include photoList.html %}
+    </div>
+
   </section>

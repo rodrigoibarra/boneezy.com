@@ -2,21 +2,9 @@
 layout: default
 ---
 
-  <section class="wrap">
-    <h2 class="section__title">Index</h2>
-    <ul class="archive__list">
-      {% for post in site.categories.posts %}
-        <li class="archive__list-item">
-          <a href="{{ post.url }}">
-            <h1 class="archive__list-itemTitle">
-                No.{{ post.number }} - {{ post.title }}
-            </h1>
-          </a>
-          <p class="archive__list-itemByline">
-              <em>Words - {{ post.content | number_of_words }}</em> | Date - {{ post.date | date: "%B %-d  %Y" }}
-          </p>
+<section class="postList">
+        <h2 class="Title postTitle">Blog Posts  </h2>
+        <p class="Byline">A list of all writen things</p>
+        {% include postList.html %}
+      </section>
 
-        </li>
-      {% endfor %}
-    </ul>
-  </section>

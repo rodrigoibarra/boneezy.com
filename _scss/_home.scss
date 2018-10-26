@@ -12,6 +12,30 @@
     color:white;
 }
 
-.siteTittle, .bylineHero{
+.Title, .Byline{
     margin:0;
+}
+.latestPost, .postList{
+    max-width: 78ch;
+    margin: 50px auto;
+    font-size: 1.2rem;
+}
+.latestPost > .sectionTittle{
+    color:$purple;
+}
+.postExcerpt{
+    margin-bottom: 50px;
+}
+
+.homePhotoAlbums{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: $purple;    margin-top:50px;
+}
+
+.homePhotoAlbumsTitle{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

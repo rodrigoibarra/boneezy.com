@@ -16,7 +16,6 @@ exclude:
 - node_modules
 - Gruntfile.js
 - package.json
-excerpt_separator: "<!--more-->"
 sass:
   sass_dir: _scss
   style: compressed
