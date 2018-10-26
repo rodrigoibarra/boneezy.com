@@ -35,7 +35,7 @@ nav a {
 body {
   width: 100%;
   text-align: center;
-  background-image: url(/build/images/404.jpg);
+  background-image: url(/images/404.jpg);
   background-position: top;
   background-attachment: local;
   background-size: cover; }

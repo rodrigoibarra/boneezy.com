@@ -1,23 +1,22 @@
+.postTitle{
+  color:$red;
+  font-size: 3rem;
+}
+.postByline, em{
+  color: lighten($black,  30);
+  font-size: .8rem;
+}
 
-.post__title{
-    border-bottom: 1px solid #3E3C3B;
-    padding-bottom: 0.75em;
-  }
-  .post__title a{
-    font-size: 1.6em;
-    text-decoration: none;
-    color: inherit;
-  }
-  .post__title span{
-    font-size: .75em;
-    display: block;
-    color: #ff4f2a;
+.postList{
+  max-width: 78ch;
+  list-style: none;
+  padding:0;
+}
+
+.postListItem{
+  margin:12px 0;
+  a{
+    color:$black;
   }
 
-  .post__byline{
-    font-size: .72em;
-  }
-
-  .post__byline span {
-
-  }
+}

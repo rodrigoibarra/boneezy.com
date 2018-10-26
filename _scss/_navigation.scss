@@ -3,11 +3,16 @@ background-color:$red;
 width: 45%;
 min-width:650px;
 height:80px;
-color:white;
 position: relative;
 bottom:25px;
 display: flex;
 align-items: center;
 justify-content: space-between;
 padding: 25px;
+
+    a{
+    color:white;
+    text-decoration:none;
+    }
+
 }

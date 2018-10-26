@@ -1,5 +1,39 @@
 ---
 layout: home
 ---
+<section class="latestPost">
+    <h1 class="sectionTittle">
+        Latest Post
+    </h1>
+{% for post in site.categories.Posts limit:1 %}
+  <article class="wrap">
+    <h2 class="Title postTitle">
+        <span>Chapter {{ post.number }} </span>
+        {{ post.title }}
+    </h2>
+    <p class="Byline postByline">by Rodrigo Ibarra | <span>{{ post.date | date: "%-d %B %Y" }}</span></p>
+    <div class="postExcerpt">
+            {{ post.excerpt }}
+    </div>
+    <a href="{{ post.url }}" class="callButton">Keep Reading</a>
 
-{{ site.categories.Posts | size }}
+    </article>
+    {% endfor %}
+</section>
+
+<section class="postList">
+        <h2 class="sectionTittle">Or read something else...</h2>
+        {% include postList.html %}
+</section>
+
+<section class="homePhotoAlbums">
+    <div class="homePhotoAlbumsTitle">
+        <h1 class="Tittle">
+            Here are some photos
+        </h1>
+    </div>
+    {% include photoList.html %}
+
+</section>
+
+

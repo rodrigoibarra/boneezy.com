@@ -1,0 +1,12 @@
+.photoAlbums{
+    max-width: 78ch;
+    margin: 50px auto;
+
+}
+
+.photoGrid{
+    margin: 25px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}

@@ -1,0 +1,9 @@
+<ul class="postList">
+        {% for post in site.categories.Posts %}
+        <li class="postListItem">
+            <a href="{{ post.url }}">
+                No.{{ post.number }} - {{ post.title }} |    <em>{{ post.content | number_of_words }} words</em>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
