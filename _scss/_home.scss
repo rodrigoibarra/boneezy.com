@@ -1,6 +1,11 @@
 .homeHero{
     display: grid;
     grid-template-columns: 1.1fr .9fr;
+    background-color: $black;
+
+    @media screen and (max-width: 670px) {
+        display: block;
+     }
 
 }
 .masthead{
@@ -10,6 +15,15 @@
     text-align: left;
     background-color:$black;
     color:white;
+    position: relative;
+    left: 2%;
+    -webkit-clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
+clip-path: polygon(0% 0%, 98% 0, 100% 50%, 98% 100%, 0% 100%);
+
+@media screen and (max-width: 670px) {
+    height: 40vh;
+}
+
 }
 
 .Title, .Byline{
@@ -19,6 +33,10 @@
     max-width: 78ch;
     margin: 50px auto;
     font-size: 1.2rem;
+    padding: 0;
+    @media screen and (max-width: 670px) {
+        padding: 25px;
+     }
 }
 .latestPost > .sectionTittle{
     color:$purple;
@@ -31,6 +49,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: $purple;    margin-top:50px;
+
+    @media screen and (max-width: 670px) {
+        display: block;
+     }
+
 }
 
 .homePhotoAlbumsTitle{
@@ -38,4 +61,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width: 670px) {
+        height: 20vh;
+     }
 }

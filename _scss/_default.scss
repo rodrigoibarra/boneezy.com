@@ -1,0 +1,31 @@
+.defaultMast{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 25px solid $purple;
+    @media screen and (max-width: 890px) {
+      display: block;
+
+   }
+
+  }
+
+  .defaultTitle{
+    margin:0 10px;
+    @media screen and (max-width: 1078px) {
+        font-size: .7rem;
+     }
+     @media screen and (max-width: 890px) {
+      margin: 50px;
+      font-size: 1.2rem;
+   }
+
+  }
+
+  .defaultMast > .siteNav{
+    position:relative;
+    bottom:0;
+    @media screen and (max-width: 890px) {
+      width: 100%;
+    }
+  }
