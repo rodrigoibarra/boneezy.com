@@ -10,7 +10,11 @@
 .postList{
   max-width: 78ch;
   list-style: none;
-  padding:0;
+  padding: 0;
+  @media screen and (max-width: 890px) {
+  padding: 25px;
+ }
+
 }
 
 .postListItem{

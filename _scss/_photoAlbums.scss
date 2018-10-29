@@ -9,4 +9,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 25px;
+    @media screen and (max-width: 890px) {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+        margin: 25px;
+     }
+     @media screen and (max-width: 670px) {
+        grid-template-columns: 1fr;
+        grid-gap: 25px;
+        margin: 25px;
+     }
 }

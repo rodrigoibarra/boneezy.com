@@ -47,26 +47,14 @@ img{
   text-align: right;
 };
 
-.defaultMast{
-  display:flex;
-  align-items: center;
-  justify-content: flex-end;
-  border-bottom: 25px solid $purple;
-}
 
-.defaultTitle{
-  margin:0 50px;
-}
 
 @import 'home';
 @import 'navigation';
 @import 'post';
 @import 'photoAlbums';
+@import 'default';
 
-.defaultMast > .siteNav{
-  position:relative;
-  bottom:0;
-}
 
 .siteFooter{
   margin:0;

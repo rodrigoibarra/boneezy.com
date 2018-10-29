@@ -15,4 +15,10 @@ padding: 25px;
     text-decoration:none;
     }
 
+    @media screen and (max-width: 670px) {
+        width:100%;
+        flex-wrap: wrap;
+        min-width: 0px;
+     }
+
 }
