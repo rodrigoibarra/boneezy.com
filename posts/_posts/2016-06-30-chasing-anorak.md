@@ -1,7 +1,7 @@
 ---
 title: Chasing Anorak
 date: 2016-06-30 00:00:00 Z
-categories: Posts
+tags: Posts
 layout: post
 number: IX
 ---

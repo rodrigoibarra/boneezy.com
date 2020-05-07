@@ -1,7 +1,7 @@
 ---
 title: The Graffiti Problem
 date: 2017-09-02 00:00:00 Z
-categories: Posts
+tags: Posts
 layout: post
 number: XII
 ---

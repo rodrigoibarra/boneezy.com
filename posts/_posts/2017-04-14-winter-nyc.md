@@ -1,9 +1,9 @@
 ---
 title: Invierno en NYC
 date: 2017-04-14 00:00:00 Z
-categories: Photos
-layout: photos
-link: https://goo.gl/photos/S8YKH5JDeTtpgG838
+tags: Photos
+layout: post
+link: "https://goo.gl/photos/S8YKH5JDeTtpgG838"
 pc: "/images/nyc-win.png"
 ---
 

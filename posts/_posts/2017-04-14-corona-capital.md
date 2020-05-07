@@ -1,8 +1,8 @@
 ---
 title: Corona Capital 2013
 date: 2017-04-14 00:00:00 Z
-categories: Photos
-layout: photos
+tags: Photos
+layout: post
 link: https://goo.gl/photos/LzgDNfU5cv4ZLCdy5
 pc: "/images/c-c-2013.png"
 ---

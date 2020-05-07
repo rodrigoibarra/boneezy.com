@@ -1,10 +1,18 @@
 ---
 layout: default
 ---
-
-<section class="postList">
-        <h2 class="Title postTitle">Blog Posts  </h2>
-        <p class="Byline">A list of all writen things</p>
-        {% include postList.html %}
-      </section>
-
+<ul class="blogList">   
+    <h3>The Blog</h3>
+    <p>I dont write much but when I do, it ends up here.</p>
+    {%- for post in collections.Posts reversed -%}
+      <li>
+        <h2 class="postTitle">
+            <span>Chapter {{ post.data.number }}</span>
+            <a href="{{post.url}}">
+            {{ post.data.title }}
+            </a>
+        </h2>
+        <p class="postByline">By: <span>Rodrigo Ibarra | {{ post.data.date | date: "%d %B %Y" }}</span></p>
+      </li>
+      {% endfor %}
+  </ul>

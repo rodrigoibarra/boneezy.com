@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cacio e Pepe
-categories: Posts
+tags: Posts
 date: 2018-10-21T01:49:48.796Z
 number: XIV
 ---

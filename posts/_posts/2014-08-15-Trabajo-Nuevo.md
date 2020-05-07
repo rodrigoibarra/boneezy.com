@@ -1,7 +1,7 @@
 ---
 title: Trabajo Nuevo
 date: 2014-08-15 00:00:00 Z
-categories: Posts
+tags: Posts
 layout: post
 number: II
 ---

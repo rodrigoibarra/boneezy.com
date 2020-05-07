@@ -13,6 +13,6 @@ results
 _site
 
 npm-debug.log
-node_modules
+/node_modules
 _config-dev.yml
 .sass-cache

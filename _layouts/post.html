@@ -1,22 +1,15 @@
 {% include doctype.html %}
-<header class="defaultMast">
-    <div class="defaultTitle">
-        <h1 class="Title">The Excellent Adventures</h1>
-        <p class="Byline">a blog by Rodrigo Ibarra</p>
-    </div>
+<header>
   {% include nav.html %}
 </header>
-<section class="latestPost">
-    <h2 class="Title postTitle">
-        <span>Chapter {{ page.number }} </span>
-        {{ page.title }}
-    </h2>
-    <p class="Byline postByline">by Rodrigo Ibarra | <span>{{ page.date | date: "%-d %B %Y" }}</span></p>
-    <div class="postExcerpt">
+<article class="thePost">
+  <h2 class="postTitle">
+    <span>Chapter {{ post.data.number }}</span>
+    {{ title }}
+</h2>
+<p class="postByline">By: <span>Rodrigo Ibarra | {{ date | date: "%d %B %Y" }}</span></p>
             {{ content }}
-    </div>
-    </article>
-</section>
+</article>
   {% include footer.html %}
 </body>
 </html>
