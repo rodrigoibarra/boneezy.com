@@ -1,22 +1,14 @@
 ---
-layout: default
+layout: home
 ---
 
-<section class="latestPost">
-
-    <img src="/images/me.jpg" alt="This is just a photo of me, sadly, no burrito stand behind me">
-
-    <h2 class="Title postTitle">
-        Rodrigo Ibarra
-    </h2>
-
-    <div class="postExcerpt">
+<section class="about">
+    <article>
         <p>Born and raised in México City, I spend my time online or making dumb stuff, or thinking about making dumb stuff... I usually drive around the city but if the weather is nice I like to skate around on my longboard and cruise around my beautiful city.</p>
 
         <p>I work @ <a href="http://prepaenlinea.sep.gob.mx">Prepa en Línea</a> where I'm mostly in charge of DevOops. On any free time I do some web design consulting here and there, here's <a href="https://rodrigo-ibarra.com">here's my pro site</a> for more info.</p>
 
         <p>I love to shoot photos of random stuff going on around me or of the food im eating, you can find all of them <a href="/photos">here.</a> </p>
-
-    </div>
+        <img class="profilePic" :src="BoGlitched" @mouseover="BoGlitched = Bo" @mouseleave="Bo = BoGlitched" alt="This is a photo of me with a hat on">
     </article>
 </section>

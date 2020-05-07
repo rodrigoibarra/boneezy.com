@@ -1,29 +1,23 @@
 {
-  "name": "Tilde",
-  "title": "tilde",
-  "version": "0.1.0",
-  "author": {
-    "name": "Rodrigo Ibarra",
-    "email": "hola@rodrigo-ibarra.com",
-    "url": "rodrigoibarra.rocks"
+  "name": "boneezy.com",
+  "version": "1.0.0",
+  "description": "rodrigoibarra.github.io =======================",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git:https://github.com/PrepaenLinea/tilde.git"
+    "url": "git+https://github.com/rodrigoibarra/boneezy.com.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PrepaenLinea/tilde/issues"
+    "url": "https://github.com/rodrigoibarra/boneezy.com/issues"
   },
+  "homepage": "https://github.com/rodrigoibarra/boneezy.com#readme",
   "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-cli": "~0.1.11",
-    "grunt-contrib-compass": "~0.9.0",
-    "grunt-contrib-compress": "~1.4.3",
-    "grunt-contrib-connect": "~0.8.0",
-    "grunt-contrib-imagemin": "~2.0.1",
-    "grunt-contrib-uglify": "~0.5.0",
-    "grunt-contrib-watch": "~0.6.1",
-    "load-grunt-config": "~0.13.1",
-    "load-grunt-tasks": "~0.6.0"
+    "@11ty/eleventy": "^0.10.0"
   }
 }
