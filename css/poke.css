@@ -7,8 +7,7 @@
     --light-shade:#9EB7B8;
     --light-bg: #F8F5F1;
     font-family: 'Lora', serif;
-    --f-display:'Open Sans', sans-serif;
-    --f-hand:'Rock Salt', cursive;
+    --f-display:'Vault Alarm', sans-serif;
     --ratio:1.6;
     --r2: calc(var(--ratio) * 2);
     --r3: calc(var(--ratio) * 3);
@@ -18,6 +17,8 @@
     --r-4:calc(var(--ratio) / 4);
     --width: 60ch;
   }
+
+  
   html {
     box-sizing: border-box;
   
@@ -32,8 +33,7 @@
   }
 
   * {
-    box-sizing: inherit;
-        margin:0;
+    margin:0;
     padding:0;
     max-width: var(--width);
   }
@@ -52,6 +52,11 @@
 
   h1, h2, h3, h4{
     font-family: var(--f-display);
+}
+
+h3{
+    font-weight: 100;
+    letter-spacing: calc(1rem * var(--r-4));
 }
 
 header{
@@ -133,7 +138,6 @@ article{
   }
   .postByline{
       font-size: .5em;
-      font-family: var(--f-hand);
   }
 
   .photoAlbums{
@@ -193,6 +197,10 @@ article{
     position: relative;
     top:calc( 1rem * var(--r2));
     width: 60%;
+}
+
+.coffeeName{
+    display:block;
 }
 @media screen and (max-width: 900px) {
 
