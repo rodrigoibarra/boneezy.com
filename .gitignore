@@ -9,7 +9,7 @@ lib-conv
 pids
 logs
 results
-.DS_Store
+*.DS_Store
 _site
 
 npm-debug.log
