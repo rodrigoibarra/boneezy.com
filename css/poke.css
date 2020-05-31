@@ -6,7 +6,7 @@
     --dark-color:#373F4D;
     --light-shade:#9EB7B8;
     --light-bg: #F8F5F1;
-    font-family: 'Lora-Regular';
+    font-family: 'Lora-Regular', serif;
     --f-display:'VaultAlarm', sans-serif;
     --ratio:1.6;
     --r2: calc(var(--ratio) * 2);
