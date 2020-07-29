@@ -8,10 +8,13 @@ pagination:
 ---
   <div class="hobbies">
     <h3 class="hobbiesTitle">Some random stuff about me:</h3>
-        <p>If I'm drinking coffee right now, It's most likel that I brewed some: <b class="coffeeName">(( lastCoffee.roastName )) by (( lastCoffee.brand ))</b> </p>
+        <p>If I'm drinking coffee right now, It's most likel that I brewed some: 
+          {% for item in coffee %}
+            <b class="coffeeName">{{item.roastName}} by {{item.brand}}</b>
+          {% endfor %}  
+        </p>
         <p>I have a whole webiste dedicated to coffee <a href="https://coffee.rodrigoibarra.rocks">check it out.</a></p>
         <hr>
-      <p>I also keep track off all gigs, music festivals and sports events I've been to, which as of right now sums up to a total off: (( countAll )). There's no website... yet.</p> 
   </div>
   <ul class="blogList">   
     <h3>The Blog</h3>

@@ -11,6 +11,7 @@ logs
 results
 *.DS_Store
 _site
+.cache
 
 npm-debug.log
 /node_modules
