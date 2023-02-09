@@ -1,0 +1,24 @@
+{
+  "name": "boneezy.com",
+  "version": "1.0.0",
+  "description": "rodrigoibarra.github.io =======================",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoibarra/boneezy.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigoibarra/boneezy.com/issues"
+  },
+  "homepage": "https://github.com/rodrigoibarra/boneezy.com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  }
+}

@@ -1,0 +1,34 @@
+:root {
+    font-size: calc(1rem + 0.5vw);
+  }
+
+  
+  html {
+    box-sizing: border-box;
+  
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+  * {
+    margin:0;
+    padding:0;
+  }
+
+  html,
+  body,
+  div,
+  header,
+  section,
+  nav,
+  main,
+  footer {
+  max-width: none;
+  }
+
+
+  
