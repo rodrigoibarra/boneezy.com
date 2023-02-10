@@ -1,8 +1,8 @@
 ---
 title: The Ranting Rabbit
-date: 2014-07-12 00:00:00 Z
-tags: Posts
-layout: post
+layout: "layouts/blogPost.njk"
+date: 2014-07-12 00:00:00 
+tags: Archive
 number: I
 ---
 

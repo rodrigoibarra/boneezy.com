@@ -1,8 +1,7 @@
 ---
 title: Vive Latino
-date: 2017-04-14 00:00:00 Z
+date: 2017-04-14 00:00:00 
 tags: Photos
-layout: post
 link: https://goo.gl/photos/YQGuJBBhWBCyDB9w9
 pc: "/images/vive-latino-pc.png"
 ---

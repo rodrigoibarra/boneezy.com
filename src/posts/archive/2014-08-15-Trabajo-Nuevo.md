@@ -1,8 +1,7 @@
 ---
 title: Trabajo Nuevo
-date: 2014-08-15 00:00:00 Z
-tags: Posts
-layout: post
+date: 2014-08-15 00:00:00 
+tags: Archive
 number: II
 ---
 

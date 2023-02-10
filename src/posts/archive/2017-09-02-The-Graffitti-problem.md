@@ -1,8 +1,7 @@
 ---
 title: The Graffiti Problem
-date: 2017-09-02 00:00:00 Z
-tags: Posts
-layout: post
+date: 2017-09-02 00:00:00 
+tags: Archive
 number: XII
 ---
 

@@ -1,8 +1,7 @@
 ---
 title: Instagram
-date: 2017-04-14 00:00:00 Z
+date: 2017-04-14 00:00:00
 tags: Photos
-layout: post
 link: https://www.instagram.com/killerbunnz/
 pc: "/images/Instagram.png"
 ---

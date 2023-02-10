@@ -1,6 +1,4 @@
 ---
-layout: "base.njk"
-title: Beans & Pijamas
+layout: "layouts/home.njk"
 ---
 
-Is this working?

@@ -1,8 +1,7 @@
 ---
 title: Ready Player One
-date: 2016-02-17 00:00:00 Z
-tags: Posts
-layout: post
+date: 2016-02-17 00:00:00 
+tags: Archive
 number: VI
 ---
 

@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Cacio e Pepe
-tags: Posts
-date: 2018-10-21T01:49:48.796Z
+date: 2018-10-21T01:49:48.79
+tags: Archive
 number: XIV
 ---
 Today was a very slow Saturday, so I decided to cook something different. I've been entertaining the idea of making homemade pasta, I took some flour from the pantry a couple of eggs and figured out where that damn rolling pin was.

@@ -1,8 +1,7 @@
 ---
 title: The Video Game
-date: 2017-08-21 00:00:00 Z
-tags: Posts
-layout: post
+date: 2017-08-21 00:00:00 
+tags: Archive
 number: XII
 ---
 

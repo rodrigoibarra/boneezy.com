@@ -1,8 +1,7 @@
 ---
 title: Cronicas I
-date: 2016-05-23 00:00:00 Z
-tags: Posts
-layout: post
+date: 2016-05-23 00:00:00
+tags: Archive
 number: VIII
 ---
 
