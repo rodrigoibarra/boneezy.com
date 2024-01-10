@@ -9,20 +9,13 @@
 
      <style>
       @font-face {
-      font-family: VaultAlarm;
-      src: url(/fonts/VaultAlarm-Regular.woff2) format("woff2"),
-         url(/fonts/VaultAlarm-Regular.woff2) format("woff");
+      font-family: Parkly;
+      src: url(/fonts/Parkly-Regular.woff2) format("woff2"),
+         url(/fonts/Parkly-Regular.woff2) format("woff");
       font-weight: 700;
       font-display: swap;
    }
-      @font-face {
-         font-family: CaptainEdward;
-         src: url(/fonts/CaptainEdward-Regular.woff2) format("woff"),
-      url(/fonts/CaptainEdward-Regular.woff2) format("woff2");
-         font-weight: normal;
-         font-style: normal;
-         font-display: swap;
-   }
+
    @font-face {
          font-family: Lora-Regular;
          src: url(/fonts/Lora-Regular.woff2) format("woff"),
@@ -31,18 +24,31 @@
          font-style: normal;
          font-display: swap;
    }
+
    @font-face {
-         font-family: Lora-Italic;
-         src: url(/fonts/Lora-Italic.woff2) format("woff"),
-      url(/fonts/Lora-Italic.woff2) format("woff2");
+         font-family: OakesGrotesk-Bold;
+         src: url(/fonts/oakes-grotesk-bold.woff2) format("woff"),
+      url(/fonts/oakes-grotesk-bold.woff2) format("woff2");
          font-weight: normal;
-         font-style: italic;
+         font-style: normal;
          font-display: swap;
    }
+
+  @font-face {
+    font-family: 'AtomicMarker';
+    src: url('/fonts/atomic-marker-regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
   </style>
     
 </head>
 <body>
+   <nav class="mainNav">
+      <a href="/blog">Blog</a>
+      <a href="#">Photos</a>
+      <a href="#">Info</a>
+   </nav>
    {% block content %}{% endblock %}
 
 <footer>

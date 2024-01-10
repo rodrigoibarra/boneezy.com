@@ -1,0 +1,22 @@
+{% extends "base.njk" %}
+{% block content %} 
+    <main>
+    {% set latest_posts = collections.Blog | reverse %} {% for post in latest_posts %}
+    <section class="lastPost">
+      <div class="postHeader">
+        <div>
+          <h2>{{ post.data.title }}</h2>
+          <ul>
+            <li><span>Issue </span>{{ post.data.number }}</li>
+            <li><span>Date </span>{{ post.data.date }}</li>
+          </ul>
+        </div>
+    
+      </div>
+      <article class="stack">
+        {{ post.content | safe }}
+      </article>
+    </section>
+    </main>
+{% block more %}{% endblock %}
+{% endblock %}

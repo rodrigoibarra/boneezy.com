@@ -1,0 +1,21 @@
+{% extends "base.njk" %}
+{% block content %} 
+    <main>
+        <div class="postHeader">
+            <div>
+            <h2>Chilling in Colorado</h2>
+            </div>
+        </div>
+    <article class="stack">
+        <p>Every year, without fail, we make the </p>
+    </article>
+    <div class="gallery">
+            {% for image in collections.VL %}  
+                <div>
+                    <img src="{{image | replace('src/', '/') }}">
+                </div>
+            {% endfor %}
+    </div>
+    </main>
+{% block more %}{% endblock %}
+{% endblock %}

@@ -1,8 +1,8 @@
 :root {
-    font-size: calc(1rem + 0.8vw);
+    font-size: calc(1rem + 0.5vw);
+    color: #393939;
   }
 
-  
   html {
     box-sizing: border-box;
   
@@ -35,20 +35,147 @@
     
   }
 
-  h1{
-    font-family: 'vaultAlarm', sans-serif;
+  a{
+    text-decoration: none;
   }
+
+  .mainNav{
+
+      background-color: black;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: .8rem;
+      color: whitesmoke;
+      position: sticky;
+      top: 0;
+
+  }
+
+  .mainNav a {
+
+    margin: 0 .5rem ;
+    color: inherit;
+    font-family: 'OakesGrotesk-Bold', Helvetica, Arial, Sans-Serif;
+
+  }
+
+
+
+.hero{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: black;
+}
+
+
+.hero img{
+  width: 100%;
+  height: auto;
+}
 
   .masthead{
     display: flex;
-    width: auto;
-    height: 21vh;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    text-align: center;
+  
+   
   }
 
-  .masthead span {
-    display: block; 
-    font-family:CaptainEdward,  serif;
-    font-size: .8rem;
+  .ctitle {
+    font-size:2.2rem;
+    font-weight: normal;
+    font-family:'AtomicMarker',  Sans-serif;
+    mask-image: url(/img/texture8.png);
+    -webkit-mask-image: url(/img/texture8.png);
   }
+
+.ctitle span{ 
+  font-size: 1.6rem;
+  color: #77BCB1; 
+}
+.masthead p {
+  font-size: .6rem;
+	font-family: 'OakesGrotesk-Bold', Helvetica, Arial, Sans-Serif;
+  font-kerning:normal;
+}
+
+
+.postHeader{
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding:5rem 0;
+  
+}
+
+.postHeader h2{
+  font-family:'AtomicMarker',  Sans-serif;
+  font-size: 3rem;
+  mask-image: url(/img/texture8.png);
+  -webkit-mask-image: url(/img/texture8.png);
+}
+.postHeader ul{
+  font-size: .8em;
+  list-style-type: none;
+}
+
+.postHeader li span {
+  color:lightgray;
+  font-size: .6em ;
+  padding-right: 1em;
+}
+
+article{
+  margin: 5rem 0;
+}
+
+p {
+  max-width: 58ch;
+}
+
+p:has(img){
+  max-width: 80ch;
+}
+p img:only-child{
+  max-width: 100%;
+}
+p img{
+  max-width: 50%;
+  float: left;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stack > * + * {
+  margin-block-start: var(--space, 1.5rem);
+}
+
+.stack > :last-child {
+  margin-block-end: auto;
+}
+
+
+.gallery{
+  display: grid;
+  padding: .3rem;
+  grid-template-columns:repeat(auto-fill, minmax(35vh, 1fr));
+  gap: .3rem;
+}
+
+.gallery img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

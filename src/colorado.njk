@@ -1,0 +1,21 @@
+{% extends "base.njk" %}
+{% block content %} 
+    <main>
+        <div class="postHeader">
+            <div>
+            <h2>Chilling in Colorado</h2>
+            </div>
+        </div>
+    <article class="stack">
+        <p>Back in 2018, I went on a trip to Denver Colorado to visit my fren <a href="https://buildingsareheavy.com/">Ethan Ethan</a>, these are some of the photos from back then.</p>
+    </article>
+    <div class="gallery">
+            {% for image in collections.CiC %}  
+                <div>
+                    <img src="{{image | replace('src/', '/')}}">
+                </div>
+            {% endfor %}
+    </div>
+    </main>
+{% block more %}{% endblock %}
+{% endblock %}

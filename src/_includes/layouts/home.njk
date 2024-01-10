@@ -1,8 +1,38 @@
 {% extends "base.njk" %}
 {% block content %}
-<header class="masthead">
-    <h1>Beans & Pj's <span>a blog about coffee and 'jitsu</span></h1>
+<header class="hero">
+    <img src="/img/hero-2.jpg" alt="a photo of me holding a beer, while outside on a cold day">
+    <div class="masthead">
+      <div>
+       <h1 class="ctitle">Beans <span>&</span> Pj's</h1>
+      <p>A blog about coffee, food & aggressive cuddling</p>
+      </div>
+    </div>
+   
 </header>
+
     {{ content | safe }}
+    {% set latest_posts = collections.Blog | reverse %} {% for post in latest_posts.slice(0,1) %}
+    <section class="lastPost">
+      <div class="postHeader">
+        <div>
+          <h2>{{ post.data.title }}</h2>
+          <ul>
+            <li><span>Issue </span>{{ post.data.number }}</li>
+            <li><span>Date </span>{{ post.data.date }}</li>
+          </ul>
+        </div>
+    
+      </div>
+      <article class="stack">
+        {{ post.content | safe }}
+      </article>
+    </section>
+
+    
+    
+
+{%- endfor -%}
+
 {% block more %}{% endblock %}
 {% endblock %}
