@@ -1,26 +1,17 @@
 {
-  "name": "boneezy.com",
-  "version": "1.0.0",
-  "description": "rodrigoibarra.github.io =======================",
-  "main": ".eleventy.js",
+  "name": "Provenance",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rodrigoibarra/boneezy.com.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rodrigoibarra/boneezy.com/issues"
-  },
-  "homepage": "https://github.com/rodrigoibarra/boneezy.com#readme",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "@11ty/eleventy-cache-assets": "^2.0.3"
+    "@astrojs/mdx": "^4.0.8",
+    "@astrojs/rss": "^4.0.11",
+    "@astrojs/sitemap": "^3.2.1",
+    "astro": "^5.3.1"
   }
 }

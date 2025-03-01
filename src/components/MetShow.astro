@@ -1,0 +1,23 @@
+---
+
+const response = await fetch('https://metshow.rodrigoibarra.rocks/api/v1/history/last');
+const metData = await response.json();
+const lastBrew = metData;
+const brewRecipe = metData.profile;
+const brewTime = new Date("January 26, 1987 23:15:30");
+brewTime.setSeconds(lastBrew.time);
+const finalTime =  brewTime.getSeconds()
+---
+
+<div class="metShow">
+    <h2>{lastBrew.name}</h2>
+    <ul>
+      <h3>Profile</h3>
+      <li>Final weight: {brewRecipe.final_weight}</li>
+      <li>Temperature: {brewRecipe.temperature}℃</li>
+      <li>Time: {finalTime} seconds</li>
+    </ul>
+</div>
+
+ 
+
