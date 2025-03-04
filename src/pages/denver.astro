@@ -1,0 +1,41 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { getCollection } from 'astro:content';
+import FormattedDate from '../components/FormattedDate.astro';
+import { Picture } from 'astro:assets';
+
+const images = await Astro.glob("../images/Denver/*").then(files => {
+  return files.map(file => file.default);
+});
+
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+    <main>
+      <section>
+    {
+      images.map(image => (
+      <div>
+          <Picture 
+            formats={['avif', 'webp']}
+            src={image}
+            alt=""
+            loading="lazy"
+          />
+        </div>
+      ))
+    }
+			</section>
+    </main>
+   <Footer />
+	</body>
+</html>
