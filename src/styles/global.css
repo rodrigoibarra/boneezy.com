@@ -3,3 +3,56 @@
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
+:root {
+  font-size: calc(1rem + 0.5vw);
+  color: #393939;
+  --main-color: #267a95;
+  --accent-color: #e85749;
+  --dark-color: #373f4d;
+  --light-shade: #9eb7b8;
+  --light-bg: #f8f5f1;
+  font-family: "Sandleford", serif;
+  --f-display: "Oakes Grotesk";
+  --f-miniDisplay: "Ships Whistle", sans-serif;
+  --ratio: 1.6;
+  --r2: calc(var(--ratio) * 2);
+  --r3: calc(var(--ratio) * 3);
+  --r4: calc(var(--ratio) * 4);
+  --r-2: calc(var(--ratio) / 2);
+  --r-3: calc(var(--ratio) / 3);
+  --r-4: calc(var(--ratio) / 4);
+  --width: 60ch;
+}
+
+h1 {
+  font-family: var(--f-display);
+}
+
+.tagline {
+  font-family: var(--f-miniDisplay);
+}
+
+nav {
+  font-family: var(--f-miniDisplay);
+}
+
+.gallery {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+.galleryGrid img {
+  max-width: 100%;
+  height: auto;
+}
+
+.galleryGrid img:nth-child(4n-7) {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  max-height: 100%;
+}
