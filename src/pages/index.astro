@@ -12,13 +12,15 @@ const allBlogPosts = await getCollection('blog');
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION}/>
+  <script "is:inline" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script "is:inline" src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js" integrity="sha512-VJ/iYbiu1eJ6yLimfTi65t2R9TFcG5D9X8ZCfbbEFhTfPnKJh8byoKXEawi5ScJZBYL1eiirL1+MczZDx0Tz9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	</head>
 	<body>
 		<Header />
     <main>
       <div class="masthead">
-        <h1>Daily Scrawls</h1>
+        <h1 class="fancyLettering">Daily Scrawls</h1>
         <p class="tagline">A not so daily blog.</p>
       </div>
       			<section>
@@ -37,6 +39,11 @@ const allBlogPosts = await getCollection('blog');
 				</ul>
 			</section>
     </main>
+<script is:inline>
+	  $(document).ready(function() {
+	    $(".fancyLettering").lettering();
+	  });
+</script>
    <!--.. <MetShow />.--> 		
    <Footer />
 	</body>
