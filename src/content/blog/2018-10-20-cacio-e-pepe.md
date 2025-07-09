@@ -1,7 +1,7 @@
 ---
 title: "Cacio e Pepe"
 pubDate: 10/20/18
-number: "XIV"
+issue: "XIV"
 ---
 
 Today was a very slow Saturday, so I decided to cook something different. I've been entertaining the idea of making homemade pasta, I took some flour from the pantry a couple of eggs and figured out where that damn rolling pin was.

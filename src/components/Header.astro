@@ -1,6 +1,5 @@
 ---
 import { Image } from 'astro:assets';
-import { SITE_TITLE } from '../consts';
 import bunnzLogo from '../images/bunnz.svg';
 ---
 
@@ -8,10 +7,26 @@ import bunnzLogo from '../images/bunnz.svg';
   <nav class="main">
     <Image src={bunnzLogo} alt="Bunnz" />
     <ul class="site-nav-list">
-      <li><a href="/home">Home</a></li>
+      <li><a href="/">Home</a></li>
       <li><a href="/photos">Photos</a></li>
       <li><a href="/about">About</a></li>
     </ul>
   </nav>
 </header>
 
+<style>
+  nav.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul.site-nav-list{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  ul.site-nav-list li{
+    list-style: none;
+    padding: .5rem;
+  }
+
+</style>

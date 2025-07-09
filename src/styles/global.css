@@ -2,12 +2,21 @@
   font-family: "Dragonsteel Rough";
   src: url("../.././public/fonts/Dragonsteel-Rough.woff2") format("woff2");
 }
+@font-face {
+  font-family: "Sandleford-Regular";
+  src: url("../.././public/fonts/Sandleford-Regular.woff2") format("woff2");
+}
 
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
+@font-face {
+  font-family: "ShipsWhistle-Regular";
+  src: url("../.././public/fonts/ShipsWhistle-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "oakes-grotesk-bold";
+  src: url("../.././public/fonts/oakes-grotesk-bold.woff2") format("woff2");
+}
+
 :root {
   font-size: calc(1rem + 0.5vw);
   color: #393939;
@@ -66,12 +75,8 @@ nav {
 .fancyLettering {
   font-family: var(--f-titleDisplay);
   text-transform: uppercase;
-  font-size: 47em;
+  font-size: 8rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.fancyLettering > * {
-  display: inline-block;
 }
