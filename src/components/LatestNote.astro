@@ -1,0 +1,24 @@
+---
+import { getCollection } from "astro:content";
+import { render } from "astro:content";
+const collectionName = "notes";
+const allNotes = await getCollection(collectionName);
+const sortedPosts = allNotes.sort((a, b) => {
+  return (
+    new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+  );
+});
+const latestNote = sortedPosts[0];
+const post = Astro.props;
+const { Content } = await render(latestNote);
+
+console.log(latestNote);
+---
+
+<article class="latest-post">
+  <h2>{latestNote.data.title}</h2>
+  <p class="publish-date">{latestNote.data.pubDate.toLocaleDateString()}</p>
+  <div class="content-body">
+    <Content />
+  </div>
+</article>
