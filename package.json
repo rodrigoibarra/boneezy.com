@@ -1,26 +1,27 @@
 {
-  "name": "boneezy.com",
-  "version": "1.0.0",
-  "description": "rodrigoibarra.github.io =======================",
-  "main": ".eleventy.js",
+  "name": "Provenance",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rodrigoibarra/boneezy.com.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rodrigoibarra/boneezy.com/issues"
-  },
-  "homepage": "https://github.com/rodrigoibarra/boneezy.com#readme",
-  "devDependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "slint": "stylelint \"**/*.css\""
   },
   "dependencies": {
-    "@11ty/eleventy-cache-assets": "^2.0.3"
+    "@astrojs/check": "^0.9.5",
+    "@astrojs/mdx": "^4.3.9",
+    "@astrojs/rss": "^4.0.13",
+    "@astrojs/sitemap": "^3.6.0",
+    "astro": "^5.15.3",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.33.0",
+    "eslint-plugin-astro": "^1.3.1",
+    "prettier": "^3.6.2",
+    "prettier-plugin-astro": "^0.14.1",
+    "stylelint": "^16.23.1"
   }
 }

@@ -1,0 +1,45 @@
+---
+import { Image } from "astro:assets";
+import bunnzLogo from "../images/bunnz.svg";
+import BaseHead from "@components/BaseHead.astro";
+---
+
+<BaseHead />
+
+<header>
+  <div class="inDev"><h1>This site is being redesigned</h1></div>
+  <nav class="main">
+    <ul class="site-nav-list">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<style>
+  .inDev {
+    color: white;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0;
+    height: 35px;
+  }
+  .inDev h1 {
+    font-size: 1.8rem;
+  }
+  nav.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul.site-nav-list {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  ul.site-nav-list li {
+    list-style: none;
+    padding: 0.5rem;
+  }
+</style>

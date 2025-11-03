@@ -1,6 +1,7 @@
-rodrigoibarra.github.io
-=======================
+# New Beginnings
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5bf86cb7-08d3-42d3-993a-693902149f3d/deploy-status)](https://app.netlify.com/sites/admiring-mcnulty-6378f3/deploys)
-
-This is a blog written on markdown, compiled on netlify, coded on VS Code, with fonts by SimpleBits and Google Fonts
+This marks yet another redesign of all of my sites, a lot has changed since the
+last time I did this, and yet some stuff has stayed the same. The main goal of
+the redesign is integration, while I have a bunch of proyects here and there,
+they are all dissconected, I'll focus this time on one cohesive design system
+and a lot of stuff being shared between them.

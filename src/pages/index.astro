@@ -1,0 +1,18 @@
+---
+import BaseLayer from "@layouts/BaseLayer.astro";
+import LatestNote from "@components/LatestNote.astro";
+// import MetShow from '../components/MetShow.astro';
+---
+
+<BaseLayer>
+  <main>
+    <div class="masthead">
+      <h1 class="fancyLettering">Daily Scrawls</h1>
+      <p class="tagline">Short notes about life.</p>
+    </div>
+    <section class="postList">
+      <LatestNote />
+      <a href="/notes/">read more.</a>
+    </section>
+  </main>
+</BaseLayer>
