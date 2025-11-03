@@ -11,4 +11,5 @@ This year I didn’t even try to dress up, but there were parties to attend and 
 
 The main idea behind this blog was to post more photos... I barely took any, it was dark, but here’s two. 
 
-![This is a photo of me signing with the original mismis]([/images/IMG_3781.jpg])
+![This is a photo of me singing with the original Mismis](../../images/IMG_3781.JPG)
+![This is my friend Toto playing his guitar and screaming his brains out](../../images/IMG_1218.JPG)

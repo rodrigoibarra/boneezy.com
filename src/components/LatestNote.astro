@@ -8,7 +8,7 @@ const sortedPosts = allNotes.sort((a, b) => {
     new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
   );
 });
-const latestNote = sortedPosts[0];
+const latestNote = sortedPosts[1];
 const post = Astro.props;
 const { Content } = await render(latestNote);
 
