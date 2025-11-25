@@ -1,3 +1,69 @@
-p {
-        
+@import url('reset.css'); 
+@import url('fontsizing.css'); 
+
+body{
+    margin:0;
+    font-size:20px;
+    color:hsl(327deg 5% 9%);
+}
+
+p{
+    display:block;
+    max-width: 76ch;
+}
+
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+.wrapper {
+  box-sizing: content-box;
+  padding:18px;
+  max-inline-size: 75ch;
+  margin-inline: auto;
+
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    grid-template-areas: ".  header header  ."
+                         ". body body . "
+                        "full full full full";
+}
+
+.stack > * + * {
+  margin-block-start: 1.5rem;
+}
+
+
+.note-body {
+    grid-area: body;
+
+}
+
+.full-width {
+    grid-area: full
+}
+
+.note-header{
+     grid-area: header;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 76ch;
+}
+
+.note-title{
+    display:inline-block;
+}
+
+.note-meta{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
 }
