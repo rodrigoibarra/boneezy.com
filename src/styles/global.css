@@ -1,3 +1,79 @@
-p {
-        
+@import url('reset.css'); 
+@import url('fontsizing.css'); 
+
+body{
+    margin:0;
+    font-size:20px;
+    color:hsl(327deg 5% 9%);
 }
+
+h1{
+    --fluid-type-min: 2.5rem;
+    --fluid-type-max: 4.8rem;
+    --fluid-type-target: 6vw;
+
+    max-width: 75ch;
+
+}
+
+p{
+    --fluid-type-min: 1rem;
+    --fluid-type-max: 2.1rem;
+    --fluid-type-target: 1.2vw;
+
+    display:block;
+    max-width: 60ch;
+}
+
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+
+.stack > * + * {
+  margin-block-start: 1.5rem;
+}
+
+.note-header{
+width: 100%;
+display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-areas: '.  title title  .'
+                    '.  date tag . ';
+}
+
+.note-title{
+    grid-area: title;
+    text-align: left;
+
+}
+
+.note-meta{
+    position: absolute;
+    list-style: none;
+}
+
+.note-date{
+    font-size: 1.2rem;
+    grid-area: date;
+}
+
+.note-tags{
+    font-size: 1.2rem;
+    color: lightgray;
+    grid-area: tag;
+}
+
+
+.note-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-image {
+    max-width: 80ch;
+}
+

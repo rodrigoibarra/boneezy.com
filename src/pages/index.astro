@@ -6,13 +6,12 @@ import LatestNote from "@components/LatestNote.astro";
 
 <BaseLayer>
   <main>
-    <div class="masthead">
+    <section class="masthead">
       <h1 class="fancyLettering">Daily Scrawls</h1>
       <p class="tagline">Short notes about life.</p>
-    </div>
-    <section class="postList">
+    </section>
+    <section class="grid postList stack">
       <LatestNote />
-      <a href="/notes/">read more.</a>
     </section>
   </main>
 </BaseLayer>

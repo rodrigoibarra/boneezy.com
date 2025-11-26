@@ -2,23 +2,29 @@
 import { getCollection } from "astro:content";
 import { render } from "astro:content";
 const collectionName = "notes";
-const allNotes = await getCollection(collectionName);
-const sortedPosts = allNotes.sort((a, b) => {
+const allnotes = await getCollection(collectionName);
+const sortedPosts = allnotes.sort((a, b) => {
   return (
     new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
   );
 });
-const latestNote = sortedPosts[1];
+const note = sortedPosts[1];
 const post = Astro.props;
-const { Content } = await render(latestNote);
+const { Content } = await render(note);
 
-console.log(latestNote);
+console.log(note);
 ---
 
-<article class="latest-post">
-  <h2>{latestNote.data.title}</h2>
-  <p class="publish-date">{latestNote.data.pubDate.toLocaleDateString()}</p>
-  <div class="content-body">
-    <Content />
+<article class="wrapper">
+  <div class="note-header stack">
+    <h2 class="note-title">{note.data.title}</h2>
+    <div class="note-meta">
+      <p class="publish-date">
+        {note.data.pubDate.toLocaleDateString()}
+      </p>
+      <p class="tags"><span>Tags:</span>{note.data.tags}</p>
+    </div>
+    <p class="noteDescription">"{note.data.description}"</p>
   </div>
+  <a href=`/notes/${note.id}/` class="postLink">Keep reading.</a>
 </article>
