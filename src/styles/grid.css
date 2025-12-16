@@ -44,5 +44,5 @@
 .general-grid {
   display: grid;
   grid-template-columns: var(--grid-columns), 1fr;
-  gap: var(--grid-gutter);
+  gap: 0 var(--grid-gutter);
 }
