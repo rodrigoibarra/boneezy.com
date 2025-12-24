@@ -1,33 +1,33 @@
 @import url('reset.css'); 
 @import url('fontsizing.css'); 
+@import url(grid);
 
 body{
     margin:0;
-    font-size:20px;
+    font-size:var(--step-0);
     color:hsl(327deg 5% 9%);
 }
 
 h1{
-    --fluid-type-min: 2.5rem;
-    --fluid-type-max: 4.8rem;
-    --fluid-type-target: 6vw;
-
     max-width: 75ch;
+    font-family: "Vault-alarm", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
 
 }
 
+
 p{
-    --fluid-type-min: 1rem;
-    --fluid-type-max: 2.1rem;
-    --fluid-type-target: 1.2vw;
 
     display:block;
-    max-width: 60ch;
+    max-width: 72ch;
+    font-size: var(--step-2);
+    font-style: normal;
+    font-family: "GandhiSerif", 'Times New Roman', Times, serif;
 }
 
 
 img{
-    max-width:100%;
+    width:100%;
     height:auto;
 }
 
@@ -38,39 +38,46 @@ img{
 
 .note-header{
 width: 100%;
-display: grid;
- grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-areas: '.  title title  .'
-                    '.  date tag . ';
+font-size: var(--step-5);
+}
+
+.note-header-home{
+display: block;
+font-size: var(--step-3);
 }
 
 .note-title{
-    grid-area: title;
+    font-size: inherit;
+    grid-row: 1;
     text-align: left;
-
 }
 
-.note-meta{
-    position: absolute;
-    list-style: none;
+
+.publish-date {
+    margin:0;
+    font-size: var(--step--1);
+    font-family: "CaptainEdwards", Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .note-date{
     font-size: 1.2rem;
-    grid-area: date;
+    grid-column: 1/2;
+    font-family: "CaptainEdwards", Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .note-tags{
     font-size: 1.2rem;
     color: lightgray;
     grid-area: tag;
+    font-family: "CaptainEdwards", Georgia, 'Times New Roman', Times, serif;
+
 }
 
 
 .note-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    gap:var(--space-s-m:);
 }
 
 .mid-image {

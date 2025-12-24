@@ -15,16 +15,15 @@ const { Content } = await render(note);
 console.log(note);
 ---
 
-<article class="wrapper">
-  <div class="note-header stack">
-    <h2 class="note-title">{note.data.title}</h2>
+<article class="general-container">
+  <div class="note-header-home">
+    <h1 class="note-title">{note.data.title}</h1>
     <div class="note-meta">
       <p class="publish-date">
         {note.data.pubDate.toLocaleDateString()}
       </p>
-      <p class="tags"><span>Tags:</span>{note.data.tags}</p>
     </div>
-    <p class="noteDescription">"{note.data.description}"</p>
   </div>
+  <p class="note-description">"{note.data.description}"</p>
   <a href=`/notes/${note.id}/` class="postLink">Keep reading.</a>
 </article>

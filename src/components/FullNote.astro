@@ -1,0 +1,16 @@
+---
+import { getCollection } from "astro:content";
+import { render } from "astro:content";
+const collectionName = "notes";
+const allnotes = await getCollection(collectionName);
+const sortedPosts = allnotes.sort((a, b) => {
+    return (
+        new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+    );
+});
+const note = sortedPosts[1];
+const post = Astro.props;
+const { Content } = await render(note);
+
+console.log(note);
+---
