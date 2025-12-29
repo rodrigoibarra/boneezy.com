@@ -7,6 +7,7 @@
   --step-3: clamp(1.944rem, 1.7405rem + 0.9044vw, 2.4414rem);
   --step-4: clamp(2.3328rem, 2.0387rem + 1.3072vw, 3.0518rem);
   --step-5: clamp(2.7994rem, 2.384rem + 1.8461vw, 3.8147rem);
+  --step-9: clamp(5.8048rem, 4.3695rem + 6.379vw, 9.3132rem);
 }
 
 
@@ -24,17 +25,26 @@
 }
 
 @font-face {
-  font-family: 'GandhiSerif';
+  font-family: 'FernText';
   src:
-    url("/public/fonts/GandhiSerif-Regular.woff2") format("woff2");
+    url("/public/fonts/FernText-Regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-  font-family: 'GandhiSerif';
+  font-family: 'FernText';
   src:
-    url("/public/fonts/GandhiSerif-Italic.woff2") format("woff2");
+    url("/public/fonts/FernText: Italic.woff2") format("woff2");
     font-weight: normal;
     font-style: italic;
 }
+
+@font-face {
+  font-family: 'FernText';
+  src:
+    url("/public/fonts/FernText-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
