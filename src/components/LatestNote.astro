@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import { render } from "astro:content";
+import dayjs from 'dayjs';
 const collectionName = "notes";
 const allnotes = await getCollection(collectionName);
 const sortedPosts = allnotes.sort((a, b) => {
@@ -20,10 +21,10 @@ console.log(note);
     <h1 class="note-title">{note.data.title}</h1>
     <div class="note-meta">
       <p class="publish-date">
-        {note.data.pubDate.toLocaleDateString()}
+        {dayjs(note.data.pubDate).format('MM/D/YYYY')}
       </p>
     </div>
   </div>
   <p class="note-description">{note.data.description}</p>
-  <a href=`/notes/${note.id}/` class="postLink">Keep reading.</a>
+  <a href=`/notes/${note.id}/` class="postLink">Read the thing.</a>
 </article>
