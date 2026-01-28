@@ -17,19 +17,33 @@ console.log(page);
 ---
 
 <BaseLayer>
+  
+  <main>
+    <article class="general-container">
+      <header class="note-header general-grid">
+        <h1 class="note-title">
+Daily* Notes
+        </h1>
+        <p class="caveat">* ok, maybe not daily</p>
+      </header>
+      <div class="stack general-grid note-body">
+        <ul>
+          {
+            page.data.map((post) => (
+              <ul>
+                <li>
+                        <a href=`/notes/${post.id}/`>{post.data.title}<a/>
+                  
+                </li>
+              </ul>
+            ))
+          }
+        </ul>
+      </div>
+    </article>
+  </main>
   <section>
-    <h1>Daily* Notes</h1>
-    <ul>
-      {
-        page.data.map((post) => (
-          <ul>
-            <li>
-                    <a href=`/notes/${post.id}/`>{post.data.title}<a/>
-              
-            </li>
-          </ul>
-        ))
-      }
-    </ul>
+    
+
   </section>
 </BaseLayer>

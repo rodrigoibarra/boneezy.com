@@ -68,12 +68,16 @@ font-size: var(--step-3);
 
 }
 
-.note-tags{
+.note-tags, .caveat{
     font-size: 1.2rem;
     color: lightgray;
     grid-area: tag;
     font-family: CaptainEdwards, Georgia, 'Times New Roman', Times, serif;
 
+}
+
+.caveat{
+  font-size: .8rem;
 }
 
 
@@ -102,6 +106,13 @@ font-size: var(--step-3);
     padding:0;
     width:100%;
     font-size:var(--step-9);
+}
+
+.masthead{
+  background-image: url(/public/thing.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
 }
 
 .tagline{
