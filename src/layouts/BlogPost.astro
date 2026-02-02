@@ -3,9 +3,8 @@ import type { CollectionEntry } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import FormattedDate from "../components/FormattedDate.astro";
+import dayjs from 'dayjs';
 
-type Props = CollectionEntry<"blog">["data"];
 
 const { title, description, pubDate, updatedDate, tags } = Astro.props;
 ---
@@ -24,7 +23,7 @@ const { title, description, pubDate, updatedDate, tags } = Astro.props;
             {title}
           </h1>
           <p class="note-date">
-            Published: <span><FormattedDate date={pubDate} /></span>
+            Published: <span>{dayjs(pubDate).format('MM/D/YYYY')}</span>
           </p>
           <p class="note-tags">Tags: <span>{tags}</span></p>
         </header>
