@@ -11,4 +11,4 @@ const notes = defineCollection({
   }),
 });
 
-export const collections = { blog, notes };
+export const collections = { notes };
