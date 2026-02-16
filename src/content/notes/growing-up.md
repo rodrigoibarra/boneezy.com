@@ -1,6 +1,6 @@
 ---
 title: Growing up
-pubDate: 02/12/25
+pubDate: 15/02/26
 tags: ['jiujitsu']
 description: The one about getting old.
 ---
