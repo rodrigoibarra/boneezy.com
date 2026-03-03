@@ -23,6 +23,9 @@
       "@images/*": [
         "./src/images/*"
       ],
+      "@scripts/*":[
+        "./src/scripts/*"
+      ],
     }
   }
 }

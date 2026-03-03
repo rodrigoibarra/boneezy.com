@@ -1,12 +1,23 @@
 @import url('reset.css'); 
 @import url('fontsizing.css'); 
-@import url("grid");
+@import url("grid.css");
+@import url("color.css");
+
+html{
+  background-color: var(--accent-sec);
+  padding: .8rem;
+}
 
 body{
-    margin:0;
+  background-color: var(--bg-color);
     font-size:var(--step-0);
-    color:hsl(327deg 5% 9%);
+    color:var(--dark-color);
     font-family: FernText, 'Times New Roman', Times, serif;
+  border-top: 15px solid var(--bg-color);
+  border-image: url(/public/top-stroke.png) 50;
+  border-image-outset: 10px;
+  overflow-x: hidden;
+  box-sizing: content-box;
 
 }
 
@@ -14,6 +25,7 @@ h1{
     max-width: 75ch;
     font-family: Vault-alarm, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 400;
+
 
 }
 
@@ -30,6 +42,11 @@ p{
 img{
     width:100%;
     height:auto;
+    mask-image: url(/public/ripped.png);
+}
+
+a:link, a:visited {
+  color: var(--accent-color);
 }
 
 
@@ -70,7 +87,7 @@ font-size: var(--step-3);
 
 .note-tags, .caveat{
     font-size: 1.2rem;
-    color: lightgray;
+    color: var(--accent-sec);
     grid-area: tag;
     font-family: CaptainEdwards, Georgia, 'Times New Roman', Times, serif;
 
@@ -108,8 +125,9 @@ font-size: var(--step-3);
     font-size:var(--step-9);
 }
 
-.masthead{
-  background-image: url(/public/thing.svg);
+.masthead{    
+  mask-image: url(/public/ripped.png);
+  background-image: url(/public/thing.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 25%;
@@ -146,6 +164,16 @@ font-size: var(--step-3);
   }
 
 
-  footer {
+  footer  {
+      padding: 10px 0;
+      background-color: var(--accent-sec);
       font-size: var(--step--1) ;
+      border-right: 15px solid var(--accent-sec);
+      border-left: 15px solid var(--accent-sec);
+      border-top: 15px solid transparent;
+      border-image: url(/public/stroke.png) 45;
+      border-image-outset: 10px;
+
   }
+  
+ 

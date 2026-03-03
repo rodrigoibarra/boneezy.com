@@ -1,8 +1,8 @@
 ---
 title: Growing up
-pubDate: 15/02/26
+pubDate: 02/15/26
 tags: ['jiujitsu']
-description: The one about getting old.
+description: The one about getting old
 ---
 
 Sometimes I hate the algorithm and whomever came up with year rewinds and the entire “Memories” concept on social media, from time to time I do like to reminisce and think about back in the day, and things you did with your friends. 
