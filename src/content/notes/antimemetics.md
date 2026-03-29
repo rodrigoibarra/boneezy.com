@@ -1,6 +1,6 @@
 ---
 title: There's no Antimemetics Division
-pubDate: 29/03/26
+pubDate: 03/29/26
 tags: ['Random']
 description: The one were I forget about the book 
 ---
