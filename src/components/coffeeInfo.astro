@@ -1,0 +1,46 @@
+---
+interface props {
+  brand: string;
+  roaster?: string;
+  origin: string;
+  variety: string;
+  process: string;
+  farm: string;
+  producer: string;
+}
+
+const { brand, roaster, origin, variety, process, farm, producer } = Astro.props;
+
+---
+<div class="nb-inset">
+ <h2>
+    Currently Brewing
+</h2>
+<div class="beans">
+
+        <h1>{brand} - {origin}
+
+</h1>
+        <ul class="coffeData">
+            <li><span>Origin</span> {origin}
+
+</li>
+            <li><span>Varietal</span> {variety}
+
+</li>
+            <li><span>Process</span> {process}
+
+</li>
+            <li><span>Farm</span> {farm}
+
+</li>
+            <li><span>Producer</span> {producer}
+
+</li>
+            
+        </ul>
+    
+</div>
+
+   
+</div>

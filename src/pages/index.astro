@@ -1,11 +1,12 @@
 ---
 import BaseLayer from "@layouts/BaseLayer.astro";
 import LatestNote from "@components/LatestNote.astro";
+// import CoffeeInfo from "@components/coffeeInfo.astro";
 // import MetShow from '../components/MetShow.astro';
 ---
 
 <BaseLayer>
-  <main>
+  <main class="stack">
     <section class="masthead">
       <div>
         <h1 class="fancyLettering">Daily* Scrawls</h1>
@@ -14,6 +15,6 @@ import LatestNote from "@components/LatestNote.astro";
     </section>
     <section class="grid postList stack">
       <LatestNote />
-    </section>
+        </section>
   </main>
 </BaseLayer>
