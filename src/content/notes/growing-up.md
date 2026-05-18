@@ -1,7 +1,7 @@
 ---
 title: Growing up
 pubDate: 02/15/26
-tags: ['jiujitsu']
+tags: ['Jiujitsu']
 description: The one about getting old
 ---
 
@@ -13,4 +13,4 @@ The slideshows kept going, yearly recaps, more pictures of things I don’t reme
 
 I certainly looked back today and wished I was happier, wished I had done things differently, and it’s so stupid because I got super moody and chose to write this while listening to Bad Bunny’s Dtmf piano version, just to show how much of an emo cunt I am. It’d be funny if it didn’t hurt, but I don’t think I wished I had taken more photos, but rather different ones. 
 
-The slideshows have caught up to this year, showing me pictures of last week, it show’s me I’m still training, that’s somewhat of a statistical anomaly, most people quit, I didn’t, I’m wearing the same rashguard, and I look stronger, bigger, older, I’m sure any other day I’d say I look better, that I grew up good, but I’m not sure I’d believe myself... so yeah I hate whomever came up with the idea of looking back at “memories” of previous years, I’m not that same person, tho, I’d sure be sad if I was. 
+The slideshows have caught up to this year, showing me pictures of last week, it show’s me I’m still training, that’s somewhat of a statistical anomaly, most people quit, I didn’t, I’m wearing the same rashguard, and I look stronger, bigger, older, I’m sure any other day I’d say I look better, that I grew up good, but I’m not sure I’d believe myself... so yeah I hate whomever came up with the idea of looking back at “memories” of previous years, I’m not that same person, tho, I’d sure be sad if I was.

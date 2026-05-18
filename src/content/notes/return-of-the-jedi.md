@@ -1,7 +1,7 @@
 ---
 title: Episode VI Return of the Jedi
 pubDate: 2026-05-11T21:40:06-0600 
-tags: ['note']
+tags: ['Note']
 description: The Empire's revisionist history of the Jedi Order.
 ---
 

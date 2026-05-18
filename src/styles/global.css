@@ -120,3 +120,51 @@ a:visited {
   max-width: 72ch;
   font-size: var(--step-2);
 }
+.noteList {
+  list-style: upper-roman;
+  font-size: var(--step--1);
+  font-family: FernText;
+}
+
+.noteList a {
+  font-family: CaptainEdwards;
+  font-size: var(--step-2);
+}
+
+.noteList li::marker {
+  color: var(--accent-color);
+  font-size: var(--step-2);
+}
+.noteList span {
+  color: var(--dark-gray);
+}
+
+/* Main Hero */
+
+.fancyLettering {
+  font-size: var(--step-9);
+}
+.tagLine {
+  font-size: var(--step-1);
+  align-self: flex-end;
+  color: var(--light-gray);
+  font-family: CaptainEdwards;
+}
+.masthead {
+  height: 75vh;
+  min-block-size: 70vh;
+  width: 100%;
+  padding: var(--step-2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.masthead {
+  mask-image: url("/public/ripped.png");
+  background-image: url("/public/thing.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+}
