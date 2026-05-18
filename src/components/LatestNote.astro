@@ -1,29 +1,26 @@
 ---
-import { getCollection } from "astro:content";
-import { render } from "astro:content";
-import dayjs from 'dayjs';
-const allnotes = await getCollection("notes");
-const sortedPosts = allnotes.sort((a, b) => {
-  return (
-    new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
-  );
-});
-const note = sortedPosts[0];
-const post = Astro.props;
-const { Content } = await render(note);
+import { getCollection, render } from "astro:content";
+import NoteHeaderLite from "@components/notes/noteHeaderLite.astro";
 
-console.log(note);
+const allNotes = await getCollection("notes");
+const sortedPosts = allNotes.sort(
+  (a, b) =>
+    new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime(),
+);
+const note = sortedPosts[0];
+const { title, pubDate, tags, description } = note.data;
+const id = note.id;
+console.log(note.id);
 ---
 
 <article class="general-container">
   <div class="note-header-home">
-    <h1 class="note-title">{note.data.title}</h1>
-    <div class="note-meta">
-      <p class="publish-date">
-        {dayjs(note.data.pubDate).format('MM/D/YYYY')}
-      </p>
-    </div>
+    <NoteHeaderLite
+      title={title}
+      pubDate={pubDate}
+      tags={tags}
+      description={description}
+      id={id}
+    />
   </div>
-  <p class="note-description">"{note.data.description}"</p>
-  <a href=`/notes/${note.id}/` class="postLink">Read the thing.</a>
 </article>

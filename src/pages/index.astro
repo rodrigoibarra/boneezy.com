@@ -7,14 +7,42 @@ import LatestNote from "@components/LatestNote.astro";
 
 <BaseLayer>
   <main class="stack">
-    <section class="masthead">
-      <div>
-        <h1 class="fancyLettering">Daily* Scrawls</h1>
-        <p class="tagline">*Not so daily notes about life.</p>
-      </div>
+    <section class="masthead cover">
+      <h1 class="fancyLettering">Daily* Scrawls</h1>
+      <p class="tagLine">*Ok, maybe not daily</p>
     </section>
-    <section class="grid postList stack">
+    <section class="generalContainer">
       <LatestNote />
-        </section>
+    </section>
   </main>
 </BaseLayer>
+
+<style>
+  .fancyLettering {
+    font-size: var(--step-9);
+  }
+  .tagLine {
+    font-size: var(--step-1);
+    align-self: flex-end;
+    color: var(--light-gray);
+    font-family: CaptainEdwards;
+  }
+  .masthead {
+    height: 75vh;
+    min-block-size: 70vh;
+    width: 100%;
+    padding: var(--step-2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .masthead {
+    mask-image: url("/public/ripped.png");
+    background-image: url("/public/thing.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+  }
+</style>

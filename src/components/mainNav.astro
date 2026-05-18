@@ -1,0 +1,34 @@
+---
+import { Image } from "astro:assets";
+import TwinSuns from "../images/twinSuns.svg";
+---
+
+<div class="generalContainer">
+  <nav>
+    <ul class="mainNav">
+      <li class="siteIcon"><a href="/"><TwinSuns /></a></li>
+      <li><a href="/notes">Notes</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </nav>
+</div>
+
+<style>
+  .mainNav {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+  }
+  .mainNav > li {
+    padding-left: var(--space-xs);
+  }
+  .siteIcon {
+    margin-right: auto;
+    padding: 0;
+  }
+  .siteIcon svg {
+    height: var(--step--1);
+  }
+</style>

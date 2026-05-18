@@ -1,50 +1,47 @@
+/* @link https://utopia.fyi/type/calculator?c=360,14,1.2,1240,20,1.25,9,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
 :root {
-  --step--2: clamp(0.7813rem, 0.7736rem + 0.0341vw, 0.8rem);
-  --step--1: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
-  --step-0: clamp(1.125rem, 1.0739rem + 0.2273vw, 1.25rem);
-  --step-1: clamp(1.35rem, 1.2631rem + 0.3864vw, 1.5625rem);
-  --step-2: clamp(1.62rem, 1.4837rem + 0.6057vw, 1.9531rem);
-  --step-3: clamp(1.944rem, 1.7405rem + 0.9044vw, 2.4414rem);
-  --step-4: clamp(2.3328rem, 2.0387rem + 1.3072vw, 3.0518rem);
-  --step-5: clamp(2.7994rem, 2.384rem + 1.8461vw, 3.8147rem);
-  --step-9: clamp(5.8048rem, 4.3695rem + 6.379vw, 9.3132rem);
-}
-
-
-
-@font-face {
-  font-family: 'Vault-alarm';
-  src:
-    url("/public/fonts/VaultAlarm-Soft.woff2") format("woff2");
+  --step--2: clamp(0.6076rem, 0.5289rem + 0.3497vw, 0.8rem);
+  --step--1: clamp(0.7292rem, 0.6184rem + 0.4924vw, 1rem);
+  --step-0: clamp(0.875rem, 0.7216rem + 0.6818vw, 1.25rem);
+  --step-1: clamp(1.05rem, 0.8403rem + 0.9318vw, 1.5625rem);
+  --step-2: clamp(1.26rem, 0.9764rem + 1.2602vw, 1.9531rem);
+  --step-3: clamp(1.512rem, 1.1318rem + 1.6898vw, 2.4414rem);
+  --step-4: clamp(1.8144rem, 1.3082rem + 2.2497vw, 3.0518rem);
+  --step-5: clamp(2.1773rem, 1.5074rem + 2.9771vw, 3.8147rem);
+  --step-6: clamp(2.6127rem, 1.7309rem + 3.9193vw, 4.7684rem);
+  --step-7: clamp(3.1353rem, 1.9795rem + 5.1367vw, 5.9605rem);
+  --step-8: clamp(3.7623rem, 2.2535rem + 6.7059vw, 7.4506rem);
+  --step-9: clamp(4.5148rem, 2.5518rem + 8.7244vw, 9.3132rem);
 }
 
 @font-face {
-  font-family: 'CaptainEdwards';
-  src:
-    url("/public/fonts/CaptainEdward-Regular.woff2") format("woff2");
+  font-family: "Vault-alarm";
+  src: url("/public/fonts/VaultAlarm-Soft.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'FernText';
-  src:
-    url("/public/fonts/FernText-Regular.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "CaptainEdwards";
+  src: url("/public/fonts/CaptainEdward-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: 'FernText';
-  src:
-    url("/public/fonts/FernText: Italic.woff2") format("woff2");
-    font-weight: normal;
-    font-style: italic;
+  font-family: "FernText";
+  src: url("/public/fonts/FernText-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'FernText';
-  src:
-    url("/public/fonts/FernText-Bold.woff2") format("woff2");
-    font-weight: bold;
-    font-style: normal;
+  font-family: "FernText";
+  src: url("/public/fonts/FernText-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
 }
 
+@font-face {
+  font-family: "FernText";
+  src: url("/public/fonts/FernText-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}

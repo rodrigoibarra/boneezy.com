@@ -1,0 +1,21 @@
+---
+import NoteTitle from "@components/notes/noteTitle.astro";
+import NoteMeta from "@components/notes/noteMeta.astro";
+import NoteDescription from "@components/notes/noteDescription.astro";
+
+interface Props {
+  title: string;
+  pubDate: Date;
+  tags: string;
+  description: string;
+  id: string;
+}
+
+const { title, pubDate, tags, description } = Astro.props;
+---
+
+<div class="cover stack noteHeader">
+  <NoteTitle title={title} />
+  <NoteMeta pubDate={pubDate} tags={tags} />
+  <NoteDescription description={description} />
+</div>

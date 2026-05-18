@@ -3,8 +3,7 @@ import type { CollectionEntry } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import dayjs from 'dayjs';
-
+import NoteHeaderFull from "@components/notes/noteHeaderFull.astro";
 
 const { title, description, pubDate, updatedDate, tags } = Astro.props;
 ---
@@ -17,17 +16,16 @@ const { title, description, pubDate, updatedDate, tags } = Astro.props;
   <body>
     <Header />
     <main>
-      <article class="general-container">
-        <header class="note-header general-grid">
-          <h1 class="note-title">
-            {title}
-          </h1>
-          <p class="note-date">
-            Published: <span>{dayjs(pubDate).format('MM/D/YYYY')}</span>
-          </p>
-          <p class="note-tags">Tags: <span>{tags}</span></p>
+      <article class="generalContainer">
+        <header class="general-grid">
+          <NoteHeaderFull
+            title={title}
+            pubDate={pubDate}
+            tags={tags}
+            description={description}
+          />
         </header>
-        <div class="stack general-grid note-body">
+        <div class="stack generalGrid noteBody">
           <slot />
         </div>
       </article>

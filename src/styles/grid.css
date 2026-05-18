@@ -27,21 +27,22 @@
   --space-s-l: clamp(1rem, 0.3864rem + 2.7273vw, 2.5rem);
 }
 
-
-
 :root {
-  --grid-max-width: 52.50rem;
-  --grid-gutter: var(--space-2xs, clamp(0.75rem, -0.5625rem + 5.8333vw, 2.5rem));
+  --grid-max-width: 72.5rem;
+  --grid-gutter: var(
+    --space-2xs,
+    clamp(0.75rem, -0.5625rem + 5.8333vw, 2.5rem)
+  );
   --grid-columns: 8;
 }
 
-.general-container {
+.generalContainer {
   max-width: var(--grid-max-width);
   padding-inline: var(--grid-gutter);
   margin-inline: auto;
 }
 
-.general-grid {
+.generalGrid {
   display: grid;
   grid-template-columns: var(--grid-columns), 1fr;
   gap: 0 var(--grid-gutter);
