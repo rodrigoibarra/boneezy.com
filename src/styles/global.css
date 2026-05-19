@@ -14,7 +14,7 @@ body {
   color: var(--dark-color);
   font-family: FernText, "Times New Roman", Times, serif;
   border-top: 15px solid var(--bg-color);
-  border-image: url("/public/top-stroke.png") 50;
+  border-image: url("/top-stroke.png") 50;
   border-image-outset: 10px;
   overflow-x: hidden;
   box-sizing: content-box;
@@ -162,8 +162,8 @@ a:visited {
 }
 
 .masthead {
-  mask-image: url("/public/ripped.png");
-  background-image: url("/public/thing.png");
+  mask-image: url("/ripped.png");
+  background-image: url("/thing.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 25%;

@@ -8,6 +8,7 @@ const notes = defineCollection({
     pubDate: z.coerce.date(),
     tags: z.array(z.string()),
     description: z.string(),
+    postType: z.enum(["note"]).default("note"),
   }),
 });
 

@@ -16,6 +16,7 @@
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.2",
     "@astrojs/vue": "^5.1.4",
+    "@tryghost/content-api": "^1.12.8",
     "astro": "^5.18.1",
     "chart.js": "^4.5.1",
     "dayjs": "^1.11.20",

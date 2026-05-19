@@ -1,14 +1,10 @@
 ---
-import { type CollectionEntry, getCollection } from "astro:content";
 import BaseLayer from "@layouts/BaseLayer.astro";
+import { getPosts } from "@lib/ghost";
 
 export async function getStaticPaths({ paginate }) {
-  const notes = await getCollection("notes");
-  const sortedNotes = notes.sort(
-    (a, b) =>
-      new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime(),
-  );
-  return paginate(sortedNotes, {
+  const notes = await getPosts();
+  return paginate(notes, {
     pageSize: 15,
   });
 }
