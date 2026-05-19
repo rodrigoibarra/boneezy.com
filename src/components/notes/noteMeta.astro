@@ -3,7 +3,7 @@ import dayjs from "dayjs";
 
 interface Props {
   pubDate: Date;
-  tags: string;
+  tags: string[];
 }
 
 const { pubDate, tags } = Astro.props;
@@ -15,5 +15,5 @@ const { pubDate, tags } = Astro.props;
     datetime={dayjs(pubDate).format("MM/D/YYYY")}
     >{dayjs(pubDate).format("MM/D/YYYY")}</time
   >
-  <span class="noteTags">Tags:{tags}</span>
+  <span class="noteTags">Tags: {tags.join(", ")}</span>
 </p>

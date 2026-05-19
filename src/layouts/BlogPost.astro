@@ -10,7 +10,17 @@ const { title, description, pubDate, updatedDate, tags } = Astro.props;
 
 <html lang="en">
   <head>
-    <BaseHead title={title} description={description} />
+    <BaseHead
+      title={title}
+      description={description}
+      ogTitle={ogTitle}
+      ogDescription={ogDescription}
+      ogImage={ogImage}
+      twitterTitle={twitterTitle}
+      twitterDescription={twitterDescription}
+      twitterImage={twitterImage}
+      canonicalUrl={canonicalUrl}
+    />
   </head>
 
   <body>

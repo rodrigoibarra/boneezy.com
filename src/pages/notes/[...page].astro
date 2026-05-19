@@ -26,7 +26,7 @@ const { page } = Astro.props;
               return (
                 <li value={number}>
                   <a href={`/notes/${post.id}/`}>{post.data.title}</a>
-                  <span class="note-tags">{post.data.tags}</span> |
+                  <span class="note-tags">{post.data.tags.join(", ")}</span> |
                   {post.data.description}
                 </li>
               );
