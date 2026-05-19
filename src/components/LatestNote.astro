@@ -1,16 +1,11 @@
 ---
-import { getCollection, render } from "astro:content";
 import NoteHeaderLite from "@components/notes/noteHeaderLite.astro";
+import { getPosts } from "@lib/ghost";
 
-const allNotes = await getCollection("notes");
-const sortedPosts = allNotes.sort(
-  (a, b) =>
-    new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime(),
-);
-const note = sortedPosts[0];
+const posts = await getPosts();
+const note = posts[0];
 const { title, pubDate, tags, description } = note.data;
 const id = note.id;
-console.log(note.id);
 ---
 
 <article class="general-container">

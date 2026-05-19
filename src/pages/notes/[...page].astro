@@ -1,14 +1,10 @@
 ---
-import { type CollectionEntry, getCollection } from "astro:content";
 import BaseLayer from "@layouts/BaseLayer.astro";
+import { getPosts } from "@lib/ghost";
 
 export async function getStaticPaths({ paginate }) {
-  const notes = await getCollection("notes");
-  const sortedNotes = notes.sort(
-    (a, b) =>
-      new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime(),
-  );
-  return paginate(sortedNotes, {
+  const notes = await getPosts();
+  return paginate(notes, {
     pageSize: 15,
   });
 }
@@ -30,7 +26,7 @@ const { page } = Astro.props;
               return (
                 <li value={number}>
                   <a href={`/notes/${post.id}/`}>{post.data.title}</a>
-                  <span class="note-tags">{post.data.tags}</span> |
+                  <span class="note-tags">{post.data.tags.join(", ")}</span> |
                   {post.data.description}
                 </li>
               );

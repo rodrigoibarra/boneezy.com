@@ -17,31 +17,31 @@
 
 @font-face {
   font-family: "Vault-alarm";
-  src: url("/public/fonts/VaultAlarm-Soft.woff2") format("woff2");
+  src: url("/fonts/VaultAlarm-Soft.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "CaptainEdwards";
-  src: url("/public/fonts/CaptainEdward-Regular.woff2") format("woff2");
+  src: url("/fonts/CaptainEdward-Regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "FernText";
-  src: url("/public/fonts/FernText-Regular.woff2") format("woff2");
+  src: url("/fonts/FernText-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "FernText";
-  src: url("/public/fonts/FernText-Italic.woff2") format("woff2");
+  src: url("/fonts/FernText-Italic.woff2") format("woff2");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: "FernText";
-  src: url("/public/fonts/FernText-Bold.woff2") format("woff2");
+  src: url("/fonts/FernText-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
 }
