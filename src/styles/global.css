@@ -2,6 +2,7 @@
 @import url("fontsizing.css");
 @import url("grid.css");
 @import url("color.css");
+@import url("gallery.css");
 
 html {
   background-color: var(--accent-sec);
