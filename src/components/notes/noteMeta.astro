@@ -10,10 +10,8 @@ const { pubDate, tags } = Astro.props;
 ---
 
 <p class="noteMeta">
-  Published: <time
-    class="noteDate"
-    datetime={dayjs(pubDate).format("MM/D/YYYY")}
-    >{dayjs(pubDate).format("MM/D/YYYY")}</time
+  <time class="noteDate" datetime={dayjs(pubDate).format("MM/D/YYYY")}>
+    Published: {dayjs(pubDate).format("MM/D/YYYY")}</time
   >
   <span class="noteTags">Tags: {tags.join(", ")}</span>
 </p>
