@@ -36,11 +36,6 @@ p {
   font-family: inherit;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 a:link,
 a:visited {
   color: var(--accent-color);
@@ -95,6 +90,7 @@ a:visited {
 
 .noteHeader {
   min-block-size: 20vh;
+  grid-column: 3 / 12;
 }
 .postLink {
   font-size: var(--step-1);
@@ -105,7 +101,8 @@ a:visited {
 }
 
 .noteMeta {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   font-family: CaptainEdwards;
   font-size: var(--step--1);
   color: var(--accent-color);
@@ -120,11 +117,19 @@ a:visited {
 .noteBody {
   max-width: 72ch;
   font-size: var(--step-2);
+
+  p,
+  h2 {
+    grid-column: 3 / 12;
+  }
 }
+
 .noteList {
   list-style: upper-roman;
+  list-style-position: inside;
   font-size: var(--step--1);
   font-family: FernText;
+  grid-column: 2 / 13;
 }
 
 .noteList a {
@@ -138,6 +143,11 @@ a:visited {
 }
 .noteList span {
   color: var(--dark-gray);
+}
+
+.aboutLinks,
+.aboutColophon {
+  grid-column: 3 / 12;
 }
 
 /* Main Hero */
@@ -168,4 +178,32 @@ a:visited {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 25%;
+}
+
+/* Gallery Mods */
+
+.kg-gallery-card,
+.kg-image-card {
+  --gap: var(--grid-gutter);
+  grid-column: 1 / 14;
+}
+
+.kg-gallery-card figcaption,
+.kg-image-card figcaption {
+  font-size: var(--step--1);
+  font-style: italic;
+  text-align: center;
+}
+
+.kg-image-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.kg-width-wide img {
+  grid-column: 3 / 12;
+}
+
+.kg-width-full {
+  grid-column: 1 / 14;
 }
