@@ -24,10 +24,16 @@ const { page } = Astro.props;
             page.data.map((post, index) => {
               const number = page.total - (page.start + index);
               return (
-                <li value={number}>
-                  <a href={`/notes/${post.id}/`}>{post.data.title}</a>
-                  <span class="note-tags">{post.data.tags.join(", ")}</span> |
-                  {post.data.description}
+                <li>
+                  <a href={`/notes/${post.id}/`}>
+                    {" "}
+                    <span class="noteNumber"> #{number}</span> {post.data.title}
+                  </a>
+                  <p>| {post.data.description}</p>{" "}
+                  <span class="note-tags">
+                    {" "}
+                    {post.data.tags.join(", ")}
+                  </span>{" "}
                 </li>
               );
             })
